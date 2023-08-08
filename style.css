@@ -28,13 +28,6 @@ body {
   align-items: center;
 }
 
-@media screen and (max-width: 600px) {
-.races-grid {
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  }
-}
-
 .sides-grid {
   display: inline-grid;
   grid-template-columns: repeat(6, 1fr);
@@ -179,6 +172,28 @@ a {
   display: none;
   text-align: center;
   width: 70%;
+}
+
+@media screen and (max-width: 600px) {
+
+    .races-grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+    
+    .grid-item {
+        width: 3em;
+        height: 3em;
+    }
+
+    li {
+        width: 3em;
+    }
+    
+    .side-item {
+        width: 2.5em;
+        height: 2.5em;
+    }
 }
 
 .amazon-item p {
