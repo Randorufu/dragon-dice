@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Coral Elves</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="script.js" type="text/javascript"></script>
+  <link rel="icon" href="favicon.png">
+</head>
+<body>
+
+<a href="index.html"><h1>Dragon Dice<h1/></a>
+
+<h2>Coral Elves</h2>
+
+<div class="center"><div class="single-grid">
+  <a href="#coralgiant" id="coralgiant" href="#coralgiant" class="grid-item coralelf-item" onclick="toggle_sides('coralgiant-container');"><p>Coral Giant</p></a>
+  <a href="#tako" id="tako" class="grid-item coralelf-item" onclick="toggle_sides('tako-container');"><p>Tako</p></a>
+  <a href="#gryphon" id="gryphon" class="grid-item coralelf-item" onclick="toggle_sides('gryphon-container');"><p>Gryphon</p></a>
+  <a href="#leviathan" id="leviathan" class="grid-item coralelf-item" onclick="toggle_sides('leviathan-container');"><p>Leviathan</p></a>
+  <a href="#spriteswarm" id="spriteswarm"" class="grid-item coralelf-item" onclick="toggle_sides('spriteswarm-container');"><p>Sprite Swarm</p></a>
+</div></div>
+
+<div class="staging-container">
+  <div id="coralgiant-container" class="msides-grid">
+    <a href="#coralgiant" id="coralgiant" class="grid-item coralelf-item side-item" onclick="toggle_desc('coralgiant1-desc');"><p>ID</p></a>
+    <a href="#coralgiant" id="coralelf-savem" class="grid-item coralelf-item side-item" onclick="toggle_desc('coralgiant2-desc');"><p>Saves</p></a>
+    <a href="#coralgiant" id="coralelf-smitem" class="grid-item coralelf-item side-item" onclick="toggle_desc('coralgiant3-desc');"><p>Smite</p></a>
+    <a href="#coralgiant" id="coralelf-tramplem" class="grid-item coralelf-item side-item" onclick="toggle_desc('coralgiant4-desc');"><p>Trample</p></a>
+    <a href="#coralgiant" id="coralelf-meleem" class="grid-item coralelf-item side-item" onclick="toggle_desc('coralgiant5-desc');"><p>Melee</p></a>
+    <a href="#coralgiant" id="coralelf-smitem" class="grid-item coralelf-item side-item" onclick="toggle_desc('coralgiant6-desc');"><p>Smite</p></a>
+    <a href="#coralgiant" id="coralelf-savem" class="grid-item coralelf-item side-item" onclick="toggle_desc('coralgiant7-desc');"><p>Saves</p></a>
+    <a href="#coralgiant" id="coralelf-counterm" class="grid-item coralelf-item side-item" onclick="toggle_desc('coralgiant8-desc');"><p>Counter</p></a>
+    <a href="#coralgiant" id="coralelf-tramplem" class="grid-item coralelf-item side-item" onclick="toggle_desc('coralgiant9-desc');"><p>Trample</p></a>
+    <a href="#coralgiant" id="coralelf-maneuverm" class="grid-item coralelf-item side-item" onclick="toggle_desc('coralgiant10-desc');"><p>Maneuver</p></a>
+  </div>
+  <div id="tako-container" class="msides-grid side-container">
+    <a href="#tako" id="tako" class="grid-item coralelf-item side-item" onclick="toggle_desc('tako1-desc');"><p>ID</p></a>
+    <a href="#tako" id="coralelf-entanglem" class="grid-item coralelf-item side-item" onclick="toggle_desc('tako2-desc');"><p>Entangle</p></a>
+    <a href="#tako" id="coralelf-savem" class="grid-item coralelf-item side-item" onclick="toggle_desc('tako3-desc');"><p>Saves</p></a>
+    <a href="#tako" id="coralelf-maneuverm" class="grid-item coralelf-item side-item" onclick="toggle_desc('tako4-desc');"><p>Maneuver</p></a>
+    <a href="#tako" id="coralelf-meleem" class="grid-item coralelf-item side-item" onclick="toggle_desc('tako5-desc');"><p>Melee</p></a>
+    <a href="#tako" id="coralelf-savem" class="grid-item coralelf-item side-item" onclick="toggle_desc('tako6-desc');"><p>Saves</p></a>
+    <a href="#tako" id="coralelf-entanglem" class="grid-item coralelf-item side-item" onclick="toggle_desc('tako7-desc');"><p>Entangle</p></a>
+    <a href="#tako" id="coralelf-meleem" class="grid-item coralelf-item side-item" onclick="toggle_desc('tako8-desc');"><p>Melee</p></a>
+    <a href="#tako" id="coralelf-maneuverm" class="grid-item coralelf-item side-item" onclick="toggle_desc('tako9-desc');"><p>Maneuver</p></a>
+    <a href="#tako" id="coralelf-meleem" class="grid-item coralelf-item side-item" onclick="toggle_desc('tako10-desc');"><p>Melee</p></a>
+  </div>
+  <div id="gryphon-container" class="msides-grid side-container">
+    <a href="#gryphon" id="gryphon" class="grid-item coralelf-item side-item" onclick="toggle_desc('gryphon1-desc');"><p>ID</p></a>
+    <a href="#gryphon" id="coralelf-meleem" class="grid-item coralelf-item side-item" onclick="toggle_desc('gryphon2-desc');"><p>Melee</p></a>
+    <a href="#gryphon" id="coralelf-rendm" class="grid-item coralelf-item side-item" onclick="toggle_desc('gryphon3-desc');"><p>Rend</p></a>
+    <a href="#gryphon" id="coralelf-flym" class="grid-item coralelf-item side-item" onclick="toggle_desc('gryphon4-desc');"><p>Fly</p></a>
+    <a href="#gryphon" id="coralelf-ferrym" class="grid-item coralelf-item side-item" onclick="toggle_desc('gryphon5-desc');"><p>Ferry</p></a>
+    <a href="#gryphon" id="coralelf-flym" class="grid-item coralelf-item side-item" onclick="toggle_desc('gryphon6-desc');"><p>Fly</p></a>
+    <a href="#gryphon" id="coralelf-meleem" class="grid-item coralelf-item side-item" onclick="toggle_desc('gryphon7-desc');"><p>Melee</p></a>
+    <a href="#gryphon" id="coralelf-ferrym" class="grid-item coralelf-item side-item" onclick="toggle_desc('gryphon8-desc');"><p>Ferry</p></a>
+    <a href="#gryphon" id="coralelf-flym" class="grid-item coralelf-item side-item" onclick="toggle_desc('gryphon9-desc');"><p>Fly</p></a>
+    <a href="#gryphon" id="coralelf-meleem" class="grid-item coralelf-item side-item" onclick="toggle_desc('gryphon10-desc');"><p>Melee</p></a>
+  </div>
+  <div id="leviathan-container" class="msides-grid side-container">
+    <a href="#leviathan" id="leviathan" class="grid-item coralelf-item side-item" onclick="toggle_desc('leviathan1-desc');"><p>ID</p></a>
+    <a href="#leviathan" id="coralelf-swallowm" class="grid-item coralelf-item side-item" onclick="toggle_desc('leviathan2-desc');"><p>Swallow</p></a>
+    <a href="#leviathan" id="coralelf-maneuverm" class="grid-item coralelf-item side-item" onclick="toggle_desc('leviathan3-desc');"><p>Maneuver</p></a>
+    <a href="#leviathan" id="coralelf-tailm" class="grid-item coralelf-item side-item" onclick="toggle_desc('leviathan4-desc');"><p>Tail</p></a>
+    <a href="#leviathan" id="coralelf-lflym" class="grid-item coralelf-item side-item" onclick="toggle_desc('leviathan5-desc');"><p>Fly</p></a>
+    <a href="#leviathan" id="coralelf-wavem" class="grid-item coralelf-item side-item" onclick="toggle_desc('leviathan6-desc');"><p>Wave</p></a>
+    <a href="#leviathan" id="coralelf-savem" class="grid-item coralelf-item side-item" onclick="toggle_desc('leviathan7-desc');"><p>Saves</p></a>
+    <a href="#leviathan" id="coralelf-hypnoticglarem" class="grid-item coralelf-item side-item" onclick="toggle_desc('leviathan8-desc');"><p>Hypnotic Glare</p></a>
+    <a href="#leviathan" id="coralelf-lflym" class="grid-item coralelf-item side-item" onclick="toggle_desc('leviathan9-desc');"><p>Fly</p></a>
+    <a href="#leviathan" id="coralelf-tailm" class="grid-item coralelf-item side-item" onclick="toggle_desc('leviathan10-desc');"><p>Tail</p></a>
+  </div>
+  <div id="spriteswarm-container" class="msides-grid side-container">
+    <a href="#spriteswarm" id="spriteswarm" class="grid-item coralelf-item side-item" onclick="toggle_desc('spriteswarm1-desc');"><p>ID</p></a>
+    <a href="#spriteswarm" id="coralelf-magicm" class="grid-item coralelf-item side-item" onclick="toggle_desc('spriteswarm2-desc');"><p>Magic</p></a>
+    <a href="#spriteswarm" id="coralelf-flym" class="grid-item coralelf-item side-item" onclick="toggle_desc('spriteswarm3-desc');"><p>Fly</p></a>
+    <a href="#spriteswarm" id="coralelf-missilem" class="grid-item coralelf-item side-item" onclick="toggle_desc('spriteswarm4-desc');"><p>Missiles</p></a>
+    <a href="#spriteswarm" id="coralelf-magicm" class="grid-item coralelf-item side-item" onclick="toggle_desc('spriteswarm5-desc');"><p>Magic</p></a>
+    <a href="#spriteswarm" id="coralelf-flym" class="grid-item coralelf-item side-item" onclick="toggle_desc('spriteswarm6-desc');"><p>Fly</p></a>
+    <a href="#spriteswarm" id="coralelf-missilem" class="grid-item coralelf-item side-item" onclick="toggle_desc('spriteswarm7-desc');"><p>Missiles</p></a>
+    <a href="#spriteswarm" id="coralelf-magicm" class="grid-item coralelf-item side-item" onclick="toggle_desc('spriteswarm8-desc');"><p>Magic</p></a>
+    <a href="#spriteswarm" id="coralelf-meleem" class="grid-item coralelf-item side-item" onclick="toggle_desc('spriteswarm9-desc');"><p>Melee</p></a>
+    <a href="#spriteswarm" id="coralelf-missilem" class="grid-item coralelf-item side-item" onclick="toggle_desc('spriteswarm10-desc');"><p>Missiles</p></a>
+  </div>
+  <div class="desc-container">
+    <p id="coralgiant1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, or missile results.</p>
+    <p id="coralgiant2-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="coralgiant3-desc" class="sidedesc">Smite: During a melee attack, immediately inflicts 4 points of damage on the defending army or unit; no saves (including those provided by spells) can stop this damage. During a dragon attack or melee avoidance roll, Smite generates 4 melee results.</p>
+    <p id="coralgiant4-desc" class="sidedesc">Trample: During any roll, Trample generates 4 maneuver and 4 melee results.</p>
+    <p id="coralgiant5-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="coralgiant6-desc" class="sidedesc">Smite: During a melee attack, immediately inflicts 4 points of damage on the defending army or unit; no saves (including those provided by spells) can stop this damage. During a dragon attack or melee avoidance roll, Smite generates 4 melee results.</p>
+    <p id="coralgiant7-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="coralgiant8-desc" class="sidedesc">Counter: During a melee attack or melee avoidance roll, Counter generates 4 melee results. 
+During a save roll, Counter generates 4 save results. During a save roll in a melee attack, Counter immediately generates both 4 save results and 4 melee results upon the attacking army or unit. Only magical saves protect against this damage. During a dragon attack, Counter generates 4 save and 4 melee results.</p>
+    <p id="coralgiant9-desc" class="sidedesc">Trample: During any roll, Trample generates 4 maneuver and 4 melee results.</p>
+    <p id="coralgiant10-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="tako1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, or missile results.</p>
+    <p id="tako2-desc" class="sidedesc">Entangle: During a melee attack, choose up to four health-worth of units in the defending army to be immediately entangled. The target unit(s) cannot be rolled until the beginning of your next turn. Killing the entangled unit negates the effect.</p>
+    <p id="tako3-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="tako4-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="tako5-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="tako6-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="tako7-desc" class="sidedesc">Entangle: During a melee attack, choose up to four health-worth of units in the defending army to be immediately entangled. The target unit(s) cannot be rolled until the beginning of your next turn. Killing the entangled unit negates the effect.</p>
+    <p id="tako8-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="tako9-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="tako10-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="gryphon1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, or missile results.</p>
+    <p id="gryphon2-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="gryphon3-desc" class="sidedesc">Rend: During a maneuver roll, Rend generates 4 maneuver results. During a melee attack or melee avoidance roll, Rend generates 4 melee results; roll this unit again and apply the new result as well.</p>
+    <p id="gryphon4-desc" class="sidedesc">Fly: During any roll, Fly generates 4 maneuver or 4 save results.</p>
+    <p id="gryphon5-desc" class="sidedesc">Ferry: During any non-maneuver roll, the ferrying unit may immediately move itself and up to four health-worth of units in the army containing this unit to any other terrain.</p>
+    <p id="gryphon6-desc" class="sidedesc">Fly: During any roll, Fly generates 4 maneuver or 4 save results.</p>
+    <p id="gryphon7-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="gryphon8-desc" class="sidedesc">Ferry: During any non-maneuver roll, the ferrying unit may immediately move itself and up to four health-worth of units in the army containing this unit to any other terrain.</p>
+    <p id="gryphon9-desc" class="sidedesc">Fly: During any roll, Fly generates 4 maneuver or 4 save results.</p>
+    <p id="gryphon10-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="leviathan1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, or missile results.</p>
+    <p id="leviathan2-desc" class="sidedesc">Swallow: During a melee attack, choose one unit in the defending army to immediately roll its ID icon or be killed and buried.</p>
+    <p id="leviathan3-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="leviathan4-desc" class="sidedesc">Tail: During a melee attack or melee avoidance roll, Tail generates two melee results. Roll this unit again and apply the new result as well.</p>
+    <p id="leviathan5-desc" class="sidedesc">Fly: During any roll, Fly generates 4 maneuver or 4 save results.</p>
+    <p id="leviathan6-desc" class="sidedesc">Wave: During a melee attack, after the defending army rolls for saves but before they finalize any results, subtract 4 from their save results. During a maneuver roll, after all the counter-maneuvering armies roll for maneuvers but before they finalize any results, subtract 4 from each counter-maneuvering army’s maneuver results.</p>
+    <p id="leviathan7-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="leviathan8-desc" class="sidedesc">Hypnotic Glare: During a melee attack, after the defending army rolls to save but before they apply any unique or special resolution SAIs, target all units in the defending army which rolled an ID to become immediately ‘hypnotized’. Their results do not count towards the save roll, but they may be chosen as casualties. Until the end of your next turn, the hypnotized units may not roll. This effect ends immediately for a unit if the hypnotized unit leaves the terrain. This effect ends immediately for all units if the glaring unit leaves the current terrain, is killed, or is rolled. The glaring unit may be excluded from any roll while glaring.</p>
+    <p id="leviathan9-desc" class="sidedesc">Fly: During any roll, Fly generates 4 maneuver or 4 save results.</p>
+    <p id="leviathan10-desc" class="sidedesc">Tail: During a melee attack or melee avoidance roll, Tail generates two melee results. Roll this unit again and apply the new result as well.</p>
+    <p id="spriteswarm1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, or missile results.</p>
+    <p id="spriteswarm2-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="spriteswarm3-desc" class="sidedesc">Fly: During any roll, Fly generates 4 maneuver or 4 save results.</p>
+    <p id="spriteswarm4-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+    <p id="spriteswarm5-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="spriteswarm6-desc" class="sidedesc">Fly: During any roll, Fly generates 4 maneuver or 4 save results.</p>
+    <p id="spriteswarm7-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+    <p id="spriteswarm8-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="spriteswarm9-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="spriteswarm10-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+  </div>
+</div>
+
+<div class="center">
+<ul class="single-grid">
+  <li><p>Heavy Melee</p></li>
+  <li><p>Light Melee</p></li>
+  <li><p>Missiles</p></li>
+  <li><p>Cavalry</p></li>
+  <li><p>Magic</p></li>
+</ul>
+</div>
+
+<div class="center"><div class="single-grid">
+  <a href="#protector" id="protector" class="grid-item coralelf-item" onclick="toggle_sides('protector-container');"><p>Protector</p></a>
+  <a href="#herald" id="herald" class="grid-item coralelf-item" onclick="toggle_sides('herald-container');"><p>Herald</p></a>
+  <a href="#sharpshooter" id="sharpshooter" class="grid-item coralelf-item" onclick="toggle_sides('sharpshooter-container');"><p>Sharpshooter</p></a>
+  <a href="#eagleknight" id="eagleknight" class="grid-item coralelf-item" onclick="toggle_sides('eagleknight-container');"><p>Eagle Knight</p></a>
+  <a href="#enchanter" id="enchanter" class="grid-item coralelf-item" onclick="toggle_sides('enchanter-container');"><p>Enchanter</p></a>
+</div></div>
+
+<div class="staging-container">
+  <div id="protector-container" class="sides-grid side-container">
+    <a href="#protector" id="protector" class="grid-item coralelf-item side-item" onclick="toggle_desc('protector1-desc');"><p>ID</p></a>
+    <a href="#protector" id="coralelf-missile2" class="grid-item coralelf-item side-item" onclick="toggle_desc('protector2-desc');"><p>Missiles</p></a>
+    <a href="#protector" id="coralelf-melee4" class="grid-item coralelf-item side-item" onclick="toggle_desc('protector3-desc');"><p>Melee</p></a>
+    <a href="#protector" id="coralelf-melee3" class="grid-item coralelf-item side-item" onclick="toggle_desc('protector4-desc');"><p>Melee</p></a>
+    <a href="#protector" id="coralelf-save3" class="grid-item coralelf-item side-item" onclick="toggle_desc('protector5-desc');"><p>Saves</p></a>
+    <a href="#protector" id="coralelf-smite" class="grid-item coralelf-item side-item" onclick="toggle_desc('protector6-desc');"><p>Smite</p></a>
+  </div>
+  <div id="herald-container" class="sides-grid side-container">
+    <a href="#herald" id="herald" class="grid-item coralelf-item side-item" onclick="toggle_desc('herald1-desc');"><p>ID</p></a>
+    <a href="#herald" id="coralelf-melee3" class="grid-item coralelf-item side-item" onclick="toggle_desc('herald2-desc');"><p>Melee</p></a>
+    <a href="#herald" id="coralelf-maneuver3" class="grid-item coralelf-item side-item" onclick="toggle_desc('herald3-desc');"><p>Maneuver</p></a>
+    <a href="#herald" id="coralelf-maneuver3" class="grid-item coralelf-item side-item" onclick="toggle_desc('herald4-desc');"><p>Maneuver</p></a>
+    <a href="#herald" id="coralelf-melee3" class="grid-item coralelf-item side-item" onclick="toggle_desc('herald5-desc');"><p>Melee</p></a>
+    <a href="#herald" id="coralelf-counter" class="grid-item coralelf-item side-item" onclick="toggle_desc('herald6-desc');"><p>Counter</p></a>
+  </div>
+  <div id="sharpshooter-container" class="sides-grid side-container">
+    <a href="#sharpshooter" id="sharpshooter" class="grid-item coralelf-item side-item" onclick="toggle_desc('sharpshooter1-desc');"><p>ID</p></a>
+    <a href="#sharpshooter" id="coralelf-maneuver3" class="grid-item coralelf-item side-item" onclick="toggle_desc('sharpshooter2-desc');"><p>Maneuver</p></a>
+    <a href="#sharpshooter" id="coralelf-missile4" class="grid-item coralelf-item side-item" onclick="toggle_desc('sharpshooter3-desc');"><p>Missiles</p></a>
+    <a href="#sharpshooter" id="coralelf-missile2" class="grid-item coralelf-item side-item" onclick="toggle_desc('sharpshooter4-desc');"><p>Missiles</p></a>
+    <a href="#sharpshooter" id="coralelf-melee2" class="grid-item coralelf-item side-item" onclick="toggle_desc('sharpshooter5-desc');"><p>Melee</p></a>
+    <a href="#sharpshooter" id="coralelf-bullseye" class="grid-item coralelf-item side-item" onclick="toggle_desc('sharpshooter6-desc');"><p>Bullseye</p></a>
+  </div>
+  <div id="eagleknight-container" class="sides-grid side-container">
+    <a href="#eagleknight" id="eagleknight" class="grid-item coralelf-item side-item" onclick="toggle_desc('eagleknight1-desc');"><p>ID</p></a>
+    <a href="#eagleknight" id="coralelf-melee3" class="grid-item coralelf-item side-item" onclick="toggle_desc('eagleknight2-desc');"><p>Melee</p></a>
+    <a href="#eagleknight" id="coralelf-fly3" class="grid-item coralelf-item side-item" onclick="toggle_desc('eagleknight3-desc');"><p>Fly</p></a>
+    <a href="#eagleknight" id="coralelf-fly3" class="grid-item coralelf-item side-item" onclick="toggle_desc('eagleknight4-desc');"><p>Fly</p></a>
+    <a href="#eagleknight" id="coralelf-melee4" class="grid-item coralelf-item side-item" onclick="toggle_desc('eagleknight5-desc');"><p>Melee</p></a>
+    <a href="#eagleknight" id="coralelf-missile3" class="grid-item coralelf-item side-item" onclick="toggle_desc('eagleknight6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="enchanter-container" class="sides-grid side-container">
+    <a href="#enchanter" id="enchanter" class="grid-item coralelf-item side-item" onclick="toggle_desc('enchanter1-desc');"><p>ID</p></a>
+    <a href="#enchanter" id="coralelf-save2" class="grid-item coralelf-item side-item" onclick="toggle_desc('enchanter2-desc');"><p>Saves</p></a>
+    <a href="#enchanter" id="coralelf-magic4" class="grid-item coralelf-item side-item" onclick="toggle_desc('enchanter3-desc');"><p>Magic</p></a>
+    <a href="#enchanter" id="coralelf-magic3" class="grid-item coralelf-item side-item" onclick="toggle_desc('enchanter4-desc');"><p>Magic</p></a>
+    <a href="#enchanter" id="coralelf-melee3" class="grid-item coralelf-item side-item" onclick="toggle_desc('enchanter5-desc');"><p>Melee</p></a>
+    <a href="#enchanter" id="coralelf-cantrip" class="grid-item coralelf-item side-item" onclick="toggle_desc('enchanter6-desc');"><p>Cantrip</p></a>
+  </div>
+  <div class="desc-container">
+    <p id="protector1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, or missile results.</p>
+    <p id="protector2-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="protector3-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="protector4-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="protector5-desc" class="sidedesc">Saves: Negates 3 points of normal melee or missile damage.</p>
+    <p id="protector6-desc" class="sidedesc">Smite: immediately inflicts four points of damage on the defending army or unit; no saves can stop this damage. During a dragon attack or melee avoidance roll, Smite generates melee results
+    <p id="herald1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, or missile results.</p>
+    <p id="herald2-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="herald3-desc" class="sidedesc">Maneuver: Generates 3 points of maneuver results.</p>
+    <p id="herald4-desc" class="sidedesc">Maneuver: Generates 3 points of maneuver results.</p>
+    <p id="herald5-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="herald6-desc" class="sidedesc">Counter: During a melee attack or melee avoidance roll, Counter generates 3 melee results. 
+During a save roll, Counter generates 3 save results. During a save roll in a melee attack, Counter immediately generates both 3 save results and 3 melee results upon the attacking army or unit. Only magical saves protect against this damage. During a dragon attack, Counter generates 3 save and 3 melee results.</p>
+    <p id="sharpshooter1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, or missile results.</p>
+    <p id="sharpshooter2-desc" class="sidedesc">Maneuver: Generates 3 points of maneuver results.</p>
+    <p id="sharpshooter3-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+    <p id="sharpshooter4-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="sharpshooter5-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="sharpshooter6-desc" class="sidedesc">Bullseye: During a missile action, Bullseye immediately inflicts 4 points of damage. The damage may individually target one or more units in the defending army as the acting player chooses. Each target unit must immediately generate saves against the damage assigned to it. During a dragon attack or missile avoidance roll, Bullseye generates 4 missile results.</p>
+    <p id="eagleknight1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, or missile results.</p>
+    <p id="eagleknight2-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="eagleknight3-desc" class="sidedesc">Fly: During any roll, Fly generates 3 maneuver or 3 save results.</p>
+    <p id="eagleknight4-desc" class="sidedesc">Fly: During any roll, Fly generates 3 maneuver or 3 save results.</p>
+    <p id="eagleknight5-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="eagleknight6-desc" class="sidedesc">Missiles: Generates 3 points of missile results.</p>
+    <p id="enchanter1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, or missile results.</p>
+    <p id="enchanter2-desc" class="sidedesc">Saves: Negates 2 points of normal melee or missile damage.</p>
+    <p id="enchanter3-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="enchanter4-desc" class="sidedesc">Magic: Generates 3 points of magic results.</p>
+    <p id="enchanter5-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="enchanter6-desc" class="sidedesc">Cantrip: During a magic action or magic negation roll, Cantrip generates 4 magic results. During any non-magic action, save roll or non-maneuver avoidance roll, Cantrip can be used to purchase spells that are immediately resolved.</p>
+  </div>
+</div>
+
+<div class="center"><div class="single-grid">
+  <a href="#trooper" id="trooper" class="grid-item coralelf-item" onclick="toggle_sides('trooper-container');"><p>Trooper</p></a>
+  <a href="#courier" id="courier" class="grid-item coralelf-item" onclick="toggle_sides('courier-container');"><p>Courier</p></a>
+  <a href="#archer" id="archer" class="grid-item coralelf-item" onclick="toggle_sides('archer-container');"><p>Archer</p></a>
+  <a href="#knight" id="knight" class="grid-item coralelf-item" onclick="toggle_sides('knight-container');"><p>Knight</p></a>
+  <a href="#conjurer" id="conjurer" class="grid-item coralelf-item" onclick="toggle_sides('conjurer-container');"><p>Conjurer</p></a>
+</div></div>
+
+<div class="staging-container">
+  <div id="trooper-container" class="sides-grid side-container">
+    <a href="#trooper" id="trooper" class="grid-item coralelf-item side-item" onclick="toggle_desc('trooper1-desc');"><p>ID</p></a>
+    <a href="#trooper" id="coralelf-save2" class="grid-item coralelf-item side-item" onclick="toggle_desc('trooper2-desc');"><p>Saves</p></a>
+    <a href="#trooper" id="coralelf-melee3" class="grid-item coralelf-item side-item" onclick="toggle_desc('trooper3-desc');"><p>Melee</p></a>
+    <a href="#trooper" id="coralelf-melee3" class="grid-item coralelf-item side-item" onclick="toggle_desc('trooper4-desc');"><p>Melee</p></a>
+    <a href="#trooper" id="coralelf-maneuver2" class="grid-item coralelf-item side-item" onclick="toggle_desc('trooper5-desc');"><p>Maneuver</p></a>
+    <a href="#trooper" id="coralelf-missile2" class="grid-item coralelf-item side-item" onclick="toggle_desc('trooper6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="courier-container" class="sides-grid side-container">
+    <a href="#courier" id="courier" class="grid-item coralelf-item side-item" onclick="toggle_desc('courier1-desc');"><p>ID</p></a>
+    <a href="#courier" id="coralelf-melee2" class="grid-item coralelf-item side-item" onclick="toggle_desc('courier2-desc');"><p>Melee</p></a>
+    <a href="#courier" id="coralelf-maneuver3" class="grid-item coralelf-item side-item" onclick="toggle_desc('courier3-desc');"><p>Maneuver</p></a>
+    <a href="#courier" id="coralelf-maneuver2" class="grid-item coralelf-item side-item" onclick="toggle_desc('courier4-desc');"><p>Maneuver</p></a>
+    <a href="#courier" id="coralelf-melee2" class="grid-item coralelf-item side-item" onclick="toggle_desc('courier5-desc');"><p>Melee</p></a>
+    <a href="#courier" id="coralelf-missile3" class="grid-item coralelf-item side-item" onclick="toggle_desc('courier6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="archer-container" class="sides-grid side-container">
+    <a href="#archer" id="archer" class="grid-item coralelf-item side-item" onclick="toggle_desc('archer1-desc');"><p>ID</p></a>
+    <a href="#archer" id="coralelf-melee2" class="grid-item coralelf-item side-item" onclick="toggle_desc('archer2-desc');"><p>Melee</p></a>
+    <a href="#archer" id="coralelf-missile3" class="grid-item coralelf-item side-item" onclick="toggle_desc('archer3-desc');"><p>Missiles</p></a>
+    <a href="#archer" id="coralelf-missile3" class="grid-item coralelf-item side-item" onclick="toggle_desc('archer4-desc');"><p>Missiles</p></a>
+    <a href="#archer" id="coralelf-maneuver2" class="grid-item coralelf-item side-item" onclick="toggle_desc('archer5-desc');"><p>Maneuver</p></a>
+    <a href="#archer" id="coralelf-missile2" class="grid-item coralelf-item side-item" onclick="toggle_desc('archer6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="knight-container" class="sides-grid side-container">
+    <a href="#knight" id="knight" class="grid-item coralelf-item side-item" onclick="toggle_desc('knight1-desc');"><p>ID</p></a>
+    <a href="#knight" id="coralelf-melee3" class="grid-item coralelf-item side-item" onclick="toggle_desc('knight2-desc');"><p>Melee</p></a>
+    <a href="#knight" id="coralelf-hoof3" class="grid-item coralelf-item side-item" onclick="toggle_desc('knight3-desc');"><p>Maneuver</p></a>
+    <a href="#knight" id="coralelf-hoof2" class="grid-item coralelf-item side-item" onclick="toggle_desc('knight4-desc');"><p>Maneuver</p></a>
+    <a href="#knight" id="coralelf-melee2" class="grid-item coralelf-item side-item" onclick="toggle_desc('knight5-desc');"><p>Melee</p></a>
+    <a href="#knight" id="coralelf-save2" class="grid-item coralelf-item side-item" onclick="toggle_desc('knight6-desc');"><p>Saves</p></a>
+  </div>
+  <div id="conjurer-container" class="sides-grid side-container">
+    <a href="#conjurer" id="conjurer" class="grid-item coralelf-item side-item" onclick="toggle_desc('conjurer1-desc');"><p>ID</p></a>
+    <a href="#conjurer" id="coralelf-melee2" class="grid-item coralelf-item side-item" onclick="toggle_desc('conjurer2-desc');"><p>Melee</p></a>
+    <a href="#conjurer" id="coralelf-magic3" class="grid-item coralelf-item side-item" onclick="toggle_desc('conjurer3-desc');"><p>Magic</p></a>
+    <a href="#conjurer" id="coralelf-magic3" class="grid-item coralelf-item side-item" onclick="toggle_desc('conjurer4-desc');"><p>Magic</p></a>
+    <a href="#conjurer" id="coralelf-maneuver2" class="grid-item coralelf-item side-item" onclick="toggle_desc('conjurer5-desc');"><p>Maneuver</p></a>
+    <a href="#conjurer" id="coralelf-magic2" class="grid-item coralelf-item side-item" onclick="toggle_desc('conjurer6-desc');"><p>Magic</p></a>
+  </div>
+  <div class="desc-container">
+    <p id="trooper1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, or missile results.</p>
+    <p id="trooper2-desc" class="sidedesc">Saves: Negates 2 points of normal melee or missile damage.</p>
+    <p id="trooper3-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="trooper4-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="trooper5-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="trooper6-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="courier1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, or missile results.</p>
+    <p id="courier2-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="courier3-desc" class="sidedesc">Maneuver: Generates 3 points of maneuver results.</p>
+    <p id="courier4-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="courier5-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="courier6-desc" class="sidedesc">Missiles: Generates 3 points of missile results.</p>
+    <p id="archer1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, or missile results.</p>
+    <p id="archer2-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="archer3-desc" class="sidedesc">Missiles: Generates 3 points of missile results.</p>
+    <p id="archer4-desc" class="sidedesc">Missiles: Generates 3 points of missile results.</p>
+    <p id="archer5-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="archer6-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="knight1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, or missile results.</p>
+    <p id="knight2-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="knight3-desc" class="sidedesc">Maneuver: Generates 3 points of maneuver results.</p>
+    <p id="knight4-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="knight5-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="knight6-desc" class="sidedesc">Saves: Negates 2 points of normal melee or missile damage.</p>
+    <p id="conjurer1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, or missile results.</p>
+    <p id="conjurer2-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="conjurer3-desc" class="sidedesc">Magic: Generates 3 points of magic results.</p>
+    <p id="conjurer4-desc" class="sidedesc">Magic: Generates 3 points of magic results.</p>
+    <p id="conjurer5-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="conjurer6-desc" class="sidedesc">Magic: Generates 2 points of magic results.</p>
+  </div>
+</div>
+
+<div class="center"><div class="single-grid">
+  <a href="#fighter" id="fighter" class="grid-item coralelf-item" onclick="toggle_sides('fighter-container');"><p>Fighter</p></a>
+  <a href="#guard" id="guard" class="grid-item coralelf-item" onclick="toggle_sides('guard-container');"><p>Guard</p></a>
+  <a href="#bowman" id="bowman" class="grid-item coralelf-item" onclick="toggle_sides('bowman-container');"><p>Bowman</p></a>
+  <a href="#horseman" id="horseman" class="grid-item coralelf-item" onclick="toggle_sides('horseman-container');"><p>Horseman</p></a>
+  <a href="#evoker" id="evoker" class="grid-item coralelf-item" onclick="toggle_sides('evoker-container');"><p>Evoker</p></a>
+</div></div>
+
+<div class="staging-container">
+  <div id="fighter-container" class="sides-grid side-container">
+    <a href="#fighter" id="fighter" class="grid-item coralelf-item side-item" onclick="toggle_desc('fighter1-desc');"><p>ID</p></a>
+    <a href="#fighter" id="coralelf-melee1" class="grid-item coralelf-item side-item" onclick="toggle_desc('fighter2-desc');"><p>Melee</p></a>
+    <a href="#fighter" id="coralelf-missile1" class="grid-item coralelf-item side-item" onclick="toggle_desc('fighter3-desc');"><p>Missile</p></a>
+    <a href="#fighter" id="coralelf-maneuver1" class="grid-item coralelf-item side-item" onclick="toggle_desc('fighter4-desc');"><p>Maneuver</p></a>
+    <a href="#fighter" id="coralelf-melee1" class="grid-item coralelf-item side-item" onclick="toggle_desc('fighter5-desc');"><p>Melee</p></a>
+    <a href="#fighter" id="coralelf-melee2" class="grid-item coralelf-item side-item" onclick="toggle_desc('fighter6-desc');"><p>Melee</p></a>
+  </div>
+  <div id="guard-container" class="sides-grid side-container">
+    <a href="#guard" id="guard" class="grid-item coralelf-item side-item" onclick="toggle_desc('guard1-desc');"><p>ID</p></a>
+    <a href="#guard" id="coralelf-melee1" class="grid-item coralelf-item side-item" onclick="toggle_desc('guard2-desc');"><p>Melee</p></a>
+    <a href="#guard" id="coralelf-maneuver1" class="grid-item coralelf-item side-item" onclick="toggle_desc('guard3-desc');"><p>Maneuver</p></a>
+    <a href="#guard" id="coralelf-maneuver1" class="grid-item coralelf-item side-item" onclick="toggle_desc('guard4-desc');"><p>Maneuver</p></a>
+    <a href="#guard" id="coralelf-melee1" class="grid-item coralelf-item side-item" onclick="toggle_desc('guard5-desc');"><p>Melee</p></a>
+    <a href="#guard" id="coralelf-missile2" class="grid-item coralelf-item side-item" onclick="toggle_desc('guard6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="bowman-container" class="sides-grid side-container">
+    <a href="#bowman" id="bowman" class="grid-item coralelf-item side-item" onclick="toggle_desc('bowman1-desc');"><p>ID</p></a>
+    <a href="#bowman" id="coralelf-missile1" class="grid-item coralelf-item side-item" onclick="toggle_desc('bowman2-desc');"><p>Missile</p></a>
+    <a href="#bowman" id="coralelf-melee1" class="grid-item coralelf-item side-item" onclick="toggle_desc('bowman3-desc');"><p>Melee</p></a>
+    <a href="#bowman" id="coralelf-maneuver1" class="grid-item coralelf-item side-item" onclick="toggle_desc('bowman4-desc');"><p>Maneuver</p></a>
+    <a href="#bowman" id="coralelf-maneuver1" class="grid-item coralelf-item side-item" onclick="toggle_desc('bowman5-desc');"><p>Maneuver</p></a>
+    <a href="#bowman" id="coralelf-missile2" class="grid-item coralelf-item side-item" onclick="toggle_desc('bowman6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="horseman-container" class="sides-grid side-container">
+    <a href="#horseman" id="horseman" class="grid-item coralelf-item side-item" onclick="toggle_desc('horseman1-desc');"><p>ID</p></a>
+    <a href="#horseman" id="coralelf-hoof1" class="grid-item coralelf-item side-item" onclick="toggle_desc('horseman2-desc');"><p>Maneuver</p></a>
+    <a href="#horseman" id="coralelf-melee1" class="grid-item coralelf-item side-item" onclick="toggle_desc('horseman3-desc');"><p>Melee</p></a>
+    <a href="#horseman" id="coralelf-melee1" class="grid-item coralelf-item side-item" onclick="toggle_desc('horseman4-desc');"><p>Melee</p></a>
+    <a href="#horseman" id="coralelf-hoof2" class="grid-item coralelf-item side-item" onclick="toggle_desc('horseman5-desc');"><p>Maneuver</p></a>
+    <a href="#horseman" id="coralelf-missile1" class="grid-item coralelf-item side-item" onclick="toggle_desc('horseman6-desc');"><p>Missile</p></a>
+  </div>
+  <div id="evoker-container" class="sides-grid side-container">
+    <a href="#evoker" id="evoker" class="grid-item coralelf-item side-item" onclick="toggle_desc('evoker1-desc');"><p>ID</p></a>
+    <a href="#evoker" id="coralelf-magic1" class="grid-item coralelf-item side-item" onclick="toggle_desc('evoker2-desc');"><p>Magic</p></a>
+    <a href="#evoker" id="coralelf-melee1" class="grid-item coralelf-item side-item" onclick="toggle_desc('evoker3-desc');"><p>Melee</p></a>
+    <a href="#evoker" id="coralelf-maneuver1" class="grid-item coralelf-item side-item" onclick="toggle_desc('evoker4-desc');"><p>Maneuver</p></a>
+    <a href="#evoker" id="coralelf-magic1" class="grid-item coralelf-item side-item" onclick="toggle_desc('evoker5-desc');"><p>Magic</p></a>
+    <a href="#evoker" id="coralelf-magic2" class="grid-item coralelf-item side-item" onclick="toggle_desc('evoker6-desc');"><p>Magic</p></a>
+  </div>
+  <div class="desc-container">
+    <p id="fighter1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, or missile results.</p>
+    <p id="fighter2-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="fighter3-desc" class="sidedesc">Missile: Generates 1 point of missile results.</p>
+    <p id="fighter4-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="fighter5-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="fighter6-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="guard1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, or missile results.</p>
+    <p id="guard2-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="guard3-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="guard4-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="guard5-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="guard6-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="bowman1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, or missile results.</p>
+    <p id="bowman2-desc" class="sidedesc">Missile: Generates 1 point of missile results.</p>
+    <p id="bowman3-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="bowman4-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="bowman5-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="bowman6-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="horseman1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, or missile results.</p>
+    <p id="horseman2-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="horseman3-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="horseman4-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="horseman5-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="horseman6-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="evoker1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, or missile results.</p>
+    <p id="evoker2-desc" class="sidedesc">Magic: Generates 1 point of magic results.</p>
+    <p id="evoker3-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="evoker4-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="evoker5-desc" class="sidedesc">Magic: Generates 1 point of magic results.</p>
+    <p id="evoker6-desc" class="sidedesc">Magic: Generates 2 points of magic results.</p>
+  </div>
+</div>
+
+</body>
+</html>

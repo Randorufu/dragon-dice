@@ -1,0 +1,686 @@
+body {
+  background-color: #000000;
+  margin-left: 0;
+  font-size: calc(1em + 1vw); 
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23191919' fill-opacity='0.4'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.center {
+  text-align: center;
+}
+
+.races-grid {
+  display: inline-grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.single-grid {
+  display: inline-grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+.races-grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  }
+}
+
+.sides-grid {
+  display: inline-grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.msides-grid {
+  display: inline-grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.grid-item {
+  width: 4em;
+  height: 4em;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-size: cover;
+}
+
+.grid-item p {
+  display: none;
+  font-size: 0.6em;
+  font-family: sans-serif;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+li {
+  width: 4em;
+  list-style-type: none;
+}
+
+ul p {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: .7em;
+}
+
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 1em;
+  margin-left: 1em;
+}
+
+h2 {
+  color: #fff;
+  display: block;
+  text-align: center;
+  margin-top: 2.2em;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 1em;
+  margin-bottom: 2em;
+}
+
+h3 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  margin-top: 2em;
+  font-size: 1em;
+  display: block;
+  text-align: center;
+}
+
+a {
+  width: 100%;
+  transition: all .1s ease-in-out;
+  text-decoration: none;
+}
+
+a:hover {
+  transform: scale(1.15);
+}
+
+a:hover p {
+  display: inline-block;
+}
+
+a {
+  transition: all .1s ease-in-out;
+  text-decoration: none;
+}
+
+.side-container {
+  text-align: center;
+}
+
+.side-item {
+  width: 3em;
+  height: 3em;
+}
+
+.staging-container {
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.2' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display:none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.desc-container {
+  width: 100vw;
+}
+
+.sidedesc {
+  display: inline;
+  color: #fff;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  display: none;
+  text-align: center;
+  width: 70%;
+}
+
+.amazon-item p {
+  color: #e2e4d7;
+  background-color: rgba(155, 46, 146, 0.9);
+}
+
+.coralelf-item p {
+  color: #e5e5e5;
+  background-color: rgba(68, 89, 144, 0.9);
+}
+
+.dwarf-item p {
+  color: #ffffff;
+  background-color: rgba(178, 86, 35, 0.9);
+}
+
+.feral-item p {
+  color: #fffdec;
+  background-color: rgba(21, 110, 108, 0.9);
+}
+.firewalker-item p {
+  color: #fffdeb;
+  background-color: rgba(97, 0, 0, 0.9);
+}
+
+.frostwing-item p {
+  color: #f8f8f8;
+  background-color: rgba(42, 65, 112, 0.9);
+}
+
+.goblin-item p {
+  color: #e9eaeb;
+  background-color: rgba(6, 5, 3, 0.9);
+}
+
+.lavaelf-item p {
+  color: #f7f7f8;
+  background-color: rgba(90, 14, 15, 0.9);
+}
+
+.undead-item p {
+  color: #9aca3c;
+  background-color: rgba(35, 34, 34, 0.9);
+}
+
+.scalder-item p {
+  color: #dbca8d;
+  background-color: rgba(140, 21, 35, 0.9);
+}
+
+.swampstalker-item p {
+  color: #dbd36a;
+  background-color: rgba(7, 6, 4, 0.9);
+}
+
+.treefolk-item p {
+  color: #f7eded;
+  background-color: rgba(47, 104, 43, 0.9);
+}
+
+.elemental-item {
+  width: 3em;
+  height: 3em;
+  background-size: cover;
+  margin-top: -0.4em;
+}
+
+.elemental-item p {
+  display: inline-block;
+  font-size: 0.7em;
+  font-family: sans-serif;
+  position: relative;
+  bottom: -5em;
+  padding: 0;
+  text-align: center;
+}
+
+/* Amazon Backgrounds */
+
+#hydra {
+  background-image: url("img/Hydra.png");
+}
+
+#chimera {
+  background-image: url("img/Chimera.png");
+}
+
+#centaur {
+  background-image: url("img/Centaur.png");
+}
+
+#medusa {
+  background-image: url("img/Medusa.png");
+}
+
+#nightmare {
+  background-image: url("img/Nightmare.png");
+}
+
+#warchief {
+  background-image: url("img/warchief.png");
+}
+
+#harbinger {
+  background-image: url("img/harbinger.png");
+}
+
+#spearer {
+  background-image: url("img/spearer.png");
+}
+
+#wardriver {
+  background-image: url("img/wardriver.png");
+}
+
+#oracle {
+  background-image: url("img/oracle.png");
+}
+
+#warrior {
+  background-image: url("img/warrior.png");
+}
+
+#envoy {
+  background-image: url("img/envoy.png");
+}
+
+#javelineer {
+  background-image: url("img/javelineer.png");
+}
+
+#battlerider {
+  background-image: url("img/battlerider.png");
+}
+
+#visionary {
+  background-image: url("img/visionary.png");
+}
+
+#soldier {
+  background-image: url("img/soldier.png");
+}
+
+#runner {
+  background-image: url("img/runner.png");
+}
+
+#darter {
+  background-image: url("img/darter.png");
+}
+
+#charioteer {
+  background-image: url("img/charioteer.png");
+}
+
+#seer {
+  background-image: url("img/seer.png");
+}
+
+
+/* Coral Elf Backgrounds */
+
+#coralgiant {
+  background-image: url("img/CoralGiant.png");
+}
+
+#tako {
+  background-image: url("img/Tako.png");
+}
+
+#gryphon {
+  background-image: url("img/Gryphon.png");
+}
+
+#leviathan {
+  background-image: url("img/Leviathan.png");
+}
+
+#spriteswarm {
+  background-image: url("img/SpriteSwarm.png");
+}
+
+#protector {
+  background-image: url("img/protector.png");
+}
+
+#herald {
+  background-image: url("img/herald.png");
+}
+
+#sharpshooter {
+  background-image: url("img/sharpshooter.png");
+}
+
+#eagleknight {
+  background-image: url("img/eagleknight.png");
+}
+
+#enchanter {
+  background-image: url("img/enchanter.png");
+}
+
+#trooper {
+  background-image: url("img/trooper.png");
+}
+
+#courier {
+  background-image: url("img/courier.png");
+}
+
+#archer {
+  background-image: url("img/archer.png");
+}
+
+#knight {
+  background-image: url("img/knight.png");
+}
+
+#conjurer {
+  background-image: url("img/conjurer.png");
+}
+
+#fighter {
+  background-image: url("img/fighter.png");
+}
+
+#guard {
+  background-image: url("img/guard.png");
+}
+
+#bowman {
+  background-image: url("img/bowman.png");
+}
+
+#horseman {
+  background-image: url("img/horseman.png");
+}
+
+#evoker {
+  background-image: url("img/evoker.png");
+}
+
+#coralelf-melee1 {
+  background-image: url("img/coralelf-melee1.png");
+}
+
+#coralelf-melee2 {
+  background-image: url("img/coralelf-melee2.png");
+}
+
+#coralelf-melee3 {
+  background-image: url("img/coralelf-melee3.png");
+}
+
+#coralelf-melee4 {
+  background-image: url("img/coralelf-melee4.png");
+}
+
+#coralelf-missile1 {
+  background-image: url("img/coralelf-missile1.png");
+}
+
+#coralelf-missile2 {
+  background-image: url("img/coralelf-missile2.png");
+}
+
+#coralelf-missile3 {
+  background-image: url("img/coralelf-missile3.png");
+}
+
+#coralelf-missile4 {
+  background-image: url("img/coralelf-missile4.png");
+}
+
+#coralelf-maneuver1 {
+  background-image: url("img/coralelf-maneuver1.png");
+}
+
+#coralelf-maneuver2 {
+  background-image: url("img/coralelf-maneuver2.png");
+}
+
+#coralelf-maneuver3 {
+  background-image: url("img/coralelf-maneuver3.png");
+}
+
+#coralelf-hoof3 {
+  background-image: url("img/coralelf-hoof3.png");
+}
+
+#coralelf-hoof2 {
+  background-image: url("img/coralelf-hoof2.png");
+}
+
+#coralelf-hoof1 {
+  background-image: url("img/coralelf-hoof1.png");
+}
+
+#coralelf-save2 {
+  background-image: url("img/coralelf-save2.png");
+}
+
+#coralelf-save3 {
+  background-image: url("img/coralelf-save3.png");
+}
+
+#coralelf-magic1 {
+  background-image: url("img/coralelf-magic1.png");
+}
+
+#coralelf-magic2 {
+  background-image: url("img/coralelf-magic2.png");
+}
+
+#coralelf-magic3 {
+  background-image: url("img/coralelf-magic3.png");
+}
+
+#coralelf-magic4 {
+  background-image: url("img/coralelf-magic4.png");
+}
+
+#coralelf-fly3 {
+  background-image: url("img/coralelf-fly3.png");
+}
+
+#coralelf-bullseye {
+  background-image: url("img/coralelf-bullseye.png");
+}
+
+#coralelf-cantrip {
+  background-image: url("img/coralelf-cantrip.png");
+}
+
+#coralelf-counter {
+  background-image: url("img/coralelf-counter.png");
+}
+
+#coralelf-smite {
+  background-image: url("img/coralelf-smite.png");
+}
+
+#coralelf-counterm {
+  background-image: url("img/coralelf-counterm.png");
+}
+
+#coralelf-entanglem {
+  background-image: url("img/coralelf-entanglem.png");
+}
+
+#coralelf-ferrym {
+  background-image: url("img/coralelf-ferrym.png");
+}
+
+#coralelf-flym {
+  background-image: url("img/coralelf-flym.png");
+}
+
+#coralelf-hypnoticglarem {
+  background-image: url("img/coralelf-hypnoticglarem.png");
+}
+
+#coralelf-lflym {
+  background-image: url("img/coralelf-lflym.png");
+}
+
+#coralelf-magicm {
+  background-image: url("img/coralelf-magicm.png");
+}
+
+#coralelf-maneuverm {
+  background-image: url("img/coralelf-maneuverm.png");
+}
+
+#coralelf-meleem {
+  background-image: url("img/coralelf-meleem.png");
+}
+
+#coralelf-missilem {
+  background-image: url("img/coralelf-missilem.png");
+}
+
+#coralelf-rendm {
+  background-image: url("img/coralelf-rendm.png");
+}
+
+#coralelf-savem {
+  background-image: url("img/coralelf-savem.png");
+}
+
+#coralelf-smitem {
+  background-image: url("img/coralelf-smitem.png");
+}
+
+#coralelf-swallowm {
+  background-image: url("img/coralelf-swallowm.png");
+}
+
+#coralelf-tailm {
+  background-image: url("img/coralelf-tailm.png");
+}
+
+#coralelf-tramplem {
+  background-image: url("img/coralelf-tramplem.png");
+}
+
+#coralelf-wavem {
+  background-image: url("img/coralelf-wavem.png");
+}
+
+
+/* Dwarf Backgrounds */
+
+#theurgist {
+  background-image: url("img/theurgist.png");
+}
+
+
+/* Feral Backgrounds */
+
+#buffalofolk {
+  background-image: url("img/buffalofolk.png");
+}
+
+
+/* Firewalker Backgrounds */
+
+#firemaster {
+  background-image: url("img/firemaster.png");
+}
+
+
+/* Frostwing Backgrounds */
+
+#attacker {
+  background-image: url("img/attacker.png");
+}
+
+
+/* Goblin Backgrounds */
+
+#thug {
+  background-image: url("img/thug.png");
+}
+
+
+/* Lava Elf Backgrounds */
+
+#scout {
+  background-image: url("img/scout.png");
+}
+
+
+/* Undead Backgrounds */
+
+#skeleton {
+  background-image: url("img/skeleton.png");
+}
+
+
+/* Scalder Backgrounds */
+
+#igniter {
+  background-image: url("img/igniter.png");
+}
+
+
+/* Swamp Stalker Backgrounds */
+
+#raider {
+  background-image: url("img/raider.png");
+}
+
+
+/* Treefolk Backgrounds */
+
+#pineling {
+  background-image: url("img/pineling.png");
+}
+
+
+/* Elemental Backgrounds */
+
+.air-item {
+  background-image: url("img/Air.png");
+}
+
+.death-item {
+  background-image: url("img/Death.png");
+}
+
+.earth-item {
+  background-image: url("img/Earth.png");
+}
+
+.fire-item {
+  background-image: url("img/Fire.png");
+}
+
+.water-item {
+  background-image: url("img/Water.png");
+}
+
+
+/* Hide Side Container */
+
+#protector-container {
+  display: block;
+}
