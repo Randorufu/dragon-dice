@@ -194,6 +194,11 @@ a {
         width: 2.5em;
         height: 2.5em;
     }
+    
+    .races-grid .grid-item {
+        width: 4em;
+        height: 4em;
+    }
 }
 
 .amazon-item p {
