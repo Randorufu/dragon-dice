@@ -9,6 +9,22 @@ body {
   text-align: center;
 }
 
+.ability {
+  margin: auto;
+  width: 70%;
+  text-align: justify;
+}
+
+.ability h3 {
+  font-size: 0.8em;
+}
+
+.ability p {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 0.7em;
+}
+
 .races-grid {
   display: inline-grid;
   grid-template-columns: repeat(6, 1fr);
@@ -51,6 +67,9 @@ body {
   text-align: center;
   color: #fff;
   background-size: cover;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  text-decoration: none;
 }
 
 .grid-item p {
@@ -64,6 +83,15 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
   margin: 0;
+}
+
+.grid-item:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.grid-item:hover p {
+  display: inline-block;
 }
 
 ul {
@@ -93,6 +121,7 @@ h1 {
   font-family: sans-serif;
   font-size: 1em;
   margin-left: 1em;
+  display: inline-block;
 }
 
 h2 {
@@ -117,24 +146,6 @@ h3 {
 }
 
 a {
-  width: 100%;
-  -webkit-transition: all .1s ease-in-out;
-  transition: all .1s ease-in-out;
-  text-decoration: none;
-}
-
-a:hover {
-  -webkit-transform: scale(1.15);
-  transform: scale(1.15);
-}
-
-a:hover p {
-  display: inline-block;
-}
-
-a {
-  -webkit-transition: all .1s ease-in-out;
-  transition: all .1s ease-in-out;
   text-decoration: none;
 }
 
@@ -869,11 +880,4 @@ a {
 
 .water-item {
   background-image: url("img/Water.png");
-}
-
-
-/* Hide Side Container */
-
-#protector-container {
-  display: block;
 }
