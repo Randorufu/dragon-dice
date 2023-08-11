@@ -44,6 +44,15 @@ body {
   align-items: center;
 }
 
+.one-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  justify-items: center;
+  margin-bottom: -2em;
+}
+
 .sides-grid {
   display: inline-grid;
   grid-template-columns: repeat(6, 1fr);
@@ -185,6 +194,29 @@ a {
   width: 70%;
 }
 
+.spell-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 0.8em;
+  margin-bottom: -0.5em;
+}
+
+.spell-desc {
+  text-align: left;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 0.7em;
+  margin-bottom: 3em;
+}
+
 @media screen and (max-width: 600px) {
 
     .races-grid {
@@ -209,6 +241,10 @@ a {
     .races-grid .grid-item {
         width: 4em;
         height: 4em;
+    }
+
+    .spell-flex, .spell-desc {
+	width: 94%;
     }
 }
 
