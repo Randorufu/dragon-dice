@@ -11,7 +11,7 @@ body {
 
 .ability {
   margin: auto;
-  width: 70%;
+  width: 50%;
   text-align: justify;
 }
 
@@ -197,7 +197,7 @@ a {
 .spell-flex {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   text-transform: none;
@@ -216,13 +216,24 @@ span:first-of-type {
 
 .spell-desc {
   text-align: left;
-  width: 70%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   text-transform: none;
   font-weight: normal;
   font-size: 0.7em;
   margin-bottom: 3em;
+}
+
+@media screen and (max-width: 1600px) {
+
+    .spell-flex, .spell-desc {
+	width: 70%;
+    }
+
+    .ability {
+        width: 70%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -253,6 +264,14 @@ span:first-of-type {
 
     .spell-flex, .spell-desc {
 	width: 94%;
+    }
+
+    .spell-flex {
+        justify-content: initial;
+    }
+
+    .ability {
+        width: 94%;
     }
 }
 
