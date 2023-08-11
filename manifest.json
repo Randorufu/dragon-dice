@@ -1,0 +1,22 @@
+{
+  "background_color": "#000000",
+  "description": "Dragon Dice Tools",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Dragon Dice",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Dragon Dice",
+  "start_url": "https://randorufu.github.io/dragon-dice/",
+  "theme_color": "#416eaa",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    }
+  ],
+  "shortcuts": []
+}
