@@ -206,6 +206,14 @@ a {
   margin-bottom: -0.5em;
 }
 
+span:first-of-type {
+  white-space: nowrap;
+}
+
+.spell-flex span{
+  margin-right: 1em;
+}
+
 .spell-desc {
   text-align: left;
   width: 70%;
