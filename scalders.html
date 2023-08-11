@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Scalders</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="script.js" type="text/javascript"></script>
+  <link rel="icon" href="favicon.png">
+</head>
+<body>
+
+<a href="index.html"><h1>Dragon Dice<h1/></a>
+
+<h2>Scalders</h2>
+
+<div class="center"><div class="single-grid">
+  <a href="#ettercap" id="ettercap" class="grid-item scalder-item" onclick="toggle_sides('ettercap-container');"><p>Ettercap</p></a>
+  <a href="#willowisp" id="willowisp" class="grid-item scalder-item" onclick="toggle_sides('willowisp-container');"><p>Will o' Wisp</p></a>
+  <a href="#webbirds" id="webbirds" class="grid-item scalder-item" onclick="toggle_sides('webbirds-container');"><p>Web Birds</p></a>
+  <a href="#quickling" id="quickling" class="grid-item scalder-item" onclick="toggle_sides('quickling-container');"><p>Quickling</p></a>
+  <a href="#unseeliefaerie" id="unseeliefaerie"" class="grid-item scalder-item" onclick="toggle_sides('unseeliefaerie-container');"><p>Unseelie Faerie</p></a>
+</div></div>
+
+<div class="staging-container">
+  <div id="ettercap-container" class="msides-grid side-container">
+    <a href="#ettercap" id="ettercap" class="grid-item scalder-item side-item" onclick="toggle_desc('ettercap1-desc');"><p>ID</p></a>
+    <a href="#ettercap" id="scalder-bullseyem" class="grid-item scalder-item side-item" onclick="toggle_desc('ettercap2-desc');"><p>Bullseye</p></a>
+    <a href="#ettercap" id="scalder-missilem" class="grid-item scalder-item side-item" onclick="toggle_desc('ettercap3-desc');"><p>Missiles</p></a>
+    <a href="#ettercap" id="scalder-maneuverm" class="grid-item scalder-item side-item" onclick="toggle_desc('ettercap4-desc');"><p>Maneuver</p></a>
+    <a href="#ettercap" id="scalder-magicm" class="grid-item scalder-item side-item" onclick="toggle_desc('ettercap5-desc');"><p>Magic</p></a>
+    <a href="#ettercap" id="scalder-savem" class="grid-item scalder-item side-item" onclick="toggle_desc('ettercap6-desc');"><p>Saves</p></a>
+    <a href="#ettercap" id="scalder-missilem" class="grid-item scalder-item side-item" onclick="toggle_desc('ettercap7-desc');"><p>Missiles</p></a>
+    <a href="#ettercap" id="scalder-maneuverm" class="grid-item scalder-item side-item" onclick="toggle_desc('ettercap8-desc');"><p>Maneuver</p></a>
+    <a href="#ettercap" id="scalder-savem" class="grid-item scalder-item side-item" onclick="toggle_desc('ettercap9-desc');"><p>Saves</p></a>
+    <a href="#ettercap" id="scalder-meleem" class="grid-item scalder-item side-item" onclick="toggle_desc('ettercap10-desc');"><p>Melee</p></a>
+  </div>
+  <div id="willowisp-container" class="msides-grid side-container">
+    <a href="#willowisp" id="willowisp" class="grid-item scalder-item side-item" onclick="toggle_desc('willowisp1-desc');"><p>ID</p></a>
+    <a href="#willowisp" id="scalder-flym" class="grid-item scalder-item side-item" onclick="toggle_desc('willowisp2-desc');"><p>Fly</p></a>
+    <a href="#willowisp" id="scalder-confusem" class="grid-item scalder-item side-item" onclick="toggle_desc('willowisp3-desc');"><p>Confuse</p></a>
+    <a href="#willowisp" id="scalder-dispelmagicm" class="grid-item scalder-item side-item" onclick="toggle_desc('willowisp4-desc');"><p>Dispel Magic</p></a>
+    <a href="#willowisp" id="scalder-magicm" class="grid-item scalder-item side-item" onclick="toggle_desc('willowisp5-desc');"><p>Magic</p></a>
+    <a href="#willowisp" id="scalder-missilem" class="grid-item scalder-item side-item" onclick="toggle_desc('willowisp6-desc');"><p>Missiles</p></a>
+    <a href="#willowisp" id="scalder-meleem" class="grid-item scalder-item side-item" onclick="toggle_desc('willowisp7-desc');"><p>Melee</p></a>
+    <a href="#willowisp" id="scalder-dispelmagicm" class="grid-item scalder-item side-item" onclick="toggle_desc('willowisp8-desc');"><p>Dispel Magic</p></a>
+    <a href="#willowisp" id="scalder-flym" class="grid-item scalder-item side-item" onclick="toggle_desc('willowisp9-desc');"><p>Fly</p></a>
+    <a href="#willowisp" id="scalder-magicm" class="grid-item scalder-item side-item" onclick="toggle_desc('willowisp10-desc');"><p>Magic</p></a>
+  </div>
+  <div id="webbirds-container" class="msides-grid side-container">
+    <a href="#webbirds" id="webbirds" class="grid-item scalder-item side-item" onclick="toggle_desc('webbirds1-desc');"><p>ID</p></a>
+    <a href="#webbirds" id="scalder-flym" class="grid-item scalder-item side-item" onclick="toggle_desc('webbirds2-desc');"><p>Fly</p></a>
+    <a href="#webbirds" id="scalder-webm" class="grid-item scalder-item side-item" onclick="toggle_desc('webbirds3-desc');"><p>Web</p></a>
+    <a href="#webbirds" id="scalder-meleem" class="grid-item scalder-item side-item" onclick="toggle_desc('webbirds4-desc');"><p>Melee</p></a>
+    <a href="#webbirds" id="scalder-missilem" class="grid-item scalder-item side-item" onclick="toggle_desc('webbirds5-desc');"><p>Missiles</p></a>
+    <a href="#webbirds" id="scalder-meleem" class="grid-item scalder-item side-item" onclick="toggle_desc('webbirds6-desc');"><p> Melee</p></a>
+    <a href="#webbirds" id="scalder-missilem" class="grid-item scalder-item side-item" onclick="toggle_desc('webbirds7-desc');"><p>Missiles</p></a>
+    <a href="#webbirds" id="scalder-webm" class="grid-item scalder-item side-item" onclick="toggle_desc('webbirds8-desc');"><p>Web</p></a>
+    <a href="#webbirds" id="scalder-flym" class="grid-item scalder-item side-item" onclick="toggle_desc('webbirds9-desc');"><p>Fly</p></a>
+    <a href="#webbirds" id="scalder-missilem" class="grid-item scalder-item side-item" onclick="toggle_desc('webbirds10-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="quickling-container" class="msides-grid side-container">
+    <a href="#quickling" id="quickling" class="grid-item scalder-item side-item" onclick="toggle_desc('quickling1-desc');"><p>ID</p></a>
+    <a href="#quickling" id="scalder-poisonm" class="grid-item scalder-item side-item" onclick="toggle_desc('quickling2-desc');"><p>Poison</p></a>
+    <a href="#quickling" id="scalder-maneuverm" class="grid-item scalder-item side-item" onclick="toggle_desc('quickling3-desc');"><p>Maneuver</p></a>
+    <a href="#quickling" id="scalder-missilem" class="grid-item scalder-item side-item" onclick="toggle_desc('quickling4-desc');"><p>Missiles</p></a>
+    <a href="#quickling" id="scalder-maneuverm" class="grid-item scalder-item side-item" onclick="toggle_desc('quickling5-desc');"><p>Maneuver</p></a>
+    <a href="#quickling" id="scalder-savem" class="grid-item scalder-item side-item" onclick="toggle_desc('quickling6-desc');"><p>Saves</p></a>
+    <a href="#quickling" id="scalder-maneuverm" class="grid-item scalder-item side-item" onclick="toggle_desc('quickling7-desc');"><p>Maneuver</p></a>
+    <a href="#quickling" id="scalder-missilem" class="grid-item scalder-item side-item" onclick="toggle_desc('quickling8-desc');"><p>Missiles</p></a>
+    <a href="#quickling" id="scalder-savem" class="grid-item scalder-item side-item" onclick="toggle_desc('quickling9-desc');"><p>Saves</p></a>
+    <a href="#quickling" id="scalder-maneuverm" class="grid-item scalder-item side-item" onclick="toggle_desc('quickling10-desc');"><p>Maneuver</p></a>
+  </div>
+  <div id="unseeliefaerie-container" class="msides-grid side-container">
+    <a href="#unseeliefaerie" id="unseeliefaerie" class="grid-item scalder-item side-item" onclick="toggle_desc('unseeliefaerie1-desc');"><p>ID</p></a>
+    <a href="#unseeliefaerie" id="scalder-maneuverm" class="grid-item scalder-item side-item" onclick="toggle_desc('unseeliefaerie2-desc');"><p>Maneuver</p></a>
+    <a href="#unseeliefaerie" id="scalder-magicm" class="grid-item scalder-item side-item" onclick="toggle_desc('unseeliefaerie3-desc');"><p>Magic</p></a>
+    <a href="#unseeliefaerie" id="scalder-meleem" class="grid-item scalder-item side-item" onclick="toggle_desc('unseeliefaerie4-desc');"><p>Melee</p></a>
+    <a href="#unseeliefaerie" id="scalder-savem" class="grid-item scalder-item side-item" onclick="toggle_desc('unseeliefaerie5-desc');"><p>Saves</p></a>
+    <a href="#unseeliefaerie" id="scalder-magicm" class="grid-item scalder-item side-item" onclick="toggle_desc('unseeliefaerie6-desc');"><p>Magic</p></a>
+    <a href="#unseeliefaerie" id="scalder-magicm" class="grid-item scalder-item side-item" onclick="toggle_desc('unseeliefaerie7-desc');"><p>Magic</p></a>
+    <a href="#unseeliefaerie" id="scalder-cantripm" class="grid-item scalder-item side-item" onclick="toggle_desc('unseeliefaerie8-desc');"><p>Cantrip</p></a>
+    <a href="#unseeliefaerie" id="scalder-maneuverm" class="grid-item scalder-item side-item" onclick="toggle_desc('unseeliefaerie9-desc');"><p>Maneuver</p></a>
+    <a href="#unseeliefaerie" id="scalder-savem" class="grid-item scalder-item side-item" onclick="toggle_desc('unseeliefaerie10-desc');"><p>Saves</p></a>
+  </div>
+  <div class="desc-container">
+    <p id="ettercap1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, missile, or maneuver results.</p>
+    <p id="ettercap2-desc" class="sidedesc">Bullseye: During a missile action, Bullseye immediately inflicts 4 points of damage. The damage may individually target one or more units in the defending army as the acting player chooses. Each target unit must immediately generate saves against the damage assigned to it. During a dragon attack or missile avoidance roll, Bullseye generates 4 missile results.</p>
+    <p id="ettercap3-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+    <p id="ettercap4-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="ettercap5-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="ettercap6-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="ettercap7-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+    <p id="ettercap8-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="ettercap9-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="ettercap10-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="willowisp1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, missile, or maneuver results.</p>
+    <p id="willowisp2-desc" class="sidedesc">Fly: During any roll, Fly generates 4 maneuver or 4 save results.</p>
+    <p id="willowisp3-desc" class="sidedesc">Confuse: During a melee attack or missile action, after the defending army rolls for saves but before they apply any unique or special resolution SAIs, choose up to 4 health-worth of units in the defending army and force them to roll again. Selected units ignore their original roll and apply the new roll instead.</p>
+    <p id="willowisp4-desc" class="sidedesc">Dispel Magic: Whenever any magic targets this unit, the army containing this unit and/or the terrain this unit occupies, you may roll this unit after all spells are announced but before any are resolved. If the Dispel Magic icon comes up, immediately negate all unresolved magic that applies to the target(s). Only one dispel attempt is made per unit and, if it fails, then all the spell(s) are resolved normally.</p>
+    <p id="willowisp5-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="willowisp6-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+    <p id="willowisp7-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="willowisp8-desc" class="sidedesc">Dispel Magic: Whenever any magic targets this unit, the army containing this unit and/or the terrain this unit occupies, you may roll this unit after all spells are announced but before any are resolved. If the Dispel Magic icon comes up, immediately negate all unresolved magic that applies to the target(s). Only one dispel attempt is made per unit and, if it fails, then all the spell(s) are resolved normally.</p>
+    <p id="willowisp9-desc" class="sidedesc">Fly: During any roll, Fly generates 4 maneuver or 4 save results.</p>
+    <p id="willowisp10-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="webbirds1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, missile, or maneuver results.</p>
+    <p id="webbirds2-desc" class="sidedesc">Fly: During any roll, Fly generates 4 maneuver or 4 save results.</p>
+    <p id="webbirds3-desc" class="sidedesc">Web: During a melee attack, choose up to 4 health-worth of units in the defending army to be webbed unless each targeted unit immediately rolls a melee result. Target units that fail their avoidance roll cannot be rolled until the beginning of your next turn.</p>
+    <p id="webbirds4-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="webbirds5-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+    <p id="webbirds6-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="webbirds7-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+    <p id="webbirds8-desc" class="sidedesc">Web:</p>
+    <p id="webbirds9-desc" class="sidedesc">Fly: During any roll, Fly generates 4 maneuver or 4 save results.</p>
+    <p id="webbirds10-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+    <p id="quickling1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, missile, or maneuver results.</p>
+    <p id="quickling2-desc" class="sidedesc">Poison: During a melee attack, choose up to 4 health-worth of units in the defending army. Each target unit must immediately generate a save or be killed. Any units that are killed must roll a save or be buried.</p>
+    <p id="quickling3-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="quickling4-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+    <p id="quickling5-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="quickling6-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="quickling7-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="quickling8-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+    <p id="quickling9-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="quickling10-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="unseeliefaerie1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, missile, or maneuver results.</p>
+    <p id="unseeliefaerie2-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="unseeliefaerie3-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="unseeliefaerie4-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="unseeliefaerie5-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="unseeliefaerie6-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="unseeliefaerie7-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="unseeliefaerie8-desc" class="sidedesc">Cantrip: During a magic action or magic negation roll, Cantrip generates 4 magic results. During any non-magic action, save roll or non-maneuver avoidance roll, Cantrip can be used to purchase spells that are immediately resolved.</p>
+    <p id="unseeliefaerie9-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="unseeliefaerie10-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+  </div>
+</div>
+
+<div class="center">
+<ul class="single-grid">
+  <li><p>Heavy Melee</p></li>
+  <li><p>Light Melee</p></li>
+  <li><p>Missiles</p></li>
+  <li><p>Cavalry</p></li>
+  <li><p>Magic</p></li>
+</ul>
+</div>
+
+<div class="center"><div class="single-grid">
+  <a href="#searer" id="searer" class="grid-item scalder-item" onclick="toggle_sides('searer-container');"><p>Searer</p></a>
+  <a href="#charkin" id="charkin" class="grid-item scalder-item" onclick="toggle_sides('charkin-container');"><p>Charkin</p></a>
+  <a href="#blazer" id="blazer" class="grid-item scalder-item" onclick="toggle_sides('blazer-container');"><p>Blazer</p></a>
+  <a href="#dragonneknight" id="dragonneknight" class="grid-item scalder-item" onclick="toggle_sides('dragonneknight-container');"><p>Dragonne Knight</p></a>
+  <a href="#inferno" id="inferno" class="grid-item scalder-item" onclick="toggle_sides('inferno-container');"><p>Inferno</p></a>
+</div></div>
+
+<div class="staging-container">
+  <div id="searer-container" class="sides-grid side-container">
+    <a href="#searer" id="searer" class="grid-item scalder-item side-item" onclick="toggle_desc('searer1-desc');"><p>ID</p></a>
+    <a href="#searer" id="scalder-missile2" class="grid-item scalder-item side-item" onclick="toggle_desc('searer2-desc');"><p>Missiles</p></a>
+    <a href="#searer" id="scalder-melee4" class="grid-item scalder-item side-item" onclick="toggle_desc('searer3-desc');"><p>Melee</p></a>
+    <a href="#searer" id="scalder-melee3" class="grid-item scalder-item side-item" onclick="toggle_desc('searer4-desc');"><p>Melee</p></a>
+    <a href="#searer" id="scalder-save3" class="grid-item scalder-item side-item" onclick="toggle_desc('searer5-desc');"><p>Saves</p></a>
+    <a href="#searer" id="scalder-smite" class="grid-item scalder-item side-item" onclick="toggle_desc('searer6-desc');"><p>Smite</p></a>
+  </div>
+  <div id="charkin-container" class="sides-grid side-container">
+    <a href="#charkin" id="charkin" class="grid-item scalder-item side-item" onclick="toggle_desc('charkin1-desc');"><p>ID</p></a>
+    <a href="#charkin" id="scalder-melee3" class="grid-item scalder-item side-item" onclick="toggle_desc('charkin2-desc');"><p>Melee</p></a>
+    <a href="#charkin" id="scalder-maneuver3" class="grid-item scalder-item side-item" onclick="toggle_desc('charkin3-desc');"><p>Maneuver</p></a>
+    <a href="#charkin" id="scalder-maneuver3" class="grid-item scalder-item side-item" onclick="toggle_desc('charkin4-desc');"><p>Maneuver</p></a>
+    <a href="#charkin" id="scalder-melee3" class="grid-item scalder-item side-item" onclick="toggle_desc('charkin5-desc');"><p>Melee</p></a>
+    <a href="#charkin" id="scalder-counter" class="grid-item scalder-item side-item" onclick="toggle_desc('charkin6-desc');"><p>Counter</p></a>
+  </div>
+  <div id="blazer-container" class="sides-grid side-container">
+    <a href="#blazer" id="blazer" class="grid-item scalder-item side-item" onclick="toggle_desc('blazer1-desc');"><p>ID</p></a>
+    <a href="#blazer" id="scalder-maneuver3" class="grid-item scalder-item side-item" onclick="toggle_desc('blazer2-desc');"><p>Maneuver</p></a>
+    <a href="#blazer" id="scalder-missile4" class="grid-item scalder-item side-item" onclick="toggle_desc('blazer3-desc');"><p>Missiles</p></a>
+    <a href="#blazer" id="scalder-missile2" class="grid-item scalder-item side-item" onclick="toggle_desc('blazer4-desc');"><p>Missiles</p></a>
+    <a href="#blazer" id="scalder-melee2" class="grid-item scalder-item side-item" onclick="toggle_desc('blazer5-desc');"><p>Melee</p></a>
+    <a href="#blazer" id="scalder-bullseye" class="grid-item scalder-item side-item" onclick="toggle_desc('blazer6-desc');"><p>Bullseye</p></a>
+  </div>
+  <div id="dragonneknight-container" class="sides-grid side-container">
+    <a href="#dragonneknight" id="dragonneknight" class="grid-item scalder-item side-item" onclick="toggle_desc('dragonnerider1-desc');"><p>ID</p></a>
+    <a href="#dragonneknight" id="scalder-melee3" class="grid-item scalder-item side-item" onclick="toggle_desc('dragonnerider2-desc');"><p>Melee</p></a>
+    <a href="#dragonneknight" id="scalder-fly3" class="grid-item scalder-item side-item" onclick="toggle_desc('dragonnerider3-desc');"><p>Fly</p></a>
+    <a href="#dragonneknight" id="scalder-fly3" class="grid-item scalder-item side-item" onclick="toggle_desc('dragonnerider4-desc');"><p>Fly</p></a>
+    <a href="#dragonneknight" id="scalder-melee4" class="grid-item scalder-item side-item" onclick="toggle_desc('dragonnerider5-desc');"><p>Melee</p></a>
+    <a href="#dragonneknight" id="scalder-missile3" class="grid-item scalder-item side-item" onclick="toggle_desc('dragonnerider6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="inferno-container" class="sides-grid side-container">
+    <a href="#inferno" id="inferno" class="grid-item scalder-item side-item" onclick="toggle_desc('inferno1-desc');"><p>ID</p></a>
+    <a href="#inferno" id="scalder-save2" class="grid-item scalder-item side-item" onclick="toggle_desc('inferno2-desc');"><p>Saves</p></a>
+    <a href="#inferno" id="scalder-magic4" class="grid-item scalder-item side-item" onclick="toggle_desc('inferno3-desc');"><p>Magic</p></a>
+    <a href="#inferno" id="scalder-magic3" class="grid-item scalder-item side-item" onclick="toggle_desc('inferno4-desc');"><p>Magic</p></a>
+    <a href="#inferno" id="scalder-melee3" class="grid-item scalder-item side-item" onclick="toggle_desc('inferno5-desc');"><p>Melee</p></a>
+    <a href="#inferno" id="scalder-cantrip" class="grid-item scalder-item side-item" onclick="toggle_desc('inferno6-desc');"><p>Cantrip</p></a>
+  </div>
+  <div class="desc-container">
+    <p id="searer1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, missile, or maneuver results.</p>
+    <p id="searer2-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="searer3-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="searer4-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="searer5-desc" class="sidedesc">Saves: Negates 3 points of normal melee or missile damage.</p>
+    <p id="searer6-desc" class="sidedesc">Smite: During a melee attack, immediately inflicts 4 points of damage on the defending army or unit; no saves (including those provided by spells) can stop this damage. During a dragon attack or melee avoidance roll, Smite generates 4 melee results.</p>
+    <p id="charkin1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, missile, or maneuver results.</p>
+    <p id="charkin2-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="charkin3-desc" class="sidedesc">Maneuver: Generates 3 points of maneuver results.</p>
+    <p id="charkin4-desc" class="sidedesc">Maneuver: Generates 3 points of maneuver results.</p>
+    <p id="charkin5-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="charkin6-desc" class="sidedesc">Counter: During a melee attack or melee avoidance roll, Counter generates 4 melee results. During a save roll, Counter generates 4 save results. During a save roll in a melee attack, Counter immediately generates both 4 save results and 4 melee results upon the attacking army or unit. Only magical saves protect against this damage. During a dragon attack, Counter generates 4 save and 4 melee results.</p>
+    <p id="blazer1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, missile, or maneuver results.</p>
+    <p id="blazer2-desc" class="sidedesc">Maneuver: Generates 3 points of maneuver results.</p>
+    <p id="blazer3-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+    <p id="blazer4-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="blazer5-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="blazer6-desc" class="sidedesc">Bullseye: During a missile action, Bullseye immediately inflicts 4 points of damage. The damage may individually target one or more units in the defending army as the acting player chooses. Each target unit must immediately generate saves against the damage assigned to it. During a dragon attack or missile avoidance roll, Bullseye generates 4 missile results.</p>
+    <p id="dragonnerider1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, missile, or maneuver results.</p>
+    <p id="dragonnerider2-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="dragonnerider3-desc" class="sidedesc">Fly: During any roll, Fly generates 3 maneuver or 3 save results.</p>
+    <p id="dragonnerider4-desc" class="sidedesc">Fly: During any roll, Fly generates 3 maneuver or 3 save results.</p>
+    <p id="dragonnerider5-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="dragonnerider6-desc" class="sidedesc">Missiles: Generates 3 points of missile results.</p>
+    <p id="inferno1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, missile, or maneuver results.</p>
+    <p id="inferno2-desc" class="sidedesc">Saves: Negates 2 points of normal melee or missile damage.</p>
+    <p id="inferno3-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="inferno4-desc" class="sidedesc">Magic: Generates 3 points of magic results.</p>
+    <p id="inferno5-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="inferno6-desc" class="sidedesc">Cantrip: During a magic action or magic negation roll, Cantrip generates 4 magic results. During any non-magic action, save roll or non-maneuver avoidance roll, Cantrip can be used to purchase spells that are immediately resolved.</p>
+  </div>
+</div>
+
+<div class="center"><div class="single-grid">
+  <a href="#scorcher" id="scorcher" class="grid-item scalder-item" onclick="toggle_sides('scorcher-container');"><p>Scorcher</p></a>
+  <a href="#igniter" id="igniter" class="grid-item scalder-item" onclick="toggle_sides('igniter-container');"><p>Igniter</p></a>
+  <a href="#burner" id="burner" class="grid-item scalder-item" onclick="toggle_sides('burner-container');"><p>Burner</p></a>
+  <a href="#dragonnerider" id="dragonnerider" class="grid-item scalder-item" onclick="toggle_sides('dragonnerider-container');"><p>Dragonne Rider</p></a>
+  <a href="#smolderer" id="smolderer" class="grid-item scalder-item" onclick="toggle_sides('smolderer-container');"><p>Smolderer</p></a>
+</div></div>
+
+<div class="staging-container">
+  <div id="scorcher-container" class="sides-grid side-container">
+    <a href="#scorcher" id="scorcher" class="grid-item scalder-item side-item" onclick="toggle_desc('scorcher1-desc');"><p>ID</p></a>
+    <a href="#scorcher" id="scalder-save2" class="grid-item scalder-item side-item" onclick="toggle_desc('scorcher2-desc');"><p>Saves</p></a>
+    <a href="#scorcher" id="scalder-melee3" class="grid-item scalder-item side-item" onclick="toggle_desc('scorcher3-desc');"><p>Melee</p></a>
+    <a href="#scorcher" id="scalder-melee3" class="grid-item scalder-item side-item" onclick="toggle_desc('scorcher4-desc');"><p>Melee</p></a>
+    <a href="#scorcher" id="scalder-maneuver2" class="grid-item scalder-item side-item" onclick="toggle_desc('scorcher5-desc');"><p>Maneuver</p></a>
+    <a href="#scorcher" id="scalder-missile2" class="grid-item scalder-item side-item" onclick="toggle_desc('scorcher6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="igniter-container" class="sides-grid side-container">
+    <a href="#igniter" id="igniter" class="grid-item scalder-item side-item" onclick="toggle_desc('igniter1-desc');"><p>ID</p></a>
+    <a href="#igniter" id="scalder-melee2" class="grid-item scalder-item side-item" onclick="toggle_desc('igniter2-desc');"><p>Melee</p></a>
+    <a href="#igniter" id="scalder-maneuver3" class="grid-item scalder-item side-item" onclick="toggle_desc('igniter3-desc');"><p>Maneuver</p></a>
+    <a href="#igniter" id="scalder-maneuver2" class="grid-item scalder-item side-item" onclick="toggle_desc('igniter4-desc');"><p>Maneuver</p></a>
+    <a href="#igniter" id="scalder-melee2" class="grid-item scalder-item side-item" onclick="toggle_desc('igniter5-desc');"><p>Melee</p></a>
+    <a href="#igniter" id="scalder-missile3" class="grid-item scalder-item side-item" onclick="toggle_desc('igniter6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="burner-container" class="sides-grid side-container">
+    <a href="#burner" id="burner" class="grid-item scalder-item side-item" onclick="toggle_desc('burner1-desc');"><p>ID</p></a>
+    <a href="#burner" id="scalder-melee2" class="grid-item scalder-item side-item" onclick="toggle_desc('burner2-desc');"><p>Melee</p></a>
+    <a href="#burner" id="scalder-missile3" class="grid-item scalder-item side-item" onclick="toggle_desc('burner3-desc');"><p>Missiles</p></a>
+    <a href="#burner" id="scalder-missile3" class="grid-item scalder-item side-item" onclick="toggle_desc('burner4-desc');"><p>Missiles</p></a>
+    <a href="#burner" id="scalder-maneuver2" class="grid-item scalder-item side-item" onclick="toggle_desc('burner5-desc');"><p>Maneuver</p></a>
+    <a href="#burner" id="scalder-missile2" class="grid-item scalder-item side-item" onclick="toggle_desc('burner6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="dragonnerider-container" class="sides-grid side-container">
+    <a href="#dragonnerider" id="dragonnerider" class="grid-item scalder-item side-item" onclick="toggle_desc('dragonnerider1-desc');"><p>ID</p></a>
+    <a href="#dragonnerider" id="scalder-melee3" class="grid-item scalder-item side-item" onclick="toggle_desc('dragonnerider2-desc');"><p>Melee</p></a>
+    <a href="#dragonnerider" id="scalder-hoof3" class="grid-item scalder-item side-item" onclick="toggle_desc('dragonnerider3-desc');"><p>Maneuver</p></a>
+    <a href="#dragonnerider" id="scalder-hoof2" class="grid-item scalder-item side-item" onclick="toggle_desc('dragonnerider4-desc');"><p>Maneuver</p></a>
+    <a href="#dragonnerider" id="scalder-melee2" class="grid-item scalder-item side-item" onclick="toggle_desc('dragonnerider5-desc');"><p>Melee</p></a>
+    <a href="#dragonnerider" id="scalder-save2" class="grid-item scalder-item side-item" onclick="toggle_desc('dragonnerider6-desc');"><p>Saves</p></a>
+  </div>
+  <div id="smolderer-container" class="sides-grid side-container">
+    <a href="#smolderer" id="smolderer" class="grid-item scalder-item side-item" onclick="toggle_desc('smolderer1-desc');"><p>ID</p></a>
+    <a href="#smolderer" id="scalder-melee2" class="grid-item scalder-item side-item" onclick="toggle_desc('smolderer2-desc');"><p>Melee</p></a>
+    <a href="#smolderer" id="scalder-magic3" class="grid-item scalder-item side-item" onclick="toggle_desc('smolderer3-desc');"><p>Magic</p></a>
+    <a href="#smolderer" id="scalder-magic3" class="grid-item scalder-item side-item" onclick="toggle_desc('smolderer4-desc');"><p>Magic</p></a>
+    <a href="#smolderer" id="scalder-maneuver2" class="grid-item scalder-item side-item" onclick="toggle_desc('smolderer5-desc');"><p>Maneuver</p></a>
+    <a href="#smolderer" id="scalder-magic2" class="grid-item scalder-item side-item" onclick="toggle_desc('smolderer6-desc');"><p>Magic</p></a>
+  </div>
+  <div class="desc-container">
+    <p id="scorcher1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, missile, or maneuver results.</p>
+    <p id="scorcher2-desc" class="sidedesc">Saves: Negates 2 points of normal melee or missile damage.</p>
+    <p id="scorcher3-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="scorcher4-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="scorcher5-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="scorcher6-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="igniter1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, missile, or maneuver results.</p>
+    <p id="igniter2-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="igniter3-desc" class="sidedesc">Maneuver: Generates 3 points of maneuver results.</p>
+    <p id="igniter4-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="igniter5-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="igniter6-desc" class="sidedesc">Missiles: Generates 3 points of missile results.</p>
+    <p id="burner1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, missile, or maneuver results.</p>
+    <p id="burner2-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="burner3-desc" class="sidedesc">Missiles: Generates 3 points of missile results.</p>
+    <p id="burner4-desc" class="sidedesc">Missiles: Generates 3 points of missile results.</p>
+    <p id="burner5-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="burner6-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="dragonnerider1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, missile, or maneuver results.</p>
+    <p id="dragonnerider2-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="dragonnerider3-desc" class="sidedesc">Maneuver: Generates 3 points of maneuver results.</p>
+    <p id="dragonnerider4-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="dragonnerider5-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="dragonnerider6-desc" class="sidedesc">Saves: Negates 2 points of normal melee or missile damage.</p>
+    <p id="smolderer1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, missile, or maneuver results.</p>
+    <p id="smolderer2-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="smolderer3-desc" class="sidedesc">Magic: Generates 3 points of magic results.</p>
+    <p id="smolderer4-desc" class="sidedesc">Magic: Generates 3 points of magic results.</p>
+    <p id="smolderer5-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="smolderer6-desc" class="sidedesc">Magic: Generates 2 points of magic results.</p>
+  </div>
+</div>
+
+<div class="center"><div class="single-grid">
+  <a href="#singeman" id="singeman" class="grid-item scalder-item" onclick="toggle_sides('singeman-container');"><p>Singeman</p></a>
+  <a href="#kindler" id="kindler" class="grid-item scalder-item" onclick="toggle_sides('kindler-container');"><p>Kindler</p></a>
+  <a href="#glower" id="glower" class="grid-item scalder-item" onclick="toggle_sides('glower-container');"><p>Glower</p></a>
+  <a href="#dragonnetender" id="dragonnetender" class="grid-item scalder-item" onclick="toggle_sides('dragonnetender-container');"><p>Dragonne Tender</p></a>
+  <a href="#sparker" id="sparker" class="grid-item scalder-item" onclick="toggle_sides('sparker-container');"><p>Sparker</p></a>
+</div></div>
+
+<div class="staging-container">
+  <div id="singeman-container" class="sides-grid side-container">
+    <a href="#singeman" id="singeman" class="grid-item scalder-item side-item" onclick="toggle_desc('singeman1-desc');"><p>ID</p></a>
+    <a href="#singeman" id="scalder-melee1" class="grid-item scalder-item side-item" onclick="toggle_desc('singeman2-desc');"><p>Melee</p></a>
+    <a href="#singeman" id="scalder-missile1" class="grid-item scalder-item side-item" onclick="toggle_desc('singeman3-desc');"><p>Missile</p></a>
+    <a href="#singeman" id="scalder-maneuver1" class="grid-item scalder-item side-item" onclick="toggle_desc('singeman4-desc');"><p>Maneuver</p></a>
+    <a href="#singeman" id="scalder-melee1" class="grid-item scalder-item side-item" onclick="toggle_desc('singeman5-desc');"><p>Melee</p></a>
+    <a href="#singeman" id="scalder-melee2" class="grid-item scalder-item side-item" onclick="toggle_desc('singeman6-desc');"><p>Melee</p></a>
+  </div>
+  <div id="kindler-container" class="sides-grid side-container">
+    <a href="#kindler" id="kindler" class="grid-item scalder-item side-item" onclick="toggle_desc('kindler1-desc');"><p>ID</p></a>
+    <a href="#kindler" id="scalder-melee1" class="grid-item scalder-item side-item" onclick="toggle_desc('kindler2-desc');"><p>Melee</p></a>
+    <a href="#kindler" id="scalder-maneuver1" class="grid-item scalder-item side-item" onclick="toggle_desc('kindler3-desc');"><p>Maneuver</p></a>
+    <a href="#kindler" id="scalder-maneuver1" class="grid-item scalder-item side-item" onclick="toggle_desc('kindler4-desc');"><p>Maneuver</p></a>
+    <a href="#kindler" id="scalder-melee1" class="grid-item scalder-item side-item" onclick="toggle_desc('kindler5-desc');"><p>Melee</p></a>
+    <a href="#kindler" id="scalder-missile2" class="grid-item scalder-item side-item" onclick="toggle_desc('kindler6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="glower-container" class="sides-grid side-container">
+    <a href="#glower" id="glower" class="grid-item scalder-item side-item" onclick="toggle_desc('glower1-desc');"><p>ID</p></a>
+    <a href="#glower" id="scalder-missile1" class="grid-item scalder-item side-item" onclick="toggle_desc('glower2-desc');"><p>Missile</p></a>
+    <a href="#glower" id="scalder-melee1" class="grid-item scalder-item side-item" onclick="toggle_desc('glower3-desc');"><p>Melee</p></a>
+    <a href="#glower" id="scalder-maneuver1" class="grid-item scalder-item side-item" onclick="toggle_desc('glower4-desc');"><p>Maneuver</p></a>
+    <a href="#glower" id="scalder-maneuver1" class="grid-item scalder-item side-item" onclick="toggle_desc('glower5-desc');"><p>Maneuver</p></a>
+    <a href="#glower" id="scalder-missile2" class="grid-item scalder-item side-item" onclick="toggle_desc('glower6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="dragonnetender-container" class="sides-grid side-container">
+    <a href="#dragonnetender" id="dragonnetender" class="grid-item scalder-item side-item" onclick="toggle_desc('dragonnetender1-desc');"><p>ID</p></a>
+    <a href="#dragonnetender" id="scalder-hoof1" class="grid-item scalder-item side-item" onclick="toggle_desc('dragonnetender2-desc');"><p>Maneuver</p></a>
+    <a href="#dragonnetender" id="scalder-melee1" class="grid-item scalder-item side-item" onclick="toggle_desc('dragonnetender3-desc');"><p>Melee</p></a>
+    <a href="#dragonnetender" id="scalder-melee1" class="grid-item scalder-item side-item" onclick="toggle_desc('dragonnetender4-desc');"><p>Melee</p></a>
+    <a href="#dragonnetender" id="scalder-hoof2" class="grid-item scalder-item side-item" onclick="toggle_desc('dragonnetender5-desc');"><p>Maneuver</p></a>
+    <a href="#dragonnetender" id="scalder-missile1" class="grid-item scalder-item side-item" onclick="toggle_desc('dragonnetender6-desc');"><p>Missile</p></a>
+  </div>
+  <div id="sparker-container" class="sides-grid side-container">
+    <a href="#sparker" id="sparker" class="grid-item scalder-item side-item" onclick="toggle_desc('sparker1-desc');"><p>ID</p></a>
+    <a href="#sparker" id="scalder-magic1" class="grid-item scalder-item side-item" onclick="toggle_desc('sparker2-desc');"><p>Magic</p></a>
+    <a href="#sparker" id="scalder-melee1" class="grid-item scalder-item side-item" onclick="toggle_desc('sparker3-desc');"><p>Melee</p></a>
+    <a href="#sparker" id="scalder-maneuver1" class="grid-item scalder-item side-item" onclick="toggle_desc('sparker4-desc');"><p>Maneuver</p></a>
+    <a href="#sparker" id="scalder-magic1" class="grid-item scalder-item side-item" onclick="toggle_desc('sparker5-desc');"><p>Magic</p></a>
+    <a href="#sparker" id="scalder-magic2" class="grid-item scalder-item side-item" onclick="toggle_desc('sparker6-desc');"><p>Magic</p></a>
+  </div>
+  <div class="desc-container">
+    <p id="singeman1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, missile, or maneuver results.</p>
+    <p id="singeman2-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="singeman3-desc" class="sidedesc">Missile: Generates 1 point of missile results.</p>
+    <p id="singeman4-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="singeman5-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="singeman6-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="kindler1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, missile, or maneuver results.</p>
+    <p id="kindler2-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="kindler3-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="kindler4-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="kindler5-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="kindler6-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="glower1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, missile, or maneuver results.</p>
+    <p id="glower2-desc" class="sidedesc">Missile: Generates 1 point of missile results.</p>
+    <p id="glower3-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="glower4-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="glower5-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="glower6-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="dragonnetender1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, missile, or maneuver results.</p>
+    <p id="dragonnetender2-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="dragonnetender3-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="dragonnetender4-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="dragonnetender5-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="dragonnetender6-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="sparker1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, missile, or maneuver results.</p>
+    <p id="sparker2-desc" class="sidedesc">Magic: Generates 1 point of magic results.</p>
+    <p id="sparker3-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="sparker4-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="sparker5-desc" class="sidedesc">Magic: Generates 1 point of magic results.</p>
+    <p id="sparker6-desc" class="sidedesc">Magic: Generates 2 points of magic results.</p>
+  </div>
+</div>
+
+<div class="ability">
+  <h3>Racial Ability</h3>
+  <p>Scorching Touch: Scalders, when rolling for saves during the attack phase of a melee action, generate one point of damage for each non-ID save result back against the attacking army. Only magical saves protect against this damage.</p>
+  <p>Intangibility: During a save roll against a missile action, each Scalder unit in the defending army provides one automatic save result to this army against any non-SAI missile damage.</p>
+</div>
+
+</body>
+</html>

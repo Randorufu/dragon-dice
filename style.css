@@ -257,7 +257,7 @@ a {
 }
 
 .scalder-item p {
-  color: #dbca8d;
+  color: #DDCF9D;
   background-color: rgba(140, 21, 35, 0.9);
 }
 
@@ -841,9 +841,234 @@ a {
 
 /* Scalder Backgrounds */
 
+#scalder-melee1 {
+  background-image: url("img/scalder-melee1.png");
+}
+
+#scalder-melee2 {
+  background-image: url("img/scalder-melee2.png");
+}
+
+#scalder-melee3 {
+  background-image: url("img/scalder-melee3.png");
+}
+
+#scalder-melee4 {
+  background-image: url("img/scalder-melee4.png");
+}
+
+#scalder-missile1 {
+  background-image: url("img/scalder-missile1.png");
+}
+
+#scalder-missile2 {
+  background-image: url("img/scalder-missile2.png");
+}
+
+#scalder-missile3 {
+  background-image: url("img/scalder-missile3.png");
+}
+
+#scalder-missile4 {
+  background-image: url("img/scalder-missile4.png");
+}
+
+#scalder-maneuver1 {
+  background-image: url("img/scalder-maneuver1.png");
+}
+
+#scalder-maneuver2 {
+  background-image: url("img/scalder-maneuver2.png");
+}
+
+#scalder-maneuver3 {
+  background-image: url("img/scalder-maneuver3.png");
+}
+
+#scalder-save2 {
+  background-image: url("img/scalder-save2.png");
+}
+
+#scalder-save3 {
+  background-image: url("img/scalder-save3.png");
+}
+
+#scalder-magic1 {
+  background-image: url("img/scalder-magic1.png");
+}
+
+#scalder-magic2 {
+  background-image: url("img/scalder-magic2.png");
+}
+
+#scalder-magic3 {
+  background-image: url("img/scalder-magic3.png");
+}
+
+#scalder-magic4 {
+  background-image: url("img/scalder-magic4.png");
+}
+
+#scalder-fly3 {
+  background-image: url("img/scalder-fly3.png");
+}
+
+#scalder-bullseye {
+  background-image: url("img/scalder-bullseye.png");
+}
+
+#scalder-cantrip {
+  background-image: url("img/scalder-cantrip.png");
+}
+
+#scalder-counter {
+  background-image: url("img/scalder-counter.png");
+}
+
+#scalder-smite {
+  background-image: url("img/scalder-smite.png");
+}
+
+#scalder-bullseyem {
+  background-image: url("img/scalder-bullseyem.png");
+}
+
+#scalder-cantripm {
+  background-image: url("img/scalder-cantripm.png");
+}
+
+#scalder-confusem {
+  background-image: url("img/scalder-confusem.png");
+}
+
+#scalder-counterm {
+  background-image: url("img/scalder-counterm.png");
+}
+
+#scalder-dispelmagicm {
+  background-image: url("img/scalder-dispelmagicm.png");
+}
+
+#scalder-flym {
+  background-image: url("img/scalder-flym.png");
+}
+
+#scalder-magicm {
+  background-image: url("img/scalder-magicm.png");
+}
+
+#scalder-maneuverm {
+  background-image: url("img/scalder-maneuverm.png");
+}
+
+#scalder-meleem {
+  background-image: url("img/scalder-meleem.png");
+}
+
+#scalder-missilem {
+  background-image: url("img/scalder-missilem.png");
+}
+
+#scalder-poisonm {
+  background-image: url("img/scalder-poisonm.png");
+}
+
+#scalder-rendm {
+  background-image: url("img/scalder-rendm.png");
+}
+
+#scalder-savem {
+  background-image: url("img/scalder-savem.png");
+}
+
+#scalder-smitem {
+  background-image: url("img/scalder-smitem.png");
+}
+
+#scalder-webm {
+  background-image: url("img/scalder-webm.png");
+}
+
+#blazer {
+  background-image: url("img/blazer.png");
+}
+
+#burner {
+  background-image: url("img/burner.png");
+}
+
+#charkin {
+  background-image: url("img/charkin.png");
+}
+
+#dragonneknight {
+  background-image: url("img/dragonneknight.png");
+}
+
+#dragonnerider {
+  background-image: url("img/dragonnerider.png");
+}
+
+#dragonnetender {
+  background-image: url("img/dragonnetender.png");
+}
+
+#ettercap {
+  background-image: url("img/ettercap.png");
+}
+
+#glower {
+  background-image: url("img/glower.png");
+}
+
 #igniter {
   background-image: url("img/igniter.png");
 }
+
+#inferno {
+  background-image: url("img/inferno.png");
+}
+
+#kindler {
+  background-image: url("img/kindler.png");
+}
+
+#quickling {
+  background-image: url("img/quickling.png");
+}
+
+#searer {
+  background-image: url("img/searer.png");
+}
+
+#scorcher {
+  background-image: url("img/scorcher.png");
+}
+
+#singeman {
+  background-image: url("img/singeman.png");
+}
+
+#smolderer {
+  background-image: url("img/smolderer.png");
+}
+
+#sparker {
+  background-image: url("img/sparker.png");
+}
+
+#unseeliefaerie {
+  background-image: url("img/unseeliefaerie.png");
+}
+
+#webbirds {
+  background-image: url("img/webbirds.png");
+}
+
+#willowisp {
+  background-image: url("img/willowisp.png");
+}
+
 
 
 /* Swamp Stalker Backgrounds */
