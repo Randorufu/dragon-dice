@@ -165,6 +165,11 @@ a {
   text-decoration: none;
 }
 
+p, span {
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
 .side-container {
   text-align: center;
 }
@@ -201,12 +206,16 @@ a {
   width: 70%;
 }
 
-.spell-flex {
-  display: flex;
-  justify-content: space-between;
+#spell-container {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.spell-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
   text-transform: none;
   font-weight: normal;
   font-size: 0.8em;
@@ -223,9 +232,7 @@ span:first-of-type {
 
 .spell-desc {
   text-align: left;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
   text-transform: none;
   font-weight: normal;
   font-size: 0.7em;
@@ -234,7 +241,7 @@ span:first-of-type {
 
 @media screen and (max-width: 1600px) {
 
-    .spell-flex, .spell-desc {
+    #spell-container {
 	width: 70%;
     }
 
@@ -269,7 +276,7 @@ span:first-of-type {
         height: 4em;
     }
 
-    .spell-flex, .spell-desc {
+    #spell-container {
 	width: 94%;
     }
 
@@ -927,6 +934,14 @@ span:first-of-type {
   background-image: url("img/scalder-melee4.png");
 }
 
+#scalder-melee5 {
+  background-image: url("img/scalder-melee5.png");
+}
+
+#scalder-melee6 {
+  background-image: url("img/scalder-melee6.png");
+}
+
 #scalder-missile1 {
   background-image: url("img/scalder-missile1.png");
 }
@@ -943,6 +958,10 @@ span:first-of-type {
   background-image: url("img/scalder-missile4.png");
 }
 
+#scalder-missile6 {
+  background-image: url("img/scalder-missile6.png");
+}
+
 #scalder-maneuver1 {
   background-image: url("img/scalder-maneuver1.png");
 }
@@ -955,12 +974,32 @@ span:first-of-type {
   background-image: url("img/scalder-maneuver3.png");
 }
 
-#scalder-save2 {
-  background-image: url("img/scalder-save2.png");
+#scalder-paw1 {
+  background-image: url("img/scalder-paw1.png");
 }
 
-#scalder-save3 {
-  background-image: url("img/scalder-save3.png");
+#scalder-paw2 {
+  background-image: url("img/scalder-paw2.png");
+}
+
+#scalder-paw3 {
+  background-image: url("img/scalder-paw3.png");
+}
+
+#scalder-paw4 {
+  background-image: url("img/scalder-paw4.png");
+}
+
+#scalder-paw6 {
+  background-image: url("img/scalder-paw6.png");
+}
+
+#scalder-save1 {
+  background-image: url("img/scalder-save1.png");
+}
+
+#scalder-save2 {
+  background-image: url("img/scalder-save2.png");
 }
 
 #scalder-magic1 {
@@ -979,12 +1018,16 @@ span:first-of-type {
   background-image: url("img/scalder-magic4.png");
 }
 
-#scalder-fly3 {
-  background-image: url("img/scalder-fly3.png");
+#scalder-magic6 {
+  background-image: url("img/scalder-magic6.png");
 }
 
-#scalder-bullseye {
-  background-image: url("img/scalder-bullseye.png");
+#scalder-fly4 {
+  background-image: url("img/scalder-fly4.png");
+}
+
+#scalder-flamingarrow {
+  background-image: url("img/scalder-flamingarrow.png");
 }
 
 #scalder-cantrip {
@@ -1043,16 +1086,8 @@ span:first-of-type {
   background-image: url("img/scalder-poisonm.png");
 }
 
-#scalder-rendm {
-  background-image: url("img/scalder-rendm.png");
-}
-
 #scalder-savem {
   background-image: url("img/scalder-savem.png");
-}
-
-#scalder-smitem {
-  background-image: url("img/scalder-smitem.png");
 }
 
 #scalder-webm {

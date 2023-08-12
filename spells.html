@@ -1,4 +1,4 @@
-C<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -14,8 +14,10 @@ C<!DOCTYPE html>
 
 <h2>Spells</h2>
 
-<div id="air" class="one-grid center"><a href="#air" class="grid-item air-item elemental-item"></a></div>
-<h2>Air<h2/>
+<div id="spell-container">
+
+<div id="air" class="one-grid center"><span class="grid-item air-item elemental-item"></span></div>
+<h2>Air</h2>
 
 <div class="spell-flex"><span>Hailstorm</span><span>Cost: 2</span><span>List: Basic</span></div>
 <p class="spell-desc">Target any enemy army. Immediately inflict one point of damage to the target army, which may roll to save. Multiple castings increase the effect or target another army.</p>
@@ -61,24 +63,91 @@ C<!DOCTYPE html>
 
 
 
+<div id="death" class="one-grid center"><span class="grid-item death-item elemental-item"></span></div>
+<h2>Death</h2>
+
+<div class="spell-flex"><span>Ashes to Ashes</span><span>Cost: 2</span><span>List: Basic</span></div>
+<p class="spell-desc">Target one health-worth of units in any enemy’s DUA. Target units are immediately buried. Multiple castings increase the number of health affected or target another DUA.</p>
+
+<div class="spell-flex"><span>Decay</span><span>Cost: 2</span><span>List: Swamp Stalker</span></div>
+<p class="spell-desc">Target any enemy army. Until the beginning of your next turn, subtract one melee result from the target army. Multiple castings increase the effect or target another army.</p>
+
+<div class="spell-flex"><span>Evil Eye</span><span>Cost: 2</span><span>List: Undead</span></div>
+<p class="spell-desc">Target any enemy army. Until the end of your next turn, subtract one save result from the target army. Multiple castings increase the effect or target another army.</p>
+
+<div class="spell-flex"><span>Palsy</span><span>Cost: 3</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any enemy army. Until the beginning of your next turn, subtract one result from the target army. Multiple castings increase the effect or target another army. During a combination roll, the owner of the acting army chooses how to apply the penalty.</p>
+
+<div class="spell-flex"><span>Reanimate Dead</span><span>Cost: 3</span><span>List: Basic</span></div>
+<p class="spell-desc">Target one health-worth of units in your DUA. Target units immediately join the casting army. Multiple castings increase the number of health affected.</p>
+
+<div class="spell-flex"><span>Fade</span><span>Cost: 3</span><span>List: Undead</span></div>
+<p class="spell-desc">Target one of your Undead units. Until the end of your next turn, the target unit cannot roll during a melee or missile action or during a dragon attack, cannot be the target of a missile, melee, or dragon effect or be taken as a casualty for this damage, and cannot be promoted. Multiple castings target multiple units.</p>
+
+<div class="spell-flex"><span>Magic Drain</span><span>Cost: 3</span><span>List: Frostwing</span></div>
+<p class="spell-desc">Target any terrain. Until the beginning of your next turn, subtract two magic results at the target terrain. Multiple castings increase the effect or target another terrain.</p>
+
+<div class="spell-flex"><span>Deadlands</span><span>Cost: 4</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any terrain. Until the terrain face is changed, the target terrain gains the death (black) element. Multiple castings target multiple terrains.</p>
+
+<div class="spell-flex"><span>Finger of Death</span><span>Cost: 4</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any enemy unit. Immediately inflict one point of damage to the target unit with no save possible. Multiple castings increase the effect or target another unit.</p>
+
+<div class="spell-flex"><span>Honor the Dead</span><span>Cost: 4</span><span>List: Amazon</span></div>
+<p class="spell-desc">Target any DUA. Until the beginning of your next turn, only dead units with the death (black) aspect in the target DUA can be buried. This spell can be cast only once per magic action.</p>
+
+<div class="spell-flex"><span>Necromantic Wave</span><span>Cost: 4</span><span>List: Lava Elf</span></div>
+<p class="spell-desc">Target any army. Until the beginning of your next turn, all magic results in the target army may be counted as melee results. Multiple castings target multiple armies.</p>
+
+<div class="spell-flex"><span>Restless Dead</span><span>Cost: 4</span><span>List: Undead</span></div>
+<p class="spell-desc">Target any army. Until the beginning of your next turn, add four maneuver results to the target army. Multiple castings increase the effect or target another army.</p>
+
+<div class="spell-flex"><span>Spirit Furnace</span><span>Cost: 4</span><span>List: Goblin</span></div>
+<p class="spell-desc">Target your DUA. All dead units are immediately buried and are counted as a number of points of death (black) magic equal to double their total health value buried. The points of magic acquired by this spell may be used to cast racial spells for any race that is in the casting army. This spell can be cast only once per magic action</p>
+
+<div class="spell-flex"><span>Open Grave</span><span>Cost: 6</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any army. Until the beginning of your next turn, for any army-targeting effect that causes damage to the target army, any units taken as casualties immediately go to the reserve area rather than the DUA. Multiple castings target multiple armies</p>
+
+<div class="spell-flex"><span>Exhume</span><span>Cost: 6</span><span>List: Undead</span></div>
+<p class="spell-desc">Target any enemy DUA. Choose up to three health-worth of dead units that must immediately roll a save or be buried. A number of Undead units from your DUA, up to the total number of health buried, may join the casting army. Multiple castings increase the number of health affected or target another DUA.</p>
+
+<div class="spell-flex"><span>Soiled Ground</span><span>Cost: 6</span><span>List: Goblin</span></div>
+<p class="spell-desc">Target any swampland terrain. Until the beginning of your next turn, any unit killed at the target terrain that goes into the DUA must roll a save or be buried. Multiple castings target multiple terrains.</p>
+
+<div class="spell-flex"><span>Haunt</span><span>Cost: 8</span><span>List: Undead</span></div>
+<p class="spell-desc">Target your DUA. All dead units form into a magically constructed army that immediately takes a melee action against any enemy army. Bury any of your units killed during this melee action and return the rest to your DUA. This spell can be cast only once per magic action.</p>
+
+<div class="spell-flex"><span>Night Moves</span><span>Cost: 9</span><span>List: Undead</span></div>
+<p class="spell-desc">Target any of your armies containing an Undead unit at a terrain. The army immediately attempts to maneuver the terrain. Opponents at the terrain may counter-maneuver as usual. This spell can be cast only once per magic action.</p>
 
 
-<div id="death" class="one-grid center"><a href="#death" class="grid-item death-item elemental-item"></a></div>
-<h2>Death<h2/>
 
+<div id="earth" class="one-grid center"><span class="grid-item earth-item elemental-item"></span></div>
+<h2>Earth</h2>
 
-<div id="earth" class="one-grid center"><a href="#earth" class="grid-item earth-item elemental-item"></a></div>
-<h2>Earth<h2/>
-
-
-
-<div id="fire" class="one-grid center"><a href="#fire" class="grid-item fire-item elemental-item"></a></div>
-<h2>Fire<h2/>
+<div class="spell-flex"><span>Stoneskin</span><span>Cost: 2</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any army. Until the beginning of your next turn, add one save result to the target army. Multiple castings increase the effect or target another army.</p>
 
 
 
-<div id="water" class="one-grid center"><a href="#water" class="grid-item water-item elemental-item"></a></div>
-<h2>Water<h2/>
 
+
+<div id="fire" class="one-grid center"><span class="grid-item fire-item elemental-item"></span></div>
+<h2>Fire</h2>
+
+<div class="spell-flex"><span>Ash Storm</span><span>Cost: 2</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any terrain. Until the beginning of your next turn, subtract one result at the target terrain. Multiple castings increase the effect or target another terrain. During a combination roll, the owner of the acting army chooses how to apply the penalty</p>
+
+
+
+
+
+<div id="water" class="one-grid center"><span class="grid-item water-item elemental-item"></span></div>
+<h2>Water</h2>
+
+<div class="spell-flex"><span>Watery Double</span><span>Cost: 2</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any army. Until the end of your next turn, add one save result to the target army. Multiple castings increase the effect or target another army.</p>
+
+</div>
 </body>
 </html>
