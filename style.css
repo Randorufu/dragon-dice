@@ -206,7 +206,7 @@ p, span {
   width: 70%;
 }
 
-#spell-container {
+#spell-container, #rules-container {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -239,9 +239,48 @@ span:first-of-type {
   margin-bottom: 3em;
 }
 
+#rules-container * {
+  text-align: left;
+  text-transform: none;
+  font-weight: normal;
+}
+
+#rules-container h2 {
+  text-align: center;
+}
+
+#rules-container p, li {
+  font-size: 0.8em;
+}
+
+ol {
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+ol li {
+  color: #ffffff;
+  font-family: sans-serif;
+  list-style-type: decimal;
+  width: auto;
+  margin-left: 1em;
+  margin-bottom: 0.2em;
+}
+
+#topbar a, #topbar h2 {
+  width: auto;
+  display: inline;
+}
+
+#topbar a:last-of-type {
+  float: right;
+  margin-top: 0.7em;
+  margin-right: 1em;
+}
+
 @media screen and (max-width: 1600px) {
 
-    #spell-container {
+    #spell-container, #rules-container {
 	width: 70%;
     }
 
@@ -276,7 +315,7 @@ span:first-of-type {
         height: 4em;
     }
 
-    #spell-container {
+    #spell-container, #rules-container {
 	width: 94%;
     }
 
