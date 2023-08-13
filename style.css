@@ -876,8 +876,276 @@ span:first-of-type {
 
 /* Feral Backgrounds */
 
+#antelopefolk {
+  background-image: url("img/antelopefolk.png");
+}
+
+#badgerfolk {
+  background-image: url("img/badgerfolk.png");
+}
+
+#bearfolk {
+  background-image: url("img/bearfolk.png");
+}
+
 #buffalofolk {
   background-image: url("img/buffalofolk.png");
+}
+
+#elephantfolk {
+  background-image: url("img/elephantfolk.png");
+}
+
+#falconfolk {
+  background-image: url("img/falconfolk.png");
+}
+
+#foxfolk {
+  background-image: url("img/foxfolk.png");
+}
+
+#hawkfolk {
+  background-image: url("img/hawkfolk.png");
+}
+
+#horsefolk {
+  background-image: url("img/horsefolk.png");
+}
+
+#houndfolk {
+  background-image: url("img/houndfolk.png");
+}
+
+#leopardfolk {
+  background-image: url("img/leopardfolk.png");
+}
+
+#lionfolk {
+  background-image: url("img/lionfolk.png");
+}
+
+#lynxfolk {
+  background-image: url("img/lynxfolk.png");
+}
+
+#owlfolk {
+  background-image: url("img/owlfolk.png");
+}
+
+#rhinofolk {
+  background-image: url("img/rhinofolk.png");
+}
+
+#tigerfolk {
+  background-image: url("img/tigerfolk.png");
+}
+
+#vulturefolk {
+  background-image: url("img/vulturefolk.png");
+}
+
+#weaselfolk {
+  background-image: url("img/weaselfolk.png");
+}
+
+#wolffolk {
+  background-image: url("img/wolffolk.png");
+}
+
+#wolverinefolk {
+  background-image: url("img/wolverinefolk.png");
+}
+
+#feral-bullseye {
+  background-image: url("img/feral-bullseye.png");
+}
+
+#feral-cantrip {
+  background-image: url("img/feral-cantrip.png");
+}
+
+#feral-counter {
+  background-image: url("img/feral-counter.png");
+}
+
+#feral-dispelmagicm {
+  background-image: url("img/feral-dispelmagicm.png");
+}
+
+#feral-doublestrike {
+  background-image: url("img/feral-doublestrike.png");
+}
+
+#feral-doublestrikem {
+  background-image: url("img/feral-doublestrikem.png");
+}
+
+#feral-flym {
+  background-image: url("img/feral-flym.png");
+}
+
+#feral-gorem {
+  background-image: url("img/feral-gorem.png");
+}
+
+#feral-hugm {
+  background-image: url("img/feral-hugm.png");
+}
+
+#feral-magic1 {
+  background-image: url("img/feral-magic1.png");
+}
+
+#feral-magic2 {
+  background-image: url("img/feral-magic2.png");
+}
+
+#feral-magic3 {
+  background-image: url("img/feral-magic3.png");
+}
+
+#feral-magic4 {
+  background-image: url("img/feral-magic4.png");
+}
+
+#feral-magicm {
+  background-image: url("img/feral-magicm.png");
+}
+
+#feral-maneuver1 {
+  background-image: url("img/feral-maneuver1.png");
+}
+
+#feral-maneuver2 {
+  background-image: url("img/feral-maneuver2.png");
+}
+
+#feral-maneuver3 {
+  background-image: url("img/feral-maneuver3.png");
+}
+
+#feral-maneuver4 {
+  background-image: url("img/feral-maneuver4.png");
+}
+
+#feral-maneuverm {
+  background-image: url("img/feral-maneuverm.png");
+}
+
+#feral-melee1 {
+  background-image: url("img/feral-melee1.png");
+}
+
+#feral-melee2 {
+  background-image: url("img/feral-melee2.png");
+}
+
+#feral-melee3 {
+  background-image: url("img/feral-melee3.png");
+}
+
+#feral-melee4 {
+  background-image: url("img/feral-melee4.png");
+}
+
+#feral-meleem {
+  background-image: url("img/feral-meleem.png");
+}
+
+#feral-missile1 {
+  background-image: url("img/feral-missile1.png");
+}
+
+#feral-missile2 {
+  background-image: url("img/feral-missile2.png");
+}
+
+#feral-missile3 {
+  background-image: url("img/feral-missile3.png");
+}
+
+#feral-missile4 {
+  background-image: url("img/feral-missile4.png");
+}
+
+#feral-missilem {
+  background-image: url("img/feral-missilem.png");
+}
+
+#feral-paw1 {
+  background-image: url("img/feral-paw1.png");
+}
+
+#feral-paw2 {
+  background-image: url("img/feral-paw2.png");
+}
+
+#feral-paw3 {
+  background-image: url("img/feral-paw3.png");
+}
+
+#feral-paw4 {
+  background-image: url("img/feral-paw4.png");
+}
+
+#feral-pawm {
+  background-image: url("img/feral-pawm.png");
+}
+
+#feral-rend3 {
+  background-image: url("img/feral-rend3.png");
+}
+
+#feral-roarm {
+  background-image: url("img/feral-roarm.png");
+}
+
+#feral-save1 {
+  background-image: url("img/feral-save1.png");
+}
+
+#feral-save2 {
+  background-image: url("img/feral-save2.png");
+}
+
+#feral-save3 {
+  background-image: url("img/feral-save3.png");
+}
+
+#feral-save4 {
+  background-image: url("img/feral-save4.png");
+}
+
+#feral-savem {
+  background-image: url("img/feral-savem.png");
+}
+
+#feral-screechm {
+  background-image: url("img/feral-screechm.png");
+}
+
+#feral-seizem {
+  background-image: url("img/feral-seizem.png");
+}
+
+#feral-talon1 {
+  background-image: url("img/feral-talon1.png");
+}
+
+#feral-talon2 {
+  background-image: url("img/feral-talon2.png");
+}
+
+#feral-talon3 {
+  background-image: url("img/feral-talon3.png");
+}
+
+#feral-tramplem {
+  background-image: url("img/feral-tramplem.png");
+}
+
+#feral-trumpetm {
+  background-image: url("img/feral-trumpetm.png");
 }
 
 

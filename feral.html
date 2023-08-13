@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Feral</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="script.js" type="text/javascript"></script>
+  <link rel="icon" href="favicon.png">
+</head>
+<body>
+
+<a href="index.html"><h1>Dragon Dice<h1/></a>
+
+<h2>Feral</h2>
+
+<div class="center"><div class="single-grid">
+  <a href="#lionfolk" id="lionfolk" class="grid-item feral-item" onclick="toggle_sides('lionfolk-container');"><p>Lion-folk</p></a>
+  <a href="#elephantfolk" id="elephantfolk" class="grid-item feral-item" onclick="toggle_sides('elephantfolk-container');"><p>Elephant-folk</p></a>
+  <a href="#owlfolk" id="owlfolk"" class="grid-item feral-item" onclick="toggle_sides('owlfolk-container');"><p>Owl-folk</p></a>
+  <a href="#rhinofolk" id="rhinofolk" class="grid-item feral-item" onclick="toggle_sides('rhinofolk-container');"><p>Rhino-folk</p></a>
+  <a href="#bearfolk" id="bearfolk" class="grid-item feral-item" onclick="toggle_sides('bearfolk-container');"><p>Bear-folk</p></a>
+</div></div>
+
+<div class="staging-container">
+  <div id="lionfolk-container" class="msides-grid side-container">
+    <a href="#lionfolk" id="lionfolk" class="grid-item feral-item side-item" onclick="toggle_desc('lionfolk1-desc');"><p>ID</p></a>
+    <a href="#lionfolk" id="feral-roarm" class="grid-item feral-item side-item" onclick="toggle_desc('lionfolk2-desc');"><p>Roar</p></a>
+    <a href="#lionfolk" id="feral-savem" class="grid-item feral-item side-item" onclick="toggle_desc('lionfolk3-desc');"><p>Saves</p></a>
+    <a href="#lionfolk" id="feral-doublestrikem" class="grid-item feral-item side-item" onclick="toggle_desc('lionfolk4-desc');"><p>Double Strike</p></a>
+    <a href="#lionfolk" id="feral-pawm" class="grid-item feral-item side-item" onclick="toggle_desc('lionfolk5-desc');"><p>Maneuver</p></a>
+    <a href="#lionfolk" id="feral-doublestrikem" class="grid-item feral-item side-item" onclick="toggle_desc('lionfolk6-desc');"><p>Double Strike</p></a>
+    <a href="#lionfolk" id="feral-roarm" class="grid-item feral-item side-item" onclick="toggle_desc('lionfolk7-desc');"><p>Roar</p></a>
+    <a href="#lionfolk" id="feral-pawm" class="grid-item feral-item side-item" onclick="toggle_desc('lionfolk8-desc');"><p>Maneuver</p></a>
+    <a href="#lionfolk" id="feral-savem" class="grid-item feral-item side-item" onclick="toggle_desc('lionfolk9-desc');"><p>Saves</p></a>
+    <a href="#lionfolk" id="feral-meleem" class="grid-item feral-item side-item" onclick="toggle_desc('lionfolk10-desc');"><p>Melee</p></a>
+  </div>
+  <div id="elephantfolk-container" class="msides-grid side-container">
+    <a href="#elephantfolk" id="elephantfolk" class="grid-item feral-item side-item" onclick="toggle_desc('elephantfolk1-desc');"><p>ID</p></a>
+    <a href="#elephantfolk" id="feral-savem" class="grid-item feral-item side-item" onclick="toggle_desc('elephantfolk2-desc');"><p>Saves</p></a>
+    <a href="#elephantfolk" id="feral-tramplem" class="grid-item feral-item side-item" onclick="toggle_desc('elephantfolk3-desc');"><p>Trample</p></a>
+    <a href="#elephantfolk" id="feral-savem" class="grid-item feral-item side-item" onclick="toggle_desc('elephantfolk4-desc');"><p>Saves</p></a>
+    <a href="#elephantfolk" id="feral-tramplem" class="grid-item feral-item side-item" onclick="toggle_desc('elephantfolk5-desc');"><p>Trample</p></a>
+    <a href="#elephantfolk" id="feral-meleem" class="grid-item feral-item side-item" onclick="toggle_desc('elephantfolk6-desc');"><p>Melee</p></a>
+    <a href="#elephantfolk" id="feral-trumpetm" class="grid-item feral-item side-item" onclick="toggle_desc('elephantfolk7-desc');"><p>Trumpet</p></a>
+    <a href="#elephantfolk" id="feral-meleem" class="grid-item feral-item side-item" onclick="toggle_desc('elephantfolk8-desc');"><p>Melee</p></a>
+    <a href="#elephantfolk" id="feral-trumpetm" class="grid-item feral-item side-item" onclick="toggle_desc('elephantfolk9-desc');"><p>Trumpet</p></a>
+    <a href="#elephantfolk" id="feral-savem" class="grid-item feral-item side-item" onclick="toggle_desc('elephantfolk10-desc');"><p>Saves</p></a>
+  </div>
+  <div id="owlfolk-container" class="msides-grid side-container">
+    <a href="#owlfolk" id="owlfolk" class="grid-item feral-item side-item" onclick="toggle_desc('owlfolk1-desc');"><p>ID</p></a>
+    <a href="#owlfolk" id="feral-flym" class="grid-item feral-item side-item" onclick="toggle_desc('owlfolk2-desc');"><p>Fly</p></a>
+    <a href="#owlfolk" id="feral-dispelmagicm" class="grid-item feral-item side-item" onclick="toggle_desc('owlfolk3-desc');"><p>Dispel Magic</p></a>
+    <a href="#owlfolk" id="feral-magicm" class="grid-item feral-item side-item" onclick="toggle_desc('owlfolk4-desc');"><p>Magic</p></a>
+    <a href="#owlfolk" id="feral-screechm" class="grid-item feral-item side-item" onclick="toggle_desc('owlfolk5-desc');"><p>Screech</p></a>
+    <a href="#owlfolk" id="feral-seizem" class="grid-item feral-item side-item" onclick="toggle_desc('owlfolk6-desc');"><p>Seize</p></a>
+    <a href="#owlfolk" id="feral-magicm" class="grid-item feral-item side-item" onclick="toggle_desc('owlfolk7-desc');"><p>Magic</p></a>
+    <a href="#owlfolk" id="feral-flym" class="grid-item feral-item side-item" onclick="toggle_desc('owlfolk8-desc');"><p>Fly</p></a>
+    <a href="#owlfolk" id="feral-dispelmagicm" class="grid-item feral-item side-item" onclick="toggle_desc('owlfolk9-desc');"><p>Dispel Magic</p></a>
+    <a href="#owlfolk" id="feral-magicm" class="grid-item feral-item side-item" onclick="toggle_desc('owlfolk10-desc');"><p>Magic</p></a>
+  </div>
+  <div id="rhinofolk-container" class="msides-grid side-container">
+    <a href="#rhinofolk" id="rhinofolk" class="grid-item feral-item side-item" onclick="toggle_desc('rhinofolk1-desc');"><p>ID</p></a>
+    <a href="#rhinofolk" id="feral-maneuverm" class="grid-item feral-item side-item" onclick="toggle_desc('rhinofolk2-desc');"><p>Maneuver</p></a>
+    <a href="#rhinofolk" id="feral-savem" class="grid-item feral-item side-item" onclick="toggle_desc('rhinofolk3-desc');"><p>Saves</p></a>
+    <a href="#rhinofolk" id="feral-meleem" class="grid-item feral-item side-item" onclick="toggle_desc('rhinofolk4-desc');"><p>Melee</p></a>
+    <a href="#rhinofolk" id="feral-gorem" class="grid-item feral-item side-item" onclick="toggle_desc('rhinofolk5-desc');"><p>Gore</p></a>
+    <a href="#rhinofolk" id="feral-gorem" class="grid-item feral-item side-item" onclick="toggle_desc('rhinofolk6-desc');"><p>Gore</p></a>
+    <a href="#rhinofolk" id="feral-meleem" class="grid-item feral-item side-item" onclick="toggle_desc('rhinofolk7-desc');"><p>Melee</p></a>
+    <a href="#rhinofolk" id="feral-tramplem" class="grid-item feral-item side-item" onclick="toggle_desc('rhinofolk8-desc');"><p>Trample</p></a>
+    <a href="#rhinofolk" id="feral-savem" class="grid-item feral-item side-item" onclick="toggle_desc('rhinofolk9-desc');"><p>Saves</p></a>
+    <a href="#rhinofolk" id="feral-maneuverm" class="grid-item feral-item side-item" onclick="toggle_desc('rhinofolk10-desc');"><p>Maneuver</p></a>
+  </div>
+  <div id="bearfolk-container" class="msides-grid side-container">
+    <a href="#bearfolk" id="bearfolk" class="grid-item feral-item side-item" onclick="toggle_desc('bearfolk1-desc');"><p>ID</p></a>
+    <a href="#bearfolk" id="feral-pawm" class="grid-item feral-item side-item" onclick="toggle_desc('bearfolk2-desc');"><p>Maneuver</p></a>
+    <a href="#bearfolk" id="feral-hugm" class="grid-item feral-item side-item" onclick="toggle_desc('bearfolk3-desc');"><p>Hug</p></a>
+    <a href="#bearfolk" id="feral-missilem" class="grid-item feral-item side-item" onclick="toggle_desc('bearfolk4-desc');"><p>Missiles</p></a>
+    <a href="#bearfolk" id="feral-doublestrikem" class="grid-item feral-item side-item" onclick="toggle_desc('bearfolk5-desc');"><p>Double Strike</p></a>
+    <a href="#bearfolk" id="feral-doublestrikem" class="grid-item feral-item side-item" onclick="toggle_desc('bearfolk6-desc');"><p>Double Strike</p></a>
+    <a href="#bearfolk" id="feral-savem" class="grid-item feral-item side-item" onclick="toggle_desc('bearfolk7-desc');"><p>Saves</p></a>
+    <a href="#bearfolk" id="feral-pawm" class="grid-item feral-item side-item" onclick="toggle_desc('bearfolk8-desc');"><p>Maneuver</p></a>
+    <a href="#bearfolk" id="feral-savem" class="grid-item feral-item side-item" onclick="toggle_desc('bearfolk9-desc');"><p>Saves</p></a>
+    <a href="#bearfolk" id="feral-pawm" class="grid-item feral-item side-item" onclick="toggle_desc('bearfolk10-desc');"><p>Maneuver</p></a>
+  </div>
+  <div class="desc-container">
+    <p id="lionfolk1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, missile, or maneuver results.</p>
+    <p id="lionfolk2-desc" class="sidedesc">Roar: During a melee attack, choose up to 4 health-worth of units in the defending army to immediately flee to their reserve area.</p>
+    <p id="lionfolk3-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="lionfolk4-desc" class="sidedesc">Double Strike: During a melee attack or melee avoidance roll, Double Strike generates 4 melee results; roll this unit again and apply the new result as well.</p>
+    <p id="lionfolk5-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="lionfolk6-desc" class="sidedesc">Double Strike: During a melee attack or melee avoidance roll, Double Strike generates 4 melee results; roll this unit again and apply the new result as well.</p>
+    <p id="lionfolk7-desc" class="sidedesc">Roar: During a melee attack, choose up to 4 health-worth of units in the defending army to immediately flee to their reserve area.</p>
+    <p id="lionfolk8-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="lionfolk9-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="lionfolk10-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="elephantfolk1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, missile, or maneuver results.</p>
+    <p id="elephantfolk2-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="elephantfolk3-desc" class="sidedesc">Trample: During any roll, Trample generates 4 maneuver and 4 melee results.</p>
+    <p id="elephantfolk4-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="elephantfolk5-desc" class="sidedesc">Trample: During any roll, Trample generates 4 maneuver and 4 melee results.</p>
+    <p id="elephantfolk6-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="elephantfolk7-desc" class="sidedesc">Trumpet: During a melee attack, melee avoidance roll or save roll, Trumpet allows each Feral unit in the army containing this unit to immediately double its melee and save results.</p>
+    <p id="elephantfolk8-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="elephantfolk9-desc" class="sidedesc">Trumpet: During a melee attack, melee avoidance roll or save roll, Trumpet allows each Feral unit in the army containing this unit to immediately double its melee and save results.</p>
+    <p id="elephantfolk10-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="owlfolk1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, missile, or maneuver results.</p>
+    <p id="owlfolk2-desc" class="sidedesc">Fly: During any roll, Fly generates 4 maneuver or 4 save results.</p>
+    <p id="owlfolk3-desc" class="sidedesc">Dispel Magic: Whenever any magic targets this unit, the army containing this unit and/or the terrain this unit occupies, you may roll this unit after all spells are announced but before any are resolved. If the Dispel Magic icon comes up, immediately negate all unresolved magic that applies to the target(s). Only one dispel attempt is made per unit and, if it fails, then all the spell(s) are resolved normally.</p>
+    <p id="owlfolk4-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="owlfolk5-desc" class="sidedesc">Screech: During a melee attack, after the defending army rolls for saves but before they finalize any results, subtract 4 from the save results.</p>
+    <p id="owlfolk6-desc" class="sidedesc">Seize: During a missile action, choose up to 4 health-worth of units in the defending army to immediately roll an ID icon individually or be killed. Those that roll an ID icon flee to reserve area.</p>
+    <p id="owlfolk7-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="owlfolk8-desc" class="sidedesc">Fly: During any roll, Fly generates 4 maneuver or 4 save results.</p>
+    <p id="owlfolk9-desc" class="sidedesc">Dispel Magic: Whenever any magic targets this unit, the army containing this unit and/or the terrain this unit occupies, you may roll this unit after all spells are announced but before any are resolved. If the Dispel Magic icon comes up, immediately negate all unresolved magic that applies to the target(s). Only one dispel attempt is made per unit and, if it fails, then all the spell(s) are resolved normally.</p>
+    <p id="owlfolk10-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="rhinofolk1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, missile, or maneuver results.</p>
+    <p id="rhinofolk2-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="rhinofolk3-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="rhinofolk4-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="rhinofolk5-desc" class="sidedesc">Gore: During a melee attack, choose one unit in the defending army. Gore inflicts 2 points of damage on the target unit, which must generate saves against this damage or be killed and buried. During a dragon attack or melee avoidance roll, Gore generates 2 melee results.</p>
+    <p id="rhinofolk6-desc" class="sidedesc">Gore: During a melee attack, choose one unit in the defending army. Gore inflicts 2 points of damage on the target unit, which must generate saves against this damage or be killed and buried. During a dragon attack or melee avoidance roll, Gore generates 2 melee results.</p>
+    <p id="rhinofolk7-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="rhinofolk8-desc" class="sidedesc">Trample: During any roll, Trample generates 4 maneuver and 4 melee results.</p>
+    <p id="rhinofolk9-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="rhinofolk10-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="bearfolk1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, missile, or maneuver results.</p>
+    <p id="bearfolk2-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="bearfolk3-desc" class="sidedesc">Hug: During a melee attack, choose one unit in the defending army. Hug immediately inflicts 4 points of damage on the target unit. The unit gets no saves, but does roll to counter-attack the hugging unit, which cannot save against this damage. During a dragon attack or melee avoidance roll, Hug generates melee results.</p>
+    <p id="bearfolk4-desc" class="sidedesc">Missiles: Generates 4 points of missiles results.</p>
+    <p id="bearfolk5-desc" class="sidedesc">Double Strike: During a melee attack or melee avoidance roll, Double Strike generates 4 melee results; roll this unit again and apply the new result as well.</p>
+    <p id="bearfolk6-desc" class="sidedesc">Double Strike: During a melee attack or melee avoidance roll, Double Strike generates 4 melee results; roll this unit again and apply the new result as well.</p>
+    <p id="bearfolk7-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage..</p>
+    <p id="bearfolk8-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="bearfolk9-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="bearfolk10-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+  </div>
+</div>
+
+<div class="center">
+<ul class="single-grid">
+  <li><p>Heavy Melee</p></li>
+  <li><p>Light Melee</p></li>
+  <li><p>Missiles</p></li>
+  <li><p>Cavalry</p></li>
+  <li><p>Magic</p></li>
+</ul>
+</div>
+
+<div class="center"><div class="single-grid">
+  <a href="#tigerfolk" id="tigerfolk" class="grid-item feral-item" onclick="toggle_sides('tigerfolk-container');"><p>Tiger-folk</p></a>
+  <a href="#wolffolk" id="wolffolk" class="grid-item feral-item" onclick="toggle_sides('wolffolk-container');"><p>Wolf-folk</p></a>
+  <a href="#vulturefolk" id="vulturefolk" class="grid-item feral-item" onclick="toggle_sides('vulturefolk-container');"><p>Vulture-folk</p></a>
+  <a href="#buffalofolk" id="buffalofolk" class="grid-item feral-item" onclick="toggle_sides('buffalofolk-container');"><p>Buffalo-folk</p></a>
+  <a href="#wolverinefolk" id="wolverinefolk" class="grid-item feral-item" onclick="toggle_sides('wolverinefolk-container');"><p>Wolverine-folk</p></a>
+</div></div>
+
+<div class="staging-container">
+  <div id="tigerfolk-container" class="sides-grid side-container">
+    <a href="#tigerfolk" id="tigerfolk" class="grid-item feral-item side-item" onclick="toggle_desc('tigerfolk1-desc');"><p>ID</p></a>
+    <a href="#tigerfolk" id="feral-doublestrike" class="grid-item feral-item side-item" onclick="toggle_desc('tigerfolk2-desc');"><p>Double Strike</p></a>
+    <a href="#tigerfolk" id="feral-melee4" class="grid-item feral-item side-item" onclick="toggle_desc('tigerfolk3-desc');"><p>Melee</p></a>
+    <a href="#tigerfolk" id="feral-melee2" class="grid-item feral-item side-item" onclick="toggle_desc('tigerfolk4-desc');"><p>Melee</p></a>
+    <a href="#tigerfolk" id="feral-save4" class="grid-item feral-item side-item" onclick="toggle_desc('tigerfolk5-desc');"><p>Saves</p></a>
+    <a href="#tigerfolk" id="feral-save2" class="grid-item feral-item side-item" onclick="toggle_desc('tigerfolk6-desc');"><p>Saves</p></a>
+  </div>
+  <div id="wolffolk-container" class="sides-grid side-container">
+    <a href="#wolffolk" id="wolffolk" class="grid-item feral-item side-item" onclick="toggle_desc('wolffolk1-desc');"><p>ID</p></a>
+    <a href="#wolffolk" id="feral-rend3" class="grid-item feral-item side-item" onclick="toggle_desc('wolffolk2-desc');"><p>Rend</p></a>
+    <a href="#wolffolk" id="feral-melee2" class="grid-item feral-item side-item" onclick="toggle_desc('wolffolk3-desc');"><p>Melee</p></a>
+    <a href="#wolffolk" id="feral-melee3" class="grid-item feral-item side-item" onclick="toggle_desc('wolffolk4-desc');"><p>Melee</p></a>
+    <a href="#wolffolk" id="feral-save3" class="grid-item feral-item side-item" onclick="toggle_desc('wolffolk5-desc');"><p>Saves</p></a>
+    <a href="#wolffolk" id="feral-paw4" class="grid-item feral-item side-item" onclick="toggle_desc('wolffolk6-desc');"><p>Maneuver</p></a>
+  </div>
+  <div id="vulturefolk-container" class="sides-grid side-container">
+    <a href="#vulturefolk" id="vulturefolk" class="grid-item feral-item side-item" onclick="toggle_desc('vulturefolk1-desc');"><p>ID</p></a>
+    <a href="#vulturefolk" id="feral-talon3" class="grid-item feral-item side-item" onclick="toggle_desc('vulturefolk2-desc');"><p>Maneuver</p></a>
+    <a href="#vulturefolk" id="feral-missile4" class="grid-item feral-item side-item" onclick="toggle_desc('vulturefolk3-desc');"><p>Missiles</p></a>
+    <a href="#vulturefolk" id="feral-missile2" class="grid-item feral-item side-item" onclick="toggle_desc('vulturefolk4-desc');"><p>Missiles</p></a>
+    <a href="#vulturefolk" id="feral-melee3" class="grid-item feral-item side-item" onclick="toggle_desc('vulturefolk5-desc');"><p>Melee</p></a>
+    <a href="#vulturefolk" id="feral-bullseye" class="grid-item feral-item side-item" onclick="toggle_desc('vulturefolk6-desc');"><p>Bullseye</p></a>
+  </div>
+  <div id="buffalofolk-container" class="sides-grid side-container">
+    <a href="#buffalofolk" id="buffalofolk" class="grid-item feral-item side-item" onclick="toggle_desc('buffalofolk1-desc');"><p>ID</p></a>
+    <a href="#buffalofolk" id="feral-maneuver3" class="grid-item feral-item side-item" onclick="toggle_desc('buffalofolk2-desc');"><p>Maneuver</p></a>
+    <a href="#buffalofolk" id="feral-maneuver4" class="grid-item feral-item side-item" onclick="toggle_desc('buffalofolk3-desc');"><p>Maneuver</p></a>
+    <a href="#buffalofolk" id="feral-save2" class="grid-item feral-item side-item" onclick="toggle_desc('buffalofolk4-desc');"><p>Saves</p></a>
+    <a href="#buffalofolk" id="feral-melee3" class="grid-item feral-item side-item" onclick="toggle_desc('buffalofolk5-desc');"><p>Melee</p></a>
+    <a href="#buffalofolk" id="feral-counter" class="grid-item feral-item side-item" onclick="toggle_desc('buffalofolk6-desc');"><p>Counter</p></a>
+  </div>
+  <div id="wolverinefolk-container" class="sides-grid side-container">
+    <a href="#wolverinefolk" id="wolverinefolk" class="grid-item feral-item side-item" onclick="toggle_desc('wolverinefolk1-desc');"><p>ID</p></a>
+    <a href="#wolverinefolk" id="feral-save2" class="grid-item feral-item side-item" onclick="toggle_desc('wolverinefolk2-desc');"><p>Saves</p></a>
+    <a href="#wolverinefolk" id="feral-magic4" class="grid-item feral-item side-item" onclick="toggle_desc('wolverinefolk3-desc');"><p>Magic</p></a>
+    <a href="#wolverinefolk" id="feral-magic3" class="grid-item feral-item side-item" onclick="toggle_desc('wolverinefolk4-desc');"><p>Magic</p></a>
+    <a href="#wolverinefolk" id="feral-melee3" class="grid-item feral-item side-item" onclick="toggle_desc('wolverinefolk5-desc');"><p>Melee</p></a>
+    <a href="#wolverinefolk" id="feral-cantrip" class="grid-item feral-item side-item" onclick="toggle_desc('wolverinefolk6-desc');"><p>Cantrip</p></a>
+  </div>
+  <div class="desc-container">
+    <p id="tigerfolk1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, missile, or maneuver results.</p>
+    <p id="tigerfolk2-desc" class="sidedesc">Double Strike: During a melee attack or melee avoidance roll, Double Strike generates 3 melee results; roll this unit again and apply the new result as well.</p>
+    <p id="tigerfolk3-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="tigerfolk4-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="tigerfolk5-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="tigerfolk6-desc" class="sidedesc">Saves: Negates 2 points of normal melee or missile damage.</p>
+    <p id="wolffolk1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, missile, or maneuver results.</p>
+    <p id="wolffolk2-desc" class="sidedesc">Rend: During a maneuver roll, Rend generates 3 maneuver results. During a melee attack or melee avoidance roll, Rend generates 3 melee results; roll this unit again and apply the new result as well.</p>
+    <p id="wolffolk3-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="wolffolk4-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="wolffolk5-desc" class="sidedesc">Saves: Negates 3 points of normal melee or missile damage.</p>
+    <p id="wolffolk6-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="vulturefolk1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, missile, or maneuver results.</p>
+    <p id="vulturefolk2-desc" class="sidedesc">Maneuver: Generates 3 points of maneuver results.</p>
+    <p id="vulturefolk3-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+    <p id="vulturefolk4-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="vulturefolk5-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="vulturefolk6-desc" class="sidedesc">Bullseye: During a missile action, Bullseye immediately inflicts 4 points of damage. The damage may individually target one or more units in the defending army as the acting player chooses. Each target unit must immediately generate saves against the damage assigned to it. During a dragon attack or missile avoidance roll, Bullseye generates 4 missile results.</p>
+    <p id="buffalofolk1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, missile, or maneuver results.</p>
+    <p id="buffalofolk2-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="buffalofolk3-desc" class="sidedesc">Fly: During any roll, Fly generates 3 maneuver or 3 save results.</p>
+    <p id="buffalofolk4-desc" class="sidedesc">Fly: During any roll, Fly generates 3 maneuver or 3 save results.</p>
+    <p id="buffalofolk5-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="buffalofolk6-desc" class="sidedesc">Missiles: Generates 3 points of missile results.</p>
+    <p id="wolverinefolk1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, missile, or maneuver results.</p>
+    <p id="wolverinefolk2-desc" class="sidedesc">Saves: Negates 2 points of normal melee or missile damage.</p>
+    <p id="wolverinefolk3-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="wolverinefolk4-desc" class="sidedesc">Magic: Generates 3 points of magic results.</p>
+    <p id="wolverinefolk5-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="wolverinefolk6-desc" class="sidedesc">Cantrip: During a magic action or magic negation roll, Cantrip generates 4 magic results. During any non-magic action, save roll or non-maneuver avoidance roll, Cantrip can be used to purchase spells that are immediately resolved.</p>
+  </div>
+</div>
+
+<div class="center"><div class="single-grid">
+  <a href="#leopardfolk" id="leopardfolk" class="grid-item feral-item" onclick="toggle_sides('leopardfolk-container');"><p>Leopard-folk</p></a>
+  <a href="#foxfolk" id="foxfolk" class="grid-item feral-item" onclick="toggle_sides('foxfolk-container');"><p>Fox-folk</p></a>
+  <a href="#hawkfolk" id="hawkfolk" class="grid-item feral-item" onclick="toggle_sides('hawkfolk-container');"><p>Hawk-folk</p></a>
+  <a href="#horsefolk" id="horsefolk" class="grid-item feral-item" onclick="toggle_sides('horsefolk-container');"><p>Horse-folk</p></a>
+  <a href="#badgerfolk" id="badgerfolk" class="grid-item feral-item" onclick="toggle_sides('badgerfolk-container');"><p>Badger-folk</p></a>
+</div></div>
+
+<div class="staging-container">
+  <div id="leopardfolk-container" class="sides-grid side-container">
+    <a href="#leopardfolk" id="leopardfolk" class="grid-item feral-item side-item" onclick="toggle_desc('leopardfolk1-desc');"><p>ID</p></a>
+    <a href="#leopardfolk" id="feral-paw2" class="grid-item feral-item side-item" onclick="toggle_desc('leopardfolk2-desc');"><p>Maneuver</p></a>
+    <a href="#leopardfolk" id="feral-melee3" class="grid-item feral-item side-item" onclick="toggle_desc('leopardfolk3-desc');"><p>Melee</p></a>
+    <a href="#leopardfolk" id="feral-melee3" class="grid-item feral-item side-item" onclick="toggle_desc('leopardfolk4-desc');"><p>Melee</p></a>
+    <a href="#leopardfolk" id="feral-save2" class="grid-item feral-item side-item" onclick="toggle_desc('leopardfolk5-desc');"><p>Saves</p></a>
+    <a href="#leopardfolk" id="feral-save2" class="grid-item feral-item side-item" onclick="toggle_desc('leopardfolk6-desc');"><p>Saves</p></a>
+  </div>
+  <div id="foxfolk-container" class="sides-grid side-container">
+    <a href="#foxfolk" id="foxfolk" class="grid-item feral-item side-item" onclick="toggle_desc('foxfolk1-desc');"><p>ID</p></a>
+    <a href="#foxfolk" id="feral-melee3" class="grid-item feral-item side-item" onclick="toggle_desc('foxfolk2-desc');"><p>Melee</p></a>
+    <a href="#foxfolk" id="feral-paw3" class="grid-item feral-item side-item" onclick="toggle_desc('foxfolk3-desc');"><p>Maneuver</p></a>
+    <a href="#foxfolk" id="feral-paw2" class="grid-item feral-item side-item" onclick="toggle_desc('foxfolk4-desc');"><p>Maneuver</p></a>
+    <a href="#foxfolk" id="feral-melee2" class="grid-item feral-item side-item" onclick="toggle_desc('foxfolk5-desc');"><p>Melee</p></a>
+    <a href="#foxfolk" id="feral-save2" class="grid-item feral-item side-item" onclick="toggle_desc('foxfolk6-desc');"><p>Saves</p></a>
+  </div>
+  <div id="hawkfolk-container" class="sides-grid side-container">
+    <a href="#hawkfolk" id="hawkfolk" class="grid-item feral-item side-item" onclick="toggle_desc('hawkfolk1-desc');"><p>ID</p></a>
+    <a href="#hawkfolk" id="feral-melee2" class="grid-item feral-item side-item" onclick="toggle_desc('hawkfolk2-desc');"><p>Melee</p></a>
+    <a href="#hawkfolk" id="feral-missile3" class="grid-item feral-item side-item" onclick="toggle_desc('hawkfolk3-desc');"><p>Missiles</p></a>
+    <a href="#hawkfolk" id="feral-missile2" class="grid-item feral-item side-item" onclick="toggle_desc('hawkfolk4-desc');"><p>Missiles</p></a>
+    <a href="#hawkfolk" id="feral-talon2" class="grid-item feral-item side-item" onclick="toggle_desc('hawkfolk5-desc');"><p>Maneuver</p></a>
+    <a href="#hawkfolk" id="feral-talon3" class="grid-item feral-item side-item" onclick="toggle_desc('hawkfolk6-desc');"><p>Maneuver</p></a>
+  </div>
+  <div id="horsefolk-container" class="sides-grid side-container">
+    <a href="#horsefolk" id="horsefolk" class="grid-item feral-item side-item" onclick="toggle_desc('horsefolk1-desc');"><p>ID</p></a>
+    <a href="#horsefolk" id="feral-melee3" class="grid-item feral-item side-item" onclick="toggle_desc('horsefolk2-desc');"><p>Melee</p></a>
+    <a href="#horsefolk" id="feral-maneuver3" class="grid-item feral-item side-item" onclick="toggle_desc('horsefolk3-desc');"><p>Maneuver</p></a>
+    <a href="#horsefolk" id="feral-maneuver2" class="grid-item feral-item side-item" onclick="toggle_desc('horsefolk4-desc');"><p>Maneuver</p></a>
+    <a href="#horsefolk" id="feral-maneuver2" class="grid-item feral-item side-item" onclick="toggle_desc('horsefolk5-desc');"><p>Maneuver</p></a>
+    <a href="#horsefolk" id="feral-save2" class="grid-item feral-item side-item" onclick="toggle_desc('horsefolk6-desc');"><p>Saves</p></a>
+  </div>
+  <div id="badgerfolk-container" class="sides-grid side-container">
+    <a href="#badgerfolk" id="badgerfolk" class="grid-item feral-item side-item" onclick="toggle_desc('badgerfolk1-desc');"><p>ID</p></a>
+    <a href="#badgerfolk" id="feral-melee3" class="grid-item feral-item side-item" onclick="toggle_desc('badgerfolk2-desc');"><p>Melee</p></a>
+    <a href="#badgerfolk" id="feral-magic3" class="grid-item feral-item side-item" onclick="toggle_desc('badgerfolk3-desc');"><p>Magic</p></a>
+    <a href="#badgerfolk" id="feral-magic2" class="grid-item feral-item side-item" onclick="toggle_desc('badgerfolk4-desc');"><p>Magic</p></a>
+    <a href="#badgerfolk" id="feral-save2" class="grid-item feral-item side-item" onclick="toggle_desc('badgerfolk5-desc');"><p>Saves</p></a>
+    <a href="#badgerfolk" id="feral-save2" class="grid-item feral-item side-item" onclick="toggle_desc('badgerfolk6-desc');"><p>Saves</p></a>
+  </div>
+  <div class="desc-container">
+    <p id="leopardfolk1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, missile, or maneuver results.</p>
+    <p id="leopardfolk2-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="leopardfolk3-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="leopardfolk4-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="leopardfolk5-desc" class="sidedesc">Saves: Negates 2 points of normal melee or missile damage.</p>
+    <p id="leopardfolk6-desc" class="sidedesc">Saves: Negates 2 points of normal melee or missile damage.</p>
+    <p id="foxfolk1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, missile, or maneuver results.</p>
+    <p id="foxfolk2-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="foxfolk3-desc" class="sidedesc">Maneuver: Generates 3 points of maneuver results.</p>
+    <p id="foxfolk4-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="foxfolk5-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="foxfolk6-desc" class="sidedesc">Saves: Negates 2 points of normal melee or missile damage.</p>
+    <p id="hawkfolk1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, missile, or maneuver results.</p>
+    <p id="hawkfolk2-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="hawkfolk3-desc" class="sidedesc">Missiles: Generates 3 points of missile results.</p>
+    <p id="hawkfolk4-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="hawkfolk5-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="hawkfolk6-desc" class="sidedesc">Maneuver: Generates 3 points of maneuver results.</p>
+    <p id="horsefolk1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, missile, or maneuver results.</p>
+    <p id="horsefolk2-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="horsefolk3-desc" class="sidedesc">Maneuver: Generates 3 points of maneuver results.</p>
+    <p id="horsefolk4-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="horsefolk5-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="horsefolk6-desc" class="sidedesc">Saves: Negates 2 points of normal melee or missile damage.</p>
+    <p id="badgerfolk1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, missile, or maneuver results.</p>
+    <p id="badgerfolk2-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="badgerfolk3-desc" class="sidedesc">Magic: Generates 3 points of magic results.</p>
+    <p id="badgerfolk4-desc" class="sidedesc">Magic: Generates 2 points of magic results.</p>
+    <p id="badgerfolk5-desc" class="sidedesc">Saves: Negates 2 points of normal melee or missile damage.</p>
+    <p id="badgerfolk6-desc" class="sidedesc">Saves: Negates 2 points of normal melee or missile damage.</p>
+  </div>
+</div>
+
+<div class="center"><div class="single-grid">
+  <a href="#lynxfolk" id="lynxfolk" class="grid-item feral-item" onclick="toggle_sides('lynxfolk-container');"><p>Lynx-folk</p></a>
+  <a href="#houndfolk" id="houndfolk" class="grid-item feral-item" onclick="toggle_sides('houndfolk-container');"><p>Hound-folk</p></a>
+  <a href="#falconfolk" id="falconfolk" class="grid-item feral-item" onclick="toggle_sides('falconfolk-container');"><p>Falcon-folk</p></a>
+  <a href="#antelopefolk" id="antelopefolk" class="grid-item feral-item" onclick="toggle_sides('antelopefolk-container');"><p>Antelope-folk</p></a>
+  <a href="#weaselfolk" id="weaselfolk" class="grid-item feral-item" onclick="toggle_sides('weaselfolk-container');"><p>Weasel-folk</p></a>
+</div></div>
+
+<div class="staging-container">
+  <div id="lynxfolk-container" class="sides-grid side-container">
+    <a href="#lynxfolk" id="lynxfolk" class="grid-item feral-item side-item" onclick="toggle_desc('lynxfolk1-desc');"><p>ID</p></a>
+    <a href="#lynxfolk" id="feral-paw1" class="grid-item feral-item side-item" onclick="toggle_desc('lynxfolk2-desc');"><p>Maneuver</p></a>
+    <a href="#lynxfolk" id="feral-melee1" class="grid-item feral-item side-item" onclick="toggle_desc('lynxfolk3-desc');"><p>Melee</p></a>
+    <a href="#lynxfolk" id="feral-melee1" class="grid-item feral-item side-item" onclick="toggle_desc('lynxfolk4-desc');"><p>Melee</p></a>
+    <a href="#lynxfolk" id="feral-save1" class="grid-item feral-item side-item" onclick="toggle_desc('lynxfolk5-desc');"><p>Save</p></a>
+    <a href="#lynxfolk" id="feral-melee2" class="grid-item feral-item side-item" onclick="toggle_desc('lynxfolk6-desc');"><p>Melee</p></a>
+  </div>
+  <div id="houndfolk-container" class="sides-grid side-container">
+    <a href="#houndfolk" id="houndfolk" class="grid-item feral-item side-item" onclick="toggle_desc('houndfolk1-desc');"><p>ID</p></a>
+    <a href="#houndfolk" id="feral-melee1" class="grid-item feral-item side-item" onclick="toggle_desc('houndfolk2-desc');"><p>Melee</p></a>
+    <a href="#houndfolk" id="feral-paw1" class="grid-item feral-item side-item" onclick="toggle_desc('houndfolk3-desc');"><p>Maneuver</p></a>
+    <a href="#houndfolk" id="feral-paw1" class="grid-item feral-item side-item" onclick="toggle_desc('houndfolk4-desc');"><p>Maneuver</p></a>
+    <a href="#houndfolk" id="feral-melee2" class="grid-item feral-item side-item" onclick="toggle_desc('houndfolk5-desc');"><p>Melee</p></a>
+    <a href="#houndfolk" id="feral-save1" class="grid-item feral-item side-item" onclick="toggle_desc('houndfolk6-desc');"><p>Save</p></a>
+  </div>
+  <div id="falconfolk-container" class="sides-grid side-container">
+    <a href="#falconfolk" id="falconfolk" class="grid-item feral-item side-item" onclick="toggle_desc('falconfolk1-desc');"><p>ID</p></a>
+    <a href="#falconfolk" id="feral-missile1" class="grid-item feral-item side-item" onclick="toggle_desc('falconfolk2-desc');"><p>Missile</p></a>
+    <a href="#falconfolk" id="feral-melee1" class="grid-item feral-item side-item" onclick="toggle_desc('falconfolk3-desc');"><p>Melee</p></a>
+    <a href="#falconfolk" id="feral-talon1" class="grid-item feral-item side-item" onclick="toggle_desc('falconfolk4-desc');"><p>Maneuver</p></a>
+    <a href="#falconfolk" id="feral-talon1" class="grid-item feral-item side-item" onclick="toggle_desc('falconfolk5-desc');"><p>Maneuver</p></a>
+    <a href="#falconfolk" id="feral-missile2" class="grid-item feral-item side-item" onclick="toggle_desc('falconfolk6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="antelopefolk-container" class="sides-grid side-container">
+    <a href="#antelopefolk" id="antelopefolk" class="grid-item feral-item side-item" onclick="toggle_desc('antelopefolk1-desc');"><p>ID</p></a>
+    <a href="#antelopefolk" id="feral-maneuver1" class="grid-item feral-item side-item" onclick="toggle_desc('antelopefolk2-desc');"><p>Maneuver</p></a>
+    <a href="#antelopefolk" id="feral-melee1" class="grid-item feral-item side-item" onclick="toggle_desc('antelopefolk3-desc');"><p>Melee</p></a>
+    <a href="#antelopefolk" id="feral-save1" class="grid-item feral-item side-item" onclick="toggle_desc('antelopefolk4-desc');"><p>Save</p></a>
+    <a href="#antelopefolk" id="feral-maneuver2" class="grid-item feral-item side-item" onclick="toggle_desc('antelopefolk5-desc');"><p>Maneuver</p></a>
+    <a href="#antelopefolk" id="feral-save1" class="grid-item feral-item side-item" onclick="toggle_desc('antelopefolk6-desc');"><p>Save</p></a>
+  </div>
+  <div id="weaselfolk-container" class="sides-grid side-container">
+    <a href="#weaselfolk" id="weaselfolk" class="grid-item feral-item side-item" onclick="toggle_desc('weaselfolk1-desc');"><p>ID</p></a>
+    <a href="#weaselfolk" id="feral-save1" class="grid-item feral-item side-item" onclick="toggle_desc('weaselfolk2-desc');"><p>Save</p></a>
+    <a href="#weaselfolk" id="feral-melee1" class="grid-item feral-item side-item" onclick="toggle_desc('weaselfolk3-desc');"><p>Melee</p></a>
+    <a href="#weaselfolk" id="feral-save1" class="grid-item feral-item side-item" onclick="toggle_desc('weaselfolk4-desc');"><p>Save</p></a>
+    <a href="#weaselfolk" id="feral-magic1" class="grid-item feral-item side-item" onclick="toggle_desc('weaselfolk5-desc');"><p>Magic</p></a>
+    <a href="#weaselfolk" id="feral-magic2" class="grid-item feral-item side-item" onclick="toggle_desc('weaselfolk6-desc');"><p>Magic</p></a>
+  </div>
+  <div class="desc-container">
+    <p id="lynxfolk1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, missile, or maneuver results.</p>
+    <p id="lynxfolk2-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="lynxfolk3-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="lynxfolk4-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="lynxfolk5-desc" class="sidedesc">Save: Negates 1 point of normal melee or missile damage.</p>
+    <p id="lynxfolk6-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="houndfolk1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, missile, or maneuver results.</p>
+    <p id="houndfolk2-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="houndfolk3-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="houndfolk4-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="houndfolk5-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="houndfolk6-desc" class="sidedesc">Save: Negates 1 point of normal melee or missile damage.</p>
+    <p id="falconfolk1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, missile, or maneuver results.</p>
+    <p id="falconfolk2-desc" class="sidedesc">Missile: Generates 1 point of missile results.</p>
+    <p id="falconfolk3-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="falconfolk4-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="falconfolk5-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="falconfolk6-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="antelopefolk1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, missile, or maneuver results.</p>
+    <p id="antelopefolk2-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="antelopefolk3-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="antelopefolk4-desc" class="sidedesc">Save: Negates 1 point of normal melee or missile damage.</p>
+    <p id="antelopefolk5-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="antelopefolk6-desc" class="sidedesc">Save: Negates 1 point of normal melee or missile damage.</p>
+    <p id="weaselfolk1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, missile, or maneuver results.</p>
+    <p id="weaselfolk2-desc" class="sidedesc">Save: Negates 1 point of normal melee or missile damage.</p>
+    <p id="weaselfolk3-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="weaselfolk4-desc" class="sidedesc">Save: Negates 1 point of normal melee or missile damage.</p>
+    <p id="weaselfolk5-desc" class="sidedesc">Magic: Generates 1 point of magic results.</p>
+    <p id="weaselfolk6-desc" class="sidedesc">Magic: Generates 2 points of magic results.</p>
+  </div>
+</div>
+
+<div class="ability">
+  <h3>Racial Ability</h3>
+  <p>Feralization: During the Initial Effects phase, each of your armies at a terrain with at least one Feral unit may recruit one Feral unit to this army or promote one Feral unit in the army. Note that each army with Feral is considered separate with respect to recruitment and promotion.</p>
+</div>
+
+</body>
+</html>
