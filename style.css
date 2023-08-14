@@ -306,6 +306,11 @@ ol li {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
     }
+
+   .dragon-grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
     
     .grid-item {
         width: 3em;
