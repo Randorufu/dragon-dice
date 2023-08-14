@@ -214,7 +214,7 @@ p, span {
   font-size: 0.8em;
   display: none;
   text-align: center;
-  width: 70%;
+  width: 50%;
 }
 
 #spell-container, .rules-container {
@@ -291,7 +291,7 @@ ol li {
 
 @media screen and (max-width: 1600px) {
 
-    #spell-container, .rules-container {
+    #spell-container, .rules-container, .sidedesc {
 	width: 70%;
     }
 
@@ -331,7 +331,7 @@ ol li {
         height: 4em;
     }
 
-    #spell-container, .rules-container {
+    #spell-container, .rules-container, .sidedesc {
 	width: 94%;
     }
 
