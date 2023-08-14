@@ -51,6 +51,17 @@ body::-webkit-scrollbar {
   align-items: center;
 }
 
+.dragon-grid {
+  display: inline-grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .one-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -206,7 +217,7 @@ p, span {
   width: 70%;
 }
 
-#spell-container, #rules-container {
+#spell-container, .rules-container {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -239,17 +250,17 @@ span:first-of-type {
   margin-bottom: 3em;
 }
 
-#rules-container * {
+.rules-container * {
   text-align: left;
   text-transform: none;
   font-weight: normal;
 }
 
-#rules-container h2 {
+.rules-container h2 {
   text-align: center;
 }
 
-#rules-container p, li {
+.rules-container p, li {
   font-size: 0.8em;
 }
 
@@ -280,7 +291,7 @@ ol li {
 
 @media screen and (max-width: 1600px) {
 
-    #spell-container, #rules-container {
+    #spell-container, .rules-container {
 	width: 70%;
     }
 
@@ -315,7 +326,7 @@ ol li {
         height: 4em;
     }
 
-    #spell-container, #rules-container {
+    #spell-container, .rules-container {
 	width: 94%;
     }
 
@@ -1494,6 +1505,66 @@ ol li {
 
 #pineling {
   background-image: url("img/pineling.png");
+}
+
+
+
+/* Dragon Backgrounds */
+
+#air-breath {
+  background-image: url("img/air-breath.png");
+}
+
+#death-breath {
+  background-image: url("img/death-breath.png");
+}
+
+#fire-breath {
+  background-image: url("img/fire-breath.png");
+}
+
+#earth-breath {
+  background-image: url("img/earth-breath.png");
+}
+
+#water-breath {
+  background-image: url("img/water-breath.png");
+}
+
+#ivory-breath {
+  background-image: url("img/ivory-breath.png");
+}
+
+#white-breath {
+  background-image: url("img/white-breath.png");
+}
+
+#dragon-belly {
+  background-image: url("img/dragon-belly.png");
+}
+
+#dragon-breath {
+  background-image: url("img/dragon-breath.png");
+}
+
+#dragon-claws {
+  background-image: url("img/dragon-claws.png");
+}
+
+#dragon-jaws {
+  background-image: url("img/dragon-jaws.png");
+}
+
+#dragon-tail {
+  background-image: url("img/dragon-tail.png");
+}
+
+#dragon-treasure {
+  background-image: url("img/dragon-treasure.png");
+}
+
+#dragon-wing {
+  background-image: url("img/dragon-wing.png");
 }
 
 

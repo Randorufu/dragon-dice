@@ -7,13 +7,14 @@
   <meta name="description" content="" />
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link rel= “manifest” href= “manifest.json” />
+  <script src="script.js" type="text/javascript"></script>
   <link rel="icon" href="favicon.png">
 </head>
 <body>
 
 <div id="topbar"><a href="index.html"><h1>Dragon Dice</h1></a><a href="rules.html"><h2>Rules</h2></a></div>
 
-<div id="rules-container">
+<div class="rules-container">
 <h2>Object of the Game</h2>
 <p>Victory is achieved by capturing two terrains and holding them for three additional turns. At the
 beginning of the controlling player’s third turn, the game is won. The game can also be won if a
@@ -114,8 +115,144 @@ player has the last surviving unit(s) in play.</p>
 </ol>
 <p>The effects within a step can occur in any order the acting player chooses (e.g. Swamp Stalker mutation can occur before Feralization). Each step, however, is a separate occurrence. Hence, it is possible to affect a unit more than once during the Initial Effects phase</p>
 
+<h3>Dragon Attack Phase</h3>
 
-<p></p>
+<p>Dragons have 5 health and 5 automatic saves. Each side of the dragon is a special action icon. White dragons have 10 health and 5 automatic saves. Additionally, the damage dealt from their special icons is doubled.</p>
+
+</div>
+<div class="center"><div class="dragon-grid">
+  <a href="#dragons" id="dragon-breath" class="grid-item coralelf-item" onclick="toggle_dragon('dragon-desc2');"><p>Breath</p></a>
+  <a href="#dragons" id="dragon-jaws" class="grid-item coralelf-item" onclick="toggle_dragon('dragon-desc4');"><p>Jaws</p></a>
+  <a href="#dragons" id="dragon-wing" class="grid-item coralelf-item" onclick="toggle_dragon('dragon-desc7');"><p>Wing</p></a>
+  <a href="#dragons" id="dragon-belly" class="grid-item coralelf-item" onclick="toggle_dragon('dragon-desc1');"><p>Belly</p></a>
+  <a href="#dragons" id="dragon-treasure" class="grid-item coralelf-item" onclick="toggle_dragon('dragon-desc6');"><p>Treasure</p></a>
+  <a href="#dragons" id="dragon-claws" class="grid-item coralelf-item" onclick="toggle_dragon('dragon-desc3');"><p>Claws</p></a>
+  <a href="#dragons" id="dragon-tail" class="grid-item coralelf-item" onclick="toggle_dragon('dragon-desc5');"><p>Tail</p></a>
+</div></div>
+
+
+<div class="staging-container">
+  <div class="desc-container">
+    <p id="dragon-desc1" class="sidedesc">Belly: The dragon’s five automatic saves do not count during this attack.</p>
+    <p id="dragon-desc2" class="sidedesc">Breath: Against another dragon, dragon breath negates the automatic five saves until the end of the marching player’s next turn. Against armies, dragon breath effects are based on the dragon’s color. Multiple breaths of the same color are combined. Breaths of different colors resolved separately in any order the acting player wishes.</p>
+    <p id="dragon-desc3" class="sidedesc">Claws: A dragon’s claws inflict 6 points of damage on an army.</p>
+    <p id="dragon-desc4" class="sidedesc">Jaws: A dragon’s jaws inflict 12 points of damage on an army.</p>
+    <p id="dragon-desc5" class="sidedesc">Tail: The dragon’s tail inflicts 3 points of damage on an army; roll the dragon again and apply the new result as well.</p>
+    <p id="dragon-desc6" class="sidedesc">Treasure: One unit in the target army may be immediately promoted.</p>
+    <p id="dragon-desc7" class="sidedesc">Wing: A dragon’s wings inflict 5 points of damage on an army. After the attack, if the dragon is still alive, it flies away. It returns to its summoning pool.</p>
+ </div>
+</div>
+
+<div class="rules-container"><p>The type of breath each dragon has is determined by its color(s) with the exception of white dragons whose breaths are based on the terrain's colors. </p></div>
+
+<div class="center"><div class="dragon-grid">
+  <a href="#dragons" id="air-breath" class="grid-item coralelf-item" onclick="toggle_dragon('breath-desc1');"><p>Air Breath</p></a>
+  <a href="#dragons" id="death-breath" class="grid-item coralelf-item" onclick="toggle_dragon('breath-desc2');"><p>Death Breath</p></a>
+  <a href="#dragons" id="earth-breath" class="grid-item coralelf-item" onclick="toggle_dragon('breath-desc3');"><p>Earth Breath</p></a>
+  <a href="#dragons" id="fire-breath" class="grid-item coralelf-item" onclick="toggle_dragon('breath-desc4');"><p>Fire Breath</p></a>
+  <a href="#dragons" id="water-breath" class="grid-item coralelf-item" onclick="toggle_dragon('breath-desc5');"><p>Water Breath</p></a>
+  <a href="#dragons" id="ivory-breath" class="grid-item coralelf-item" onclick="toggle_dragon('breath-desc6');"><p>Ivory Breath</p></a>
+  <a href="#dragons" id="white-breath" class="grid-item coralelf-item" onclick="toggle_dragon('breath-desc7');"><p>White Breath</p></a>
+</div></div>
+
+<div class="staging-container">
+  <div class="desc-container">
+    <p id="breath-desc1" class="sidedesc">Lightning:  Five health-worth of units in the target army must save individually or be killed. The target army can only make save and save avoidance rolls until the beginning of its next turn. All other rolls are either not allowed, or, if a combination avoidance roll that includes saves, becomes simply and only a save avoidance roll.</p>
+    <p id="breath-desc2" class="sidedesc">Disease: Five health-worth of units in the target army are killed, no saves possible. The target army ignores all its ID results until the beginning of its next turn. Note: The ID results from a unit rolling to avoid an individual-targeting effect are not affected.</p>
+    <p id="breath-desc3" class="sidedesc">Turn to Stone: Five health-worth of units in the target army are killed, no saves possible. The target army’s maneuver results are halved until the beginning of its next turn</p>
+    <p id="breath-desc4" class="sidedesc">Flame: Five health-worth of units in the target army are killed, no saves possible. The units killed must then either save or be buried.</p>
+    <p id="breath-desc5" class="sidedesc">Poisonous Cloud: Five health-worth of units in the target army must save individually or be killed. Those that are killed must save again or be buried. The target army’s missile results are halved until the begin- ning of its next turn</p>
+    <p id="breath-desc6" class="sidedesc">Life Drain: Five health-worth of units in the target army are killed, no saves possible.</p>
+    <p id="breath-desc7" class="sidedesc">Terrain Empathy: Inflict as many breaths as the terrain has colors. Each breath is the same as one of the terrain colors. Normally a white dragon breath would do two breaths (for example a blue and gold breath at a Flatland). But if there are any spells that add to the terrain colors, also inflict those breaths. For example, at a terrain with a Deadlands cast on it, the white dragon would also have a black breath. White dragons are not affected by any spells that remove terrain colors. Against other dragons, white dragon breath is exactly the same as other dragon breaths, it removes all autosaves from a single dragon.</p>
+ </div>
+</div>
+
+<div class="rules-container">
+<p>When dragons are summoned to a terrain, they attack armies at that terrain. After the Initial Effects phase, wherever the dragon(s) and an army of yours are at the same terrain, a dragon attack occurs. If a player has armies located at multiple terrains, each containing a dragon(s), the marching player decides the order in which each army will battle their dragon(s). If there are no dragons at any of the terrains where the marching player has an army, then no dragon attacks occur; play proceeds to the next part of your turn, the First March.</p>
+
+<p>If dragons of different colors (except ivory or ivory hybrid dragons) are at the same terrain, they will attack each other rather than the army (see Step 5: Dragon vs. Dragon). If no dragons are attacking the army, only Step 5: Dragon vs. Dragon will be done, skip all the other steps. Ivory and ivory hybrid dragons always attack the army at the terrain regardless of what any other dragons at the terrain do. Ivory in a dragon is always “seen” by other color dragons as matching the color of the dragon. If multiple dragons of compatible colors are at the same terrain, they attack the marching player’s army at the same time. The owner of the dragon die rolls the dragon die. Dragon attacks follow these eight steps:</p>
+
+<h3>Step 1: Resolve Eldarim special abilities</h3>
+<p>If your army contains a Dragonlord, a Dragonslayer, a Dragonmaster whose color matches a color of a dragon attacking your army, or a Dragonhunter whose color matches a color of a dragon attacking your army, then you may roll those dice now. Any Eldarim that rolls its SFR/TSR logo face applies its effect; all other results rolled are ignored.</p>
+
+<h3>Step 2: Roll Dragons</h3>
+<p>If there are any untamed dragons, or your opponent controls a tamed dragon and decides to have it attack your army, then roll the dragon(s). If any Tails are rolled, then apply them now.</p>
+
+<h3>Step 3: Resolve all Breaths</h3>
+<p>Note that armies with Dragonslayers in them are immune to all dragon breaths and armies with Dragonhunters in them are immune to the breath of dragons that match the color of the Dragonhunter.</p>
+
+<h3>Step 4: Resolve all Treasures</h3>
+<p>If a dragon rolled a Treasure icon, you may promote a unit now.</p>
+
+<h3>Step 5: Dragon vs. Dragon</h3>
+<p>When dragons of different colors (except ivory and ivory hybrid dragons) are at the same terrain, they attack one another rather than the acting player’s army. Each dragon’s owner chooses a dragon of a different color than his or her own as a target. If needed, each player records in secret which dragon his/her dragon is attacking. All players reveal their choice after the dragons are rolled. All dragons are rolled simultaneously and the results are applied. If there is an ivory or ivory hybrid dragon at the terrain, it always attacks the army at the terrain. Ivory dragons never attack other dragons nor are ivory dragons ever attacked by other dragons. Ivory Hybrid dragons never attack other dragons, but may be attacked by other dragons (see ivory hybrid dragon rules).</p>
+
+<h3>Step 6: Army’s response to the dragon’s attack</h3>
+<p>The army rolls a combination roll and applies any melee, missile, or save results generated by normal and special action icons. Any special result from an SAI that specifically states it has an effect during a dragon attack can also be applied. Each dragon is worth 5-health and has 5 automatic saves. Therefore, it takes 10 or more missile or melee results to slay a dragon. Melee and missile results cannot be combined to kill the same dragon. However, the player may kill multiple dragons using melee results for one or more and missile results for another, as long as the results used to kill each dragon total at least 10 and are all of the same type.</p>
+
+<h3>Step 7: Dragon slaying</h3>
+<p>When dragons are killed, they are placed back in their summoning pool. If an army kills one or more dragons and the army does not contain a Dragonslayer or a Dragonhunter that matches a color of the dragon, it may now simultaneously promote as many units as possible.</p>
+
+<h3>Step 8: Resolve Wings</h3>
+<p>Any surviving dragons that rolled Wings now go back to their summoning pool. After all dragon attacks are resolved, play continues on to First March.</p>
+
+<h3>First March</h3>
+<p>Each march has two steps: a Maneuver and an Action. Choose one of your armies. This army may be at a terrain or in your reserve area. You may maneuver the terrain and/or perform the action indicated on the terrain die. A maneuver and an action are distinct events and each is optional. Throughout the rules, when a result states it takes effect when rolled during an action, it counts as nothing when rolled during a maneuver. Likewise, if a result only takes effect during a maneuver attempt, it is ignored when rolled during an action. Note: If the acting player chooses his or her reserve army to conduct a march, no maneuver roll is made.</p>
+
+<p>Maneuver: To maneuver, announce: “I’m maneuvering.” Don’t reveal whether you intend to turn the die up or down. Players with armies at the same terrain can, if they want, oppose the acting army’s maneuver by announcing: “I’m counter-maneuvering.” If no players oppose the acting army’s maneuver, you automatically turn the terrain die up or down one step or instead bring in a minor terrain, without rolling your army. If the acting army’s maneuver is opposed, that army and all counter-maneuvering armies are rolled simultaneously. Compare the number of maneuver results generated by the acting army to the number of maneuver results generated by each counter-maneuvering army.</p>
+
+<p>Note: Even if an army attempting to maneuver a terrain generates zero maneuvers, it can still win the maneuver roll if the other armies at the terrain also generate zero maneuvers since ties go to the acting army.</p>
+
+<p>Actions: If the acting army is at a terrain die, the face showing on that terrain dictates its action. Actions include melee, missile, or magic. If your army is in the reserve area, however, it may only cast magic.</p>
+
+<p>Note: An exception to this is Amazon units in reserve. They cannot cast magic but fire missiles
+instead.</p>
+
+<p>The three types of actions are described as follows:</p>
+
+<p>Melee: If the melee icon is showing on the terrain die, then only melee combat may occur. The acting army may engage an opposing army at the same terrain in melee combat. Select an opposing army to attack and roll your own army, looking for melee or ID icons. Each point of melee inflicts one point of damage to the defending army. If and only if normal damage is inflicted does the defending army roll to save. Each save rolled by the defending army negates one point of damage. Your opponent removes, from the defending army, the number of health equal to the damage inflicted.</p>
+
+<p>Missile: If the missile icon shows on the terrain die, the acting army may make a missile action on an enemy army. Missile actions can target enemy armies at the same terrain, or can reach an enemy army up to one terrain away. After selecting a target, roll your army and count the number of missile and ID icons that appear. Each point of missile counts as one point of damage to the defending army. If and only if any normal damage is inflicted, the defending army rolls for saves. Subtract the number of saves from the amount of damage inflicted and remove this number of health points from the defending army. Unlike during melee combat, the target army cannot attack back, even if it occupies the same terrain.</p>
+
+<p>Magic: If the magic icon shows on the terrain die or the acting army is in the reserve area, the acting army may attempt to cast spells. Roll your army and separate those components that show magic or ID icons. The next step is to count the number of magic points you have rolled. When tallying, however, remember that each unit may normally cast magic only according to its aspect colors. Amazons cast magic based on the element colors of the terrain where they are located. Eldarim can only cast one color of magic. Only the mighty Dragonlord and Dragonslayer can cast multiple colors.</p>
+
+<p>Doubling Magic: A unit or artifact that rolls an ID icon may double its magic results. The following two conditions describe when doubling magic is applicable.</p>
+
+<p>Terrain Advantage: In magic, any components that roll an ID icon and match at least one of the colors in a terrain die can double the resulting magic points that correspond to that color.</p>
+
+<p>Note: It is possible that a spell can give a terrain an element it does not already have.</p>
+
+<p>Amazons and Frostwings can only double ID icons at a terrain with a Standing Stones as its eighth face (the eighth face does not need to be showing).</p>
+
+<p>Reserve Magic: An army in the reserve area may cast spells, but it can never double its magic points. Spells can be cast on units, armies, magical items, dead unit area or buried unit area belonging to the player rolling for the reserve magic action.</p>
+
+<p>The following is a list of those spells that can be cast from the reserve area, no other spells can be cast from reserves:</p>
+
+<p>Black (Death): Reanimate Dead, Fade, Necromantic Wave, Restless Dead, Spirit Furnace, Open
+Grave, Night Moves</p>
+
+<p>Blue (Air): Breath of Life, Call of the Wild, Airy Acquisition, Wind Wall, Wind Walk, Wilding</p>
+
+<p>Gold(Earth): Stoneskin, Camouflage, Earthen Armor, Hide, Path, Leaving</p>
+
+<p>Green (Water): Watery Double, Wall of Ice, Water of Life, Water Walking</p>
+
+<p>Red (Fire): Spark of Life, Flashfire, Reforge Item, Burning Hands, Flaming Armor, Flaming Spears</p>
+
+<p>Elemental (all colors based on unit): Promote Dragonkin, Rise of the Eldarim</p>
+
+
+<h3>Second March</h3>
+<p>You may choose a second army to act with, just as in First March detailed above. This Second March is optional. A different army than the one used in the First March must be used in the Second March. You must have at least two armies in play to take a Second March. A player with only one army can only take one march.</p>
+
+<h3>Reserve Movement</h3>
+<p>Your reserve army is kept to your right. After finishing both of your marches, you can move units out of and into your reserve area. A reserve army can only be attacked by magic. The Reserve Movement phase has two steps that must be conducted in the following order: reinforce and retreat.</p>
+
+<h3>Spell & Effect Expiration (end of turn)</h3>
+<p>After your Reserve phase is completed, all durational effects from this turn that expire “at the end of your turn” and all durational effects from your previous turn that expire “at the end of your next turn” immediately expire.</p>
+
+
+
 </div>
 </body>
 </html>
