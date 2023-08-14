@@ -62,6 +62,17 @@ body::-webkit-scrollbar {
   align-items: center;
 }
 
+.terrain-grid {
+  display: inline-grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .one-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -1593,4 +1604,38 @@ ol li {
 
 .water-item {
   background-image: url("img/Water.png");
+}
+
+/* Terrain Backgrounds */
+
+#terrain-city {
+  background-image: url("img/terrain-city.png");
+}
+
+#terrain-standingstones {
+  background-image: url("img/terrain-standingstones.png");
+}
+
+#terrain-temple {
+  background-image: url("img/terrain-temple.png");
+}
+
+#terrain-tower {
+  background-image: url("img/terrain-tower.png");
+}
+
+#terrain-castle {
+  background-image: url("img/terrain-castle.png");
+}
+
+#terrain-dragonslair {
+  background-image: url("img/terrain-dragonslair.png");
+}
+
+#terrain-grove {
+  background-image: url("img/terrain-grove.png");
+}
+
+#terrain-vortex {
+  background-image: url("img/terrain-vortex.png");
 }

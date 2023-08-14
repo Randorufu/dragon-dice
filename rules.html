@@ -115,9 +115,36 @@ player has the last surviving unit(s) in play.</p>
 </ol>
 <p>The effects within a step can occur in any order the acting player chooses (e.g. Swamp Stalker mutation can occur before Feralization). Each step, however, is a separate occurrence. Hence, it is possible to affect a unit more than once during the Initial Effects phase</p>
 
+</div>
+<div class="center"><div class="terrain-grid">
+  <a href="#terrains" id="terrain-city" class="grid-item coralelf-item" onclick="toggle_dragon('terrain-desc1');"><p>City</p></a>
+  <a href="#terrains" id="terrain-standingstones" class="grid-item coralelf-item" onclick="toggle_dragon('terrain-desc2');"><p>Standing Stones</p></a>
+  <a href="#terrains" id="terrain-temple" class="grid-item coralelf-item" onclick="toggle_dragon('terrain-desc3');"><p>Temple</p></a>
+  <a href="#terrains" id="terrain-tower" class="grid-item coralelf-item" onclick="toggle_dragon('terrain-desc4');"><p>Tower</p></a>
+  <a href="#terrains" id="terrain-castle" class="grid-item coralelf-item" onclick="toggle_dragon('terrain-desc5');"><p>Castle</p></a>
+  <a href="#terrains" id="terrain-dragonslair" class="grid-item coralelf-item" onclick="toggle_dragon('terrain-desc6');"><p>Dragon's Lair</p></a>
+  <a href="#terrains" id="terrain-grove" class="grid-item coralelf-item" onclick="toggle_dragon('terrain-desc7');"><p>Grove</p></a>
+  <a href="#terrains" id="terrain-vortex" class="grid-item coralelf-item" onclick="toggle_dragon('terrain-desc8');"><p>Vortex</p></a>
+</div></div>
+
+
+<div class="staging-container">
+  <div class="desc-container">
+    <p id="terrain-desc1" class="sidedesc">City: If your army controls a terrain with this icon, at the beginning of your turn after spells expire but before any dragons attack or you take a march, you can recruit a 1-health (common) unit or promote a unit in the controlling army.</p>
+    <p id="terrain-desc2" class="sidedesc">Standing Stones: If your army controls a terrain with this icon, it allows units to cast magic of the terrain’s colors – even if the units cannot normally cast those colors of magic. However, no unit can double its ID icons for magic unless both the unit and the terrain contain that color.</p>
+    <p id="terrain-desc3" class="sidedesc">Temple: If your army controls a terrain with this icon, death (black) magic cast by enemy armies cannot affect this army or the units in that army. Also, at the beginning of your turn after spells expire but before any dragon attacks or you take a march, you may force another player to bury one of his dead units. The targeted player chooses which of their units to bury. Possession of a Temple face prevents any new enemy black spells from targeting the possessing army; it does not negate those already affecting that army. A Temple does not protect the terrain from being targeted by black magic. An army controlling a Temple can still cast black magic upon itself (e.g. Open Grave) and the Temple has no effect on the army’s ability to double black magic.</p>
+    <p id="terrain-desc4" class="sidedesc">Tower: If your army controls a terrain with this icon, it can shoot farther than normal. Missile fire from this army can reach any terrain in play. However, it cannot target any player’s reserve area.</p>
+    <p id="terrain-desc5" class="sidedesc">Castle: When you turn the terrain up to 8, you declare the terrain to be one of the four basic types (City, Standing Stones, Temple, or Tower). It stays that type as long as it stays at 8.</p>
+    <p id="terrain-desc6" class="sidedesc">Dragon’s Lair: At the beginning of your turn, summon any Dragon with at least one color matching either of the terrain’s colors, to any terrain.</p>
+    <p id="terrain-desc7" class="sidedesc">Grove: At the beginning of your turn, if there are any buried non-dragonkin units (even of an enemy), any one non-dragonkin unit in a BUA must be placed in the corresponding DUA. No army can double magic at this terrain by any means (including when it’s not at an eighth face).</p>
+    <p id="terrain-desc8" class="sidedesc">Vortex: During any non-maneuver roll by an army controlling this terrain, any one unit in the target army whose last roll result has not been finalized may be rolled again. The selected unit ignores its last roll result and applies the new roll result instead. Note: this takes affect at the same time as other rerolling effects (i.e. “Instant” SAIs or group monster IDs).</p>
+ </div>
+</div>
+<div class="rules-container">
+
 <h3>Dragon Attack Phase</h3>
 
-<p>Dragons have 5 health and 5 automatic saves. Each side of the dragon is a special action icon. White dragons have 10 health and 5 automatic saves. Additionally, the damage dealt from their special icons is doubled.</p>
+<p id="dragons">Dragons have 5 health and 5 automatic saves. Each side of the dragon is a special action icon. White dragons have 10 health and 5 automatic saves. Additionally, the damage dealt from their special icons is doubled.</p>
 
 </div>
 <div class="center"><div class="dragon-grid">
@@ -143,7 +170,7 @@ player has the last surviving unit(s) in play.</p>
  </div>
 </div>
 
-<div class="rules-container"><p>The type of breath each dragon has is determined by its color(s) with the exception of white dragons whose breaths are based on the terrain's colors. </p></div>
+<div class="rules-container"><p>The type of breath each dragon has is determined by its color(s) with the exception of white dragons whose breaths are based on the terrain's colors.</p></div>
 
 <div class="center"><div class="dragon-grid">
   <a href="#dragons" id="air-breath" class="grid-item coralelf-item" onclick="toggle_dragon('breath-desc1');"><p>Air Breath</p></a>
