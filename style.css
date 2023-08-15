@@ -1242,8 +1242,84 @@ ol li {
 
 /* Lava Elf Backgrounds */
 
+#adept {
+  background-image: url("img/adept.png");
+}
+
+#assassin {
+  background-image: url("img/assassin.png");
+}
+
+#beholder {
+  background-image: url("img/beholder.png");
+}
+
+#bladesman {
+  background-image: url("img/bladesman.png");
+}
+
+#conqueror {
+  background-image: url("img/conqueror.png");
+}
+
+#deadshot {
+  background-image: url("img/deadshot.png");
+}
+
+#drider {
+  background-image: url("img/drider.png");
+}
+
+#duelist {
+  background-image: url("img/duelist.png");
+}
+
+#fusilier {
+  background-image: url("img/fusilier.png");
+}
+
+#hellhound {
+  background-image: url("img/hellhound.png");
+}
+
+#infiltrator {
+  background-image: url("img/infiltrator.png");
+}
+
+#lurkerinthedeep {
+  background-image: url("img/lurkerinthedeep.png");
+}
+
+#necromancer {
+  background-image: url("img/necromancer.png");
+}
+
+#rakshasa {
+  background-image: url("img/rakshasa.png");
+}
+
+#scorpionknight {
+  background-image: url("img/scorpionknight.png");
+}
+
 #scout {
   background-image: url("img/scout.png");
+}
+
+#spiderrider {
+  background-image: url("img/spiderrider.png");
+}
+
+#spy {
+  background-image: url("img/spy.png");
+}
+
+#warlock {
+  background-image: url("img/warlock.png");
+}
+
+#wyvernrider {
+  background-image: url("img/wyvernrider.png");
 }
 
 
