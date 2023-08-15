@@ -51,6 +51,30 @@ body::-webkit-scrollbar {
   align-items: center;
 }
 
+.single-grid li {
+  width: 4em;
+  list-style-type: none;
+  text-align: center;
+}
+
+
+ul.single-grid {
+  padding: 0;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+
+.single-grid li p {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: .6em;
+}
+
 .dragon-grid {
   display: inline-grid;
   grid-template-columns: repeat(7, 1fr);
@@ -130,27 +154,6 @@ body::-webkit-scrollbar {
 
 .grid-item:hover p {
   display: inline-block;
-}
-
-ul {
-  padding: 0;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-}
-
-li {
-  width: 4em;
-  list-style-type: none;
-}
-
-ul p {
-  width: 100%;
-  font-weight: bold;
-  text-align: center;
-  color: #fff;
-  text-transform: uppercase;
-  font-family: sans-serif;
-  font-size: .7em;
 }
 
 h1 {
@@ -271,7 +274,7 @@ span:first-of-type {
   text-align: center;
 }
 
-.rules-container p, li {
+.rules-container p, .rules-container olli {
   font-size: 0.8em;
 }
 
@@ -327,10 +330,6 @@ ol li {
         width: 3em;
         height: 3em;
     }
-
-    li {
-        width: 3em;
-    }
     
     .side-item {
         width: 2.5em;
@@ -353,6 +352,11 @@ ol li {
     .ability {
         width: 94%;
     }
+
+   .single-grid li {
+    width: 3em;
+    }
+
 }
 
 .amazon-item p {
