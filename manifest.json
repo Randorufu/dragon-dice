@@ -8,8 +8,8 @@
   "scope": "/dragon-dice/",
   "short_name": "Dragon Dice",
   "start_url": "/dragon-dice/",
-  "prefer_related_applications": false
-  "theme_color": "#416eaa",
+  "prefer_related_applications": false,
+  "theme_color": "black",
   "description": "Dragon Dice Tools",
   "icons": [
     {
