@@ -35,3 +35,12 @@ function toggle_dragon(id) {
         z.style.display = 'block';
      }
  }
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function() {
+  navigator.serviceWorker
+    .register("./sw.js")
+    .then(res=>console.log("service worker registered"))
+    .catch(err=>console.log("serice worker not registered", err))
+})
+}

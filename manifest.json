@@ -5,9 +5,9 @@
   "display": "standalone",
   "name": "Dragon Dice",
   "orientation": "any",
-  "scope": "/",
+  "scope": "/dragon-dice/",
   "short_name": "Dragon Dice",
-  "start_url": "https://randorufu.github.io/dragon-dice/",
+  "start_url": "/dragon-dice/",
   "theme_color": "#416eaa",
   "description": "Dragon Dice Tools",
   "icons": [
