@@ -1,7 +1,6 @@
 {
   "background_color": "#000000",
   "description": "Dragon Dice Tools",
-  "dir": "ltr",
   "display": "standalone",
   "name": "Dragon Dice",
   "orientation": "any",
