@@ -8,24 +8,43 @@
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link rel= “manifest” href= “manifest.json” />
   <link rel="icon" href="favicon.png">
+  <script>
+    function randombg(){var random= Math.floor(Math.random() * 5) + 0;
+
+    var amazonBG = ["url('img/warchief.png')","url('img/harbinger.png')","url('img/spearer.png')","url('img/wardriver.png')","url('img/oracle.png')"];
+    document.getElementById("amazon-bg").style.backgroundImage=amazonBG[random];
+
+    var coralBG = ["url('img/protector.png')","url('img/herald.png')","url('img/sharpshooter.png')","url('img/eagleknight.png')","url('img/enchanter.png')"];
+    document.getElementById("coralelf-bg").style.backgroundImage=coralBG[random];
+
+    var feralBG = ["url('img/tigerfolk.png')","url('img/wolffolk.png')","url('img/vulturefolk.png')","url('img/buffalofolk.png')","url('img/wolverinefolk.png')"];
+    document.getElementById("feral-bg").style.backgroundImage=feralBG[random];
+
+    var lavaBG = ["url('img/conqueror.png')","url('img/infiltrator.png')","url('img/assassin.png')","url('img/wyvernrider.png')","url('img/necromancer.png')"];
+    document.getElementById("lavaelf-bg").style.backgroundImage=lavaBG[random];
+
+    var scaldersBG = ["url('img/searer.png')","url('img/charkin.png')","url('img/blazer.png')","url('img/dragonneknight.png')","url('img/inferno.png')"];
+    document.getElementById("scalders-bg").style.backgroundImage=scaldersBG[random];}
+</script>
 </head>
-<body>
+
+<body onload="randombg()">
 
 <div id="topbar"><a href="index.html"><h1>Dragon Dice</h1></a><a href="rules.html"><h2>Rules</h2></a></div>
 
     <h2>Races</h2>
 
 <div class="center"><div class="races-grid">
-  <a href="amazons.html" id="charioteer" class="grid-item amazon-item"><p>Amazons</p></a>
-  <a href="coral-elves.html" id="courier" class="grid-item coralelf-item"><p>Coral Elves</p></a>
+  <a href="amazons.html" id="amazon-bg" class="grid-item amazon-item"><p>Amazons</p></a>
+  <a href="coral-elves.html" id="coralelf-bg" class="grid-item coralelf-item"><p>Coral Elves</p></a>
   <a href="#" id="theurgist" class="grid-item dwarf-item"><p>Dwarves</p></a>
-  <a href="feral.html" id="buffalofolk" class="grid-item feral-item"><p>Feral</p></a>
+  <a href="feral.html" id="feral-bg" class="grid-item feral-item"><p>Feral</p></a>
   <a href="#" id="firemaster" class="grid-item firewalker-item"><p>Firewalkers</p></a>
   <a href="#" id="attacker" class="grid-item frostwing-item"><p>Frostwings</p></a>
   <a href="#" id="thug" class="grid-item goblin-item"><p>Goblins</p></a>
-  <a href="lava-elves.html" id="necromancer" class="grid-item lavaelf-item"><p>Lava Elves</p></a>
+  <a href="lava-elves.html" id="lavaelf-bg" class="grid-item lavaelf-item"><p>Lava Elves</p></a>
   <a href="#" id="skeleton" class="grid-item undead-item"><p>Undead</p></a>
-  <a href="scalders.html" id="charkin" class="grid-item scalder-item"><p>Scalders</p></a>
+  <a href="scalders.html" id="scalders-bg" class="grid-item scalder-item"><p>Scalders</p></a>
   <a href="#" id="raider" class="grid-item swampstalker-item"><p>Swamp Stalkers</p></a>
   <a href="#" id="pineling" class="grid-item treefolk-item"><p>Treefolk</p></a>
 </div></div>
