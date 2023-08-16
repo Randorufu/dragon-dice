@@ -1,12 +1,14 @@
 {
   "background_color": "#000000",
   "description": "Dragon Dice Tools",
+  "dir": "ltr",
   "display": "standalone",
   "name": "Dragon Dice",
   "orientation": "any",
   "scope": "/dragon-dice/",
   "short_name": "Dragon Dice",
   "start_url": "/dragon-dice/",
+  "prefer_related_applications": false
   "theme_color": "#416eaa",
   "description": "Dragon Dice Tools",
   "icons": [
