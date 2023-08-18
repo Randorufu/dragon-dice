@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="robots" content="noindex">
+  <title>Swamp Stalkers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="manifest" href="/dragon-dice/manifest.json">
+  <script src="script.js" type="text/javascript"></script>
+  <link rel="icon" href="favicon.png">
+</head>
+<body>
+
+<div id="topbar"><a href="index.html"><h1>Dragon Dice</h1></a><a href="rules.html"><h2>Rules</h2></a></div>
+
+<h2>Swamp Stalkers</h2>
+
+<div class="center"><div class="single-grid">
+  <a href="#swampstalkers" id="beholder" class="grid-item swampstalker-item" onclick="toggle_sides('beholder-container');"><p>Beholder</p></a>
+  <a href="#swampstalkers" id="drider" class="grid-item swampstalker-item" onclick="toggle_sides('drider-container');"><p>Drider</p></a>
+  <a href="#swampstalkers" id="hellhound" class="grid-item swampstalker-item" onclick="toggle_sides('hellhound-container');"><p>Hell Hound</p></a>
+  <a href="#swampstalkers" id="rakshasa" class="grid-item swampstalker-item" onclick="toggle_sides('rakshasa-container');"><p>Rakshasa</p></a>
+  <a href="#swampstalkers" id="lurkerinthedeep" class="grid-item swampstalker-item" onclick="toggle_sides('lurkerinthedeep-container');"><p>Lurker in the Deep</p></a>
+</div></div>
+
+<div class="staging-container">
+  <div id="beholder-container" class="msides-grid side-container">
+    <a href="#swampstalkers" id="beholder" class="grid-item swampstalker-item side-item" onclick="toggle_desc('beholder1-desc');"><p>ID</p></a>
+    <a href="#swampstalkers" id="swampstalker-magicm" class="grid-item swampstalker-item side-item" onclick="toggle_desc('beholder2-desc');"><p>Magic</p></a>
+    <a href="#swampstalkers" id="swampstalker-flamem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('beholder3-desc');"><p>Flame</p></a>
+    <a href="#swampstalkers" id="swampstalker-savem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('beholder4-desc');"><p>Saves</p></a>
+    <a href="#swampstalkers" id="swampstalker-charmm" class="grid-item swampstalker-item side-item" onclick="toggle_desc('beholder5-desc');"><p>Charm</p></a>
+    <a href="#swampstalkers" id="swampstalker-stonem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('beholder6-desc');"><p>Stone</p></a>
+    <a href="#swampstalkers" id="swampstalker-confusem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('beholder7-desc');"><p>Confuse</p></a>
+    <a href="#swampstalkers" id="swampstalker-meleem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('beholder8-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-illusionm" class="grid-item swampstalker-item side-item" onclick="toggle_desc('beholder9-desc');"><p>Illusion</p></a>
+    <a href="#swampstalkers" id="swampstalker-savem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('beholder10-desc');"><p>Saves</p></a>
+  </div>
+  <div id="drider-container" class="msides-grid side-container">
+    <a href="#swampstalkers" id="drider" class="grid-item swampstalker-item side-item" onclick="toggle_desc('drider1-desc');"><p>ID</p></a>
+    <a href="#swampstalkers" id="swampstalker-webm" class="grid-item swampstalker-item side-item" onclick="toggle_desc('drider2-desc');"><p>Web</p></a>
+    <a href="#swampstalkers" id="swampstalker-maneuverm" class="grid-item swampstalker-item side-item" onclick="toggle_desc('drider3-desc');"><p>Maneuver</p></a>
+    <a href="#swampstalkers" id="swampstalker-savem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('drider4-desc');"><p>Saves</p></a>
+    <a href="#swampstalkers" id="swampstalker-meleem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('drider5-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-missilem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('drider6-desc');"><p>Missiles</p></a>
+    <a href="#swampstalkers" id="swampstalker-maneuverm" class="grid-item swampstalker-item side-item" onclick="toggle_desc('drider7-desc');"><p>Maneuver</p></a>
+    <a href="#swampstalkers" id="swampstalker-webm" class="grid-item swampstalker-item side-item" onclick="toggle_desc('drider8-desc');"><p>Web</p></a>
+    <a href="#swampstalkers" id="swampstalker-savem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('drider9-desc');"><p>Saves</p></a>
+    <a href="#swampstalkers" id="swampstalker-meleem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('drider10-desc');"><p>Melee</p></a>
+  </div>
+  <div id="hellhound-container" class="msides-grid side-container">
+    <a href="#swampstalkers" id="hellhound" class="grid-item swampstalker-item side-item" onclick="toggle_desc('hellhound1-desc');"><p>ID</p></a>
+    <a href="#swampstalkers" id="swampstalker-maneuverm" class="grid-item swampstalker-item side-item" onclick="toggle_desc('hellhound2-desc');"><p>Maneuver</p></a>
+    <a href="#swampstalkers" id="swampstalker-meleem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('hellhound3-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-savem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('hellhound4-desc');"><p>Saves</p></a>
+    <a href="#swampstalkers" id="swampstalker-flamem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('hellhound5-desc');"><p>Flame</p></a>
+    <a href="#swampstalkers" id="swampstalker-flamem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('hellhound6-desc');"><p>Flame</p></a>
+    <a href="#swampstalkers" id="swampstalker-meleem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('hellhound7-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-maneuverm" class="grid-item swampstalker-item side-item" onclick="toggle_desc('hellhound8-desc');"><p>Maneuver</p></a>
+    <a href="#swampstalkers" id="swampstalker-savem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('hellhound9-desc');"><p>Saves</p></a>
+    <a href="#swampstalkers" id="swampstalker-meleem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('hellhound10-desc');"><p>Melee</p></a>
+  </div>
+  <div id="rakshasa-container" class="msides-grid side-container">
+    <a href="#swampstalkers" id="rakshasa" class="grid-item swampstalker-item side-item" onclick="toggle_desc('rakshasa1-desc');"><p>ID</p></a>
+    <a href="#swampstalkers" id="swampstalker-maneuverm" class="grid-item swampstalker-item side-item" onclick="toggle_desc('rakshasa2-desc');"><p>Maneuver</p></a>
+    <a href="#swampstalkers" id="swampstalker-illusionm" class="grid-item swampstalker-item side-item" onclick="toggle_desc('rakshasa3-desc');"><p>Illusion</p></a>
+    <a href="#swampstalkers" id="swampstalker-meleem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('rakshasa4-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-magicm" class="grid-item swampstalker-item side-item" onclick="toggle_desc('rakshasa5-desc');"><p>Magic</p></a>
+    <a href="#swampstalkers" id="swampstalker-illusionm" class="grid-item swampstalker-item side-item" onclick="toggle_desc('rakshasa6-desc');"><p>Illusion</p></a>
+    <a href="#swampstalkers" id="swampstalker-savem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('rakshasa7-desc');"><p>Saves</p></a>
+    <a href="#swampstalkers" id="swampstalker-counterm" class="grid-item swampstalker-item side-item" onclick="toggle_desc('rakshasa8-desc');"><p>Counter</p></a>
+    <a href="#swampstalkers" id="swampstalker-magicm" class="grid-item swampstalker-item side-item" onclick="toggle_desc('rakshasa9-desc');"><p>Magic</p></a>
+    <a href="#swampstalkers" id="swampstalker-meleem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('rakshasa10-desc');"><p>Melee</p></a>
+  </div>
+  <div id="lurkerinthedeep-container" class="msides-grid side-container">
+    <a href="#swampstalkers" id="lurkerinthedeep" class="grid-item swampstalker-item side-item" onclick="toggle_desc('lurkerinthedeep1-desc');"><p>ID</p></a>
+    <a href="#swampstalkers" id="swampstalker-counterm" class="grid-item swampstalker-item side-item" onclick="toggle_desc('lurkerinthedeep2-desc');"><p>Counter</p></a>
+    <a href="#swampstalkers" id="swampstalker-magicm" class="grid-item swampstalker-item side-item" onclick="toggle_desc('lurkerinthedeep3-desc');"><p>Magic</p></a>
+    <a href="#swampstalkers" id="swampstalker-maneuverm" class="grid-item swampstalker-item side-item" onclick="toggle_desc('lurkerinthedeep4-desc');"><p>Maneuver</p></a>
+    <a href="#swampstalkers" id="swampstalker-cantripm" class="grid-item swampstalker-item side-item" onclick="toggle_desc('lurkerinthedeep5-desc');"><p>Cantrip</p></a>
+    <a href="#swampstalkers" id="swampstalker-magicm" class="grid-item swampstalker-item side-item" onclick="toggle_desc('lurkerinthedeep6-desc');"><p>Magic</p></a>
+    <a href="#swampstalkers" id="swampstalker-volleym" class="grid-item swampstalker-item side-item" onclick="toggle_desc('lurkerinthedeep7-desc');"><p>Volley</p></a>
+    <a href="#swampstalkers" id="swampstalker-cloakm" class="grid-item swampstalker-item side-item" onclick="toggle_desc('lurkerinthedeep8-desc');"><p>Cloak</p></a>
+    <a href="#swampstalkers" id="swampstalker-flym" class="grid-item swampstalker-item side-item" onclick="toggle_desc('lurkerinthedeep9-desc');"><p>Fly</p></a>
+    <a href="#swampstalkers" id="swampstalker-missilem" class="grid-item swampstalker-item side-item" onclick="toggle_desc('lurkerinthedeep10-desc');"><p>Missiles</p></a>
+  </div>
+  <div class="desc-container">
+    <p id="beholder1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, missile, or maneuver results.</p>
+    <p id="beholder2-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="beholder3-desc" class="sidedesc">Flame: During a melee attack, choose up to 2 health-worth of units in the defending army to be immediately killed and buried with no save possible.</p>
+    <p id="beholder4-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="beholder5-desc" class="sidedesc">Charm: During a melee attack, immediately choose up to 4 health-worth of units in an opposing army to add their results to the results of the acting army. The affected unit(s) return to their owner’s control immediately after the defender’s save roll. Their owner may choose charmed units as casualties, but their results are still added to the army containing the unit with Charm.</p>
+    <p id="beholder6-desc" class="sidedesc">Stone: During a missile action, Stone immediately inflicts 4 points of damage on the defending army; no saves (including those provided by spells) can stop this damage. During a dragon attack or missile avoidance roll, Stone generates 4 missile results.</p>
+    <p id="beholder7-desc" class="sidedesc">Confuse: During a melee attack or missile action, after the defending army rolls for saves but before they apply any unique or special resolution SAIs, choose up to 4 health-worth of units in the defending army and force them to roll again. Selected units ignore their original roll and apply the new roll instead.</p>
+    <p id="beholder8-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="beholder9-desc" class="sidedesc">Illusion: During any action, immediately choose any of your armies. Until the beginning of your next turn, this army cannot be targeted by any missile or enemy magic effect.</p>
+    <p id="beholder10-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="drider1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, missile, or maneuver results.</p>
+    <p id="drider2-desc" class="sidedesc">Web: During a melee attack, choose up to 4 health-worth of units in the defending army to be webbed unless each targeted unit immediately rolls a melee result. Target units that fail their avoidance roll cannot be rolled until the beginning of your next turn.</p>
+    <p id="drider3-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="drider4-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="drider5-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="drider6-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+    <p id="drider7-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="drider8-desc" class="sidedesc">Web: During a melee attack, choose up to 4 health-worth of units in the defending army to be webbed unless each targeted unit immediately rolls a melee result. Target units that fail their avoidance roll cannot be rolled until the beginning of your next turn.</p>
+    <p id="drider9-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="drider10-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="hellhound1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, missile, or maneuver results.</p>
+    <p id="hellhound2-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="hellhound3-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="hellhound4-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="hellhound5-desc" class="sidedesc">Flame: During a melee attack, choose up to 2 health-worth of units in the defending army to be immediately killed and buried with no save possible.</p>
+    <p id="hellhound6-desc" class="sidedesc">Flame: During a melee attack, choose up to 2 health-worth of units in the defending army to be immediately killed and buried with no save possible.</p>
+    <p id="hellhound7-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="hellhound8-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="hellhound9-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="hellhound10-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="rakshasa1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, missile, or maneuver results.</p>
+    <p id="rakshasa2-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="rakshasa3-desc" class="sidedesc">Illusion: During any action, immediately choose any of your armies. Until the beginning of your next turn, this army cannot be targeted by any missile or enemy magic effect.</p>
+    <p id="rakshasa4-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="rakshasa5-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="rakshasa6-desc" class="sidedesc">Illusion: During any action, immediately choose any of your armies. Until the beginning of your next turn, this army cannot be targeted by any missile or enemy magic effect.</p>
+    <p id="rakshasa7-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="rakshasa8-desc" class="sidedesc">Counter: During a melee attack or melee avoidance roll, Counter generates 4 melee results. During a save roll, Counter generates 4 save results. During a save roll in a melee attack, Counter immediately generates both 4 save results and 4 melee results upon the attacking army or unit. Only magical saves protect against this damage. During a dragon attack, Counter generates 4 save and 4 melee results.</p>
+    <p id="rakshasa9-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="rakshasa10-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="lurkerinthedeep1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, missile, or maneuver results.</p>
+    <p id="lurkerinthedeep2-desc" class="sidedesc">Counter: During a melee attack or melee avoidance roll, Counter generates 4 melee results. During a save roll, Counter generates 4 save results. During a save roll in a melee attack, Counter immediately generates both 4 save results and 4 melee results upon the attacking army or unit. Only magical saves protect against this damage. During a dragon attack, Counter generates 4 save and 4 melee results.</p>
+    <p id="lurkerinthedeep3-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="lurkerinthedeep4-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="lurkerinthedeep5-desc" class="sidedesc">Cantrip: During a magic action or magic negation roll, Cantrip generates 4 magic results. During any non-magic action, save roll or non-maneuver avoidance roll, Cantrip can be used to purchase spells that are immediately resolved.</p>
+    <p id="lurkerinthedeep6-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="lurkerinthedeep7-desc" class="sidedesc">Volley: During a missile action or missile avoidance roll, Volley generates 4 missile results. During a save roll, Volley generates 4 save results. During a save roll in a missile action, Volley generates both 4 save results and 4 immediate missile results upon the attacking army. Only magical saves protect against this damage. During a dragon attack, Volley generates 4 save and 4 missile results.</p>
+    <p id="lurkerinthedeep8-desc" class="sidedesc">Cloak: During any non-save roll, Cloak generates magic results. During a save roll, add four magical save results to the army containing this unit until the beginning of your next turn. During a roll against an individual targeting effect, Cloak generates magic, maneuver, melee, missile or save results.</p>
+    <p id="lurkerinthedeep9-desc" class="sidedesc">Fly: During any roll, Fly generates 4 maneuver or 4 save results.</p>
+    <p id="lurkerinthedeep10-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+  </div>
+</div>
+
+<div class="center">
+<ul class="single-grid">
+  <li><p>Heavy Melee</p></li>
+  <li><p>Light Melee</p></li>
+  <li><p>Missiles</p></li>
+  <li><p>Cavalry</p></li>
+  <li><p>Magic</p></li>
+</ul>
+</div>
+
+<div class="center"><div class="single-grid">
+  <a href="#swampstalkers" id="conqueror" class="grid-item swampstalker-item" onclick="toggle_sides('conqueror-container');"><p>Conqueror</p></a>
+  <a href="#swampstalkers" id="infiltrator" class="grid-item swampstalker-item" onclick="toggle_sides('infiltrator-container');"><p>Infiltrator</p></a>
+  <a href="#swampstalkers" id="assassin" class="grid-item swampstalker-item" onclick="toggle_sides('assassin-container');"><p>Assassin</p></a>
+  <a href="#swampstalkers" id="wyvernrider" class="grid-item swampstalker-item" onclick="toggle_sides('wyvernrider-container');"><p>Wyvern Rider</p></a>
+  <a href="#swampstalkers" id="necromancer" class="grid-item swampstalker-item" onclick="toggle_sides('necromancer-container');"><p>Necromancer</p></a>
+</div></div>
+
+<div class="staging-container">
+  <div id="conqueror-container" class="sides-grid side-container">
+    <a href="#swampstalkers" id="conqueror" class="grid-item swampstalker-item side-item" onclick="toggle_desc('conqueror1-desc');"><p>ID</p></a>
+    <a href="#swampstalkers" id="swampstalker-missile2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('conqueror2-desc');"><p>Missiles</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee5" class="grid-item swampstalker-item side-item" onclick="toggle_desc('conqueror3-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('conqueror4-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-save3" class="grid-item swampstalker-item side-item" onclick="toggle_desc('conqueror5-desc');"><p>Saves</p></a>
+    <a href="#swampstalkers" id="swampstalker-smite" class="grid-item swampstalker-item side-item" onclick="toggle_desc('conqueror6-desc');"><p>Smite</p></a>
+  </div>
+  <div id="infiltrator-container" class="sides-grid side-container">
+    <a href="#swampstalkers" id="infiltrator" class="grid-item swampstalker-item side-item" onclick="toggle_desc('infiltrator1-desc');"><p>ID</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee5" class="grid-item swampstalker-item side-item" onclick="toggle_desc('infiltrator2-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-maneuver5" class="grid-item swampstalker-item side-item" onclick="toggle_desc('infiltrator3-desc');"><p>Maneuver</p></a>
+    <a href="#swampstalkers" id="swampstalker-maneuver1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('infiltrator4-desc');"><p>Maneuver</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('infiltrator5-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-counter" class="grid-item swampstalker-item side-item" onclick="toggle_desc('infiltrator6-desc');"><p>Counter</p></a>
+  </div>
+  <div id="assassin-container" class="sides-grid side-container">
+    <a href="#swampstalkers" id="assassin" class="grid-item swampstalker-item side-item" onclick="toggle_desc('assassin1-desc');"><p>ID</p></a>
+    <a href="#swampstalkers" id="swampstalker-missile5" class="grid-item swampstalker-item side-item" onclick="toggle_desc('assassin2-desc');"><p>Missiles</p></a>
+    <a href="#swampstalkers" id="swampstalker-missile3" class="grid-item swampstalker-item side-item" onclick="toggle_desc('assassin3-desc');"><p>Missiles</p></a>
+    <a href="#swampstalkers" id="swampstalker-missile1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('assassin4-desc');"><p>Missile</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee3" class="grid-item swampstalker-item side-item" onclick="toggle_desc('assassin5-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-bullseye" class="grid-item swampstalker-item side-item" onclick="toggle_desc('assassin6-desc');"><p>Bullseye</p></a>
+  </div>
+  <div id="wyvernrider-container" class="sides-grid side-container">
+    <a href="#swampstalkers" id="wyvernrider" class="grid-item swampstalker-item side-item" onclick="toggle_desc('wyvernrider1-desc');"><p>ID</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee4" class="grid-item swampstalker-item side-item" onclick="toggle_desc('wyvernrider2-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-fly5" class="grid-item swampstalker-item side-item" onclick="toggle_desc('wyvernrider3-desc');"><p>Fly</p></a>
+    <a href="#swampstalkers" id="swampstalker-fly1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('wyvernrider4-desc');"><p>Fly</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('wyvernrider5-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-missile4" class="grid-item swampstalker-item side-item" onclick="toggle_desc('wyvernrider6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="necromancer-container" class="sides-grid side-container">
+    <a href="#swampstalkers" id="necromancer" class="grid-item swampstalker-item side-item" onclick="toggle_desc('necromancer1-desc');"><p>ID</p></a>
+    <a href="#swampstalkers" id="swampstalker-save2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('necromancer2-desc');"><p>Saves</p></a>
+    <a href="#swampstalkers" id="swampstalker-magic5" class="grid-item swampstalker-item side-item" onclick="toggle_desc('necromancer3-desc');"><p>Magic</p></a>
+    <a href="#swampstalkers" id="swampstalker-magic2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('necromancer4-desc');"><p>Magic</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee3" class="grid-item swampstalker-item side-item" onclick="toggle_desc('necromancer5-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-cantrip" class="grid-item swampstalker-item side-item" onclick="toggle_desc('necromancer6-desc');"><p>Cantrip</p></a>
+  </div>
+  <div class="desc-container">
+    <p id="conqueror1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, missile, or maneuver results.</p>
+    <p id="conqueror2-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="conqueror3-desc" class="sidedesc">Melee: Generates 5 points of melee results.</p>
+    <p id="conqueror4-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="conqueror5-desc" class="sidedesc">Saves: Negates 3 points of normal melee or missile damage.</p>
+    <p id="conqueror6-desc" class="sidedesc">Smite: During a melee attack, immediately inflicts 4 points of damage on the defending army or unit; no saves (including those provided by spells) can stop this damage. During a dragon attack or melee avoidance roll, Smite generates 4 melee results.</p>
+    <p id="infiltrator1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, missile, or maneuver results.</p>
+    <p id="infiltrator2-desc" class="sidedesc">Melee: Generates 5 points of melee results.</p>
+    <p id="infiltrator3-desc" class="sidedesc">Maneuver: Generates 5 points of maneuver results.</p>
+    <p id="infiltrator4-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="infiltrator5-desc" class="sidedesc">Melee: Generates 1 points of melee results.</p>
+    <p id="infiltrator6-desc" class="sidedesc">Counter: During a melee attack or melee avoidance roll, Counter generates 4 melee results. During a save roll, Counter generates 4 save results. During a save roll in a melee attack, Counter immediately generates both 4 save results and 4 melee results upon the attacking army or unit. Only magical saves protect against this damage. During a dragon attack, Counter generates 4 save and 4 melee results.</p>
+    <p id="assassin1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, missile, or maneuver results.</p>
+    <p id="assassin2-desc" class="sidedesc">Missiles: Generates 5 points of missile results.</p>
+    <p id="assassin3-desc" class="sidedesc">Missiles: Generates 3 points of missile results.</p>
+    <p id="assassin4-desc" class="sidedesc">Missile: Generates 1 point of missile results.</p>
+    <p id="assassin5-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="assassin6-desc" class="sidedesc">Bullseye: During a missile action, Bullseye immediately inflicts 4 points of damage. The damage may individually target one or more units in the defending army as the acting player chooses. Each target unit must immediately generate saves against the damage assigned to it. During a dragon attack or missile avoidance roll, Bullseye generates 4 missile results.</p>
+    <p id="wyvernrider1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, missile, or maneuver results.</p>
+    <p id="wyvernrider2-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="wyvernrider3-desc" class="sidedesc">Fly: During any roll, Fly generates 5 maneuver or 5 save results.</p>
+    <p id="wyvernrider4-desc" class="sidedesc">Fly: During any roll, Fly generates 1 maneuver or 1 save result.</p>
+    <p id="wyvernrider5-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="wyvernrider6-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+    <p id="necromancer1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, missile, or maneuver results.</p>
+    <p id="necromancer2-desc" class="sidedesc">Saves: Negates 2 points of normal melee or missile damage.</p>
+    <p id="necromancer3-desc" class="sidedesc">Magic: Generates 5 points of magic results.</p>
+    <p id="necromancer4-desc" class="sidedesc">Magic: Generates 2 points of magic results.</p>
+    <p id="necromancer5-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="necromancer6-desc" class="sidedesc">Cantrip: During a magic action or magic negation roll, Cantrip generates 4 magic results. During any non-magic action, save roll or non-maneuver avoidance roll, Cantrip can be used to purchase spells that are immediately resolved.</p>
+  </div>
+</div>
+
+<div class="center"><div class="single-grid">
+  <a href="#swampstalkers" id="duelist" class="grid-item swampstalker-item" onclick="toggle_sides('duelist-container');"><p>Duelist</p></a>
+  <a href="#swampstalkers" id="spy" class="grid-item swampstalker-item" onclick="toggle_sides('spy-container');"><p>Spy</p></a>
+  <a href="#swampstalkers" id="deadshot" class="grid-item swampstalker-item" onclick="toggle_sides('deadshot-container');"><p>Dead Shot</p></a>
+  <a href="#swampstalkers" id="scorpionknight" class="grid-item swampstalker-item" onclick="toggle_sides('scorpionknight-container');"><p>Scorpion Knight</p></a>
+  <a href="#swampstalkers" id="warlock" class="grid-item swampstalker-item" onclick="toggle_sides('warlock-container');"><p>Warlock</p></a>
+</div></div>
+
+<div class="staging-container">
+  <div id="duelist-container" class="sides-grid side-container">
+    <a href="#swampstalkers" id="duelist" class="grid-item swampstalker-item side-item" onclick="toggle_desc('duelist1-desc');"><p>ID</p></a>
+    <a href="#swampstalkers" id="swampstalker-save2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('duelist2-desc');"><p>Saves</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee4" class="grid-item swampstalker-item side-item" onclick="toggle_desc('duelist3-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('duelist4-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-maneuver2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('duelist5-desc');"><p>Maneuver</p></a>
+    <a href="#swampstalkers" id="swampstalker-missile2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('duelist6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="spy-container" class="sides-grid side-container">
+    <a href="#swampstalkers" id="spy" class="grid-item swampstalker-item side-item" onclick="toggle_desc('spy1-desc');"><p>ID</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee4" class="grid-item swampstalker-item side-item" onclick="toggle_desc('spy2-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-maneuver4" class="grid-item swampstalker-item side-item" onclick="toggle_desc('spy3-desc');"><p>Maneuver</p></a>
+    <a href="#swampstalkers" id="swampstalker-maneuver1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('spy4-desc');"><p>Maneuver</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('spy5-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-missile2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('spy6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="deadshot-container" class="sides-grid side-container">
+    <a href="#swampstalkers" id="deadshot" class="grid-item swampstalker-item side-item" onclick="toggle_desc('deadshot1-desc');"><p>ID</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('deadshot2-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-missile2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('deadshot3-desc');"><p>Missiles</p></a>
+    <a href="#swampstalkers" id="swampstalker-missile2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('deadshot4-desc');"><p>Missiles</p></a>
+    <a href="#swampstalkers" id="swampstalker-maneuver2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('deadshot5-desc');"><p>Maneuver</p></a>
+    <a href="#swampstalkers" id="swampstalker-missile4" class="grid-item swampstalker-item side-item" onclick="toggle_desc('deadshot6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="scorpionknight-container" class="sides-grid side-container">
+    <a href="#swampstalkers" id="scorpionknight" class="grid-item swampstalker-item side-item" onclick="toggle_desc('scorpionknight1-desc');"><p>ID</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee4" class="grid-item swampstalker-item side-item" onclick="toggle_desc('scorpionknight2-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-maneuver3" class="grid-item swampstalker-item side-item" onclick="toggle_desc('scorpionknight3-desc');"><p>Maneuver</p></a>
+    <a href="#swampstalkers" id="swampstalker-maneuver2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('scorpionknight4-desc');"><p>Maneuver</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('scorpionknight5-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-save2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('scorpionknight6-desc');"><p>Saves</p></a>
+  </div>
+  <div id="warlock-container" class="sides-grid side-container">
+    <a href="#swampstalkers" id="warlock" class="grid-item swampstalker-item side-item" onclick="toggle_desc('warlock1-desc');"><p>ID</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('warlock2-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-magic2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('warlock3-desc');"><p>Magic</p></a>
+    <a href="#swampstalkers" id="swampstalker-magic2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('warlock4-desc');"><p>Magic</p></a>
+    <a href="#swampstalkers" id="swampstalker-maneuver2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('warlock5-desc');"><p>Maneuver</p></a>
+    <a href="#swampstalkers" id="swampstalker-magic4" class="grid-item swampstalker-item side-item" onclick="toggle_desc('warlock6-desc');"><p>Magic</p></a>
+  </div>
+  <div class="desc-container">
+    <p id="duelist1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, missile, or maneuver results.</p>
+    <p id="duelist2-desc" class="sidedesc">Saves: Negates 2 points of normal melee or missile damage.</p>
+    <p id="duelist3-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="duelist4-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="duelist5-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="duelist6-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="spy1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, missile, or maneuver results.</p>
+    <p id="spy2-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="spy3-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="spy4-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="spy5-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="spy6-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="deadshot1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, missile, or maneuver results.</p>
+    <p id="deadshot2-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="deadshot3-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="deadshot4-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="deadshot5-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="deadshot6-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+    <p id="scorpionknight1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, missile, or maneuver results.</p>
+    <p id="scorpionknight2-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="scorpionknight3-desc" class="sidedesc">Maneuver: Generates 3 points of maneuver results.</p>
+    <p id="scorpionknight4-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="scorpionknight5-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="scorpionknight6-desc" class="sidedesc">Saves: Negates 2 points of normal melee or missile damage.</p>
+    <p id="warlock1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, missile, or maneuver results.</p>
+    <p id="warlock2-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="warlock3-desc" class="sidedesc">Magic: Generates 2 points of magic results.</p>
+    <p id="warlock4-desc" class="sidedesc">Magic: Generates 2 points of magic results.</p>
+    <p id="warlock5-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="warlock6-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+  </div>
+</div>
+
+<div class="center"><div class="single-grid">
+  <a href="#swampstalkers" id="bladesman" class="grid-item swampstalker-item" onclick="toggle_sides('bladesman-container');"><p>Bladesman</p></a>
+  <a href="#swampstalkers" id="scout" class="grid-item swampstalker-item" onclick="toggle_sides('scout-container');"><p>Scout</p></a>
+  <a href="#swampstalkers" id="fusilier" class="grid-item swampstalker-item" onclick="toggle_sides('fusilier-container');"><p>Fusilier</p></a>
+  <a href="#swampstalkers" id="spiderrider" class="grid-item swampstalker-item" onclick="toggle_sides('spiderrider-container');"><p>Spider Rider</p></a>
+  <a href="#swampstalkers" id="adept" class="grid-item swampstalker-item" onclick="toggle_sides('adept-container');"><p>Adept</p></a>
+</div></div>
+
+<div class="staging-container">
+  <div id="bladesman-container" class="sides-grid side-container">
+    <a href="#swampstalkers" id="bladesman" class="grid-item swampstalker-item side-item" onclick="toggle_desc('bladesman1-desc');"><p>ID</p></a>
+    <a href="#swampstalkers" id="swampstalker-save1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('bladesman2-desc');"><p>Save</p></a>
+    <a href="#swampstalkers" id="swampstalker-missile1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('bladesman3-desc');"><p>Missile</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('bladesman4-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('bladesman5-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('bladesman6-desc');"><p>Melee</p></a>
+  </div>
+  <div id="scout-container" class="sides-grid side-container">
+    <a href="#swampstalkers" id="scout" class="grid-item swampstalker-item side-item" onclick="toggle_desc('scout1-desc');"><p>ID</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('scout2-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-maneuver1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('scout3-desc');"><p>Maneuver</p></a>
+    <a href="#swampstalkers" id="swampstalker-maneuver1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('scout4-desc');"><p>Maneuver</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('scout5-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-missile1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('scout6-desc');"><p>Missile</p></a>
+  </div>
+  <div id="fusilier-container" class="sides-grid side-container">
+    <a href="#swampstalkers" id="fusilier" class="grid-item swampstalker-item side-item" onclick="toggle_desc('fusilier1-desc');"><p>ID</p></a>
+    <a href="#swampstalkers" id="swampstalker-missile1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('fusilier2-desc');"><p>Missile</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('fusilier3-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-maneuver1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('fusilier4-desc');"><p>Maneuver</p></a>
+    <a href="#swampstalkers" id="swampstalker-save1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('fusilier5-desc');"><p>Save</p></a>
+    <a href="#swampstalkers" id="swampstalker-missile2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('fusilier6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="spiderrider-container" class="sides-grid side-container">
+    <a href="#swampstalkers" id="spiderrider" class="grid-item swampstalker-item side-item" onclick="toggle_desc('spiderrider1-desc');"><p>ID</p></a>
+    <a href="#swampstalkers" id="swampstalker-maneuver1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('spiderrider2-desc');"><p>Maneuver</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('spiderrider3-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-melee1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('spiderrider4-desc');"><p>Melee</p></a>
+    <a href="#swampstalkers" id="swampstalker-maneuver2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('spiderrider5-desc');"><p>Maneuver</p></a>
+    <a href="#swampstalkers" id="swampstalker-missile1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('spiderrider6-desc');"><p>Missile</p></a>
+  </div>
+  <div id="adept-container" class="sides-grid side-container">
+    <a href="#swampstalkers" id="adept" class="grid-item swampstalker-item side-item" onclick="toggle_desc('adept1-desc');"><p>ID</p></a>
+    <a href="#swampstalkers" id="swampstalker-magic1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('adept2-desc');"><p>Magic</p></a>
+    <a href="#swampstalkers" id="swampstalker-save1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('adept3-desc');"><p>Save</p></a>
+    <a href="#swampstalkers" id="swampstalker-maneuver1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('adept4-desc');"><p>Maneuver</p></a>
+    <a href="#swampstalkers" id="swampstalker-magic1" class="grid-item swampstalker-item side-item" onclick="toggle_desc('adept5-desc');"><p>Magic</p></a>
+    <a href="#swampstalkers" id="swampstalker-magic2" class="grid-item swampstalker-item side-item" onclick="toggle_desc('adept6-desc');"><p>Magic</p></a>
+  </div>
+  <div class="desc-container">
+    <p id="bladesman1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, missile, or maneuver results.</p>
+    <p id="bladesman2-desc" class="sidedesc">Save: Negates 1 point of normal melee or missile damage.</p>
+    <p id="bladesman3-desc" class="sidedesc">Missile: Generates 1 point of missile results.</p>
+    <p id="bladesman4-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="bladesman5-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="bladesman6-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="scout1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, missile, or maneuver results.</p>
+    <p id="scout2-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="scout3-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="scout4-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="scout5-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="scout6-desc" class="sidedesc">Missile: Generates 1 point of missile results.</p>
+    <p id="fusilier1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, missile, or maneuver results.</p>
+    <p id="fusilier2-desc" class="sidedesc">Missile: Generates 1 point of missile results.</p>
+    <p id="fusilier3-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="fusilier4-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="fusilier5-desc" class="sidedesc">Save: Negates 1 point of normal melee or missile damage.</p>
+    <p id="fusilier6-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="spiderrider1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, missile, or maneuver results.</p>
+    <p id="spiderrider2-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="spiderrider3-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="spiderrider4-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="spiderrider5-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="spiderrider6-desc" class="sidedesc">Missile: Generates 1 point of missile results.</p>
+    <p id="adept1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, missile, or maneuver results.</p>
+    <p id="adept2-desc" class="sidedesc">Magic: Generates 1 point of magic results.</p>
+    <p id="adept3-desc" class="sidedesc">Save: Negates 1 point of normal melee or missile damage.</p>
+    <p id="adept4-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="adept5-desc" class="sidedesc">Magic: Generates 1 point of magic results.</p>
+    <p id="adept6-desc" class="sidedesc">Magic: Generates 2 points of magic results.</p>
+  </div>
+</div>
+
+<div class="ability">
+  <h3>Racial Ability</h3>
+  <p>Terrain Advantage: Swamp Stalkers may, when at a highland terrain, count maneuver results as if they were save results.</p>
+</div>
+
+<h2>Spells</h2>
+
+<div id="spell-container">
+
+<div id="death" class="one-grid center"><span class="grid-item death-item elemental-item"></span></div>
+<h2>Death</h2>
+
+<div class="spell-flex"><span>Ashes to Ashes</span><span>Cost: 2</span><span>List: Basic</span></div>
+<p class="spell-desc">Target one health-worth of units in any enemy’s DUA. Target units are immediately buried. Multiple castings increase the number of health affected or target another DUA.</p>
+
+<div class="spell-flex"><span>Palsy</span><span>Cost: 3</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any enemy army. Until the beginning of your next turn, subtract one result from the target army. Multiple castings increase the effect or target another army. During a combination roll, the owner of the acting army chooses how to apply the penalty.</p>
+
+<div class="spell-flex"><span>Reanimate Dead</span><span>Cost: 3</span><span>List: Basic</span></div>
+<p class="spell-desc">Target one health-worth of units in your DUA. Target units immediately join the casting army. Multiple castings increase the number of health affected.</p>
+
+<div class="spell-flex"><span>Deadlands</span><span>Cost: 4</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any terrain. Until the terrain face is changed, the target terrain gains the death (black) element. Multiple castings target multiple terrains.</p>
+
+<div class="spell-flex"><span>Finger of Death</span><span>Cost: 4</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any enemy unit. Immediately inflict one point of damage to the target unit with no save possible. Multiple castings increase the effect or target another unit.</p>
+
+<div class="spell-flex"><span>Necromantic Wave</span><span>Cost: 4</span><span>List: Lava Elf</span></div>
+<p class="spell-desc">Target any army. Until the beginning of your next turn, all magic results in the target army may be counted as melee results. Multiple castings target multiple armies.</p>
+
+<div class="spell-flex"><span>Open Grave</span><span>Cost: 6</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any army. Until the beginning of your next turn, for any army-targeting effect that causes damage to the target army, any units taken as casualties immediately go to the reserve area rather than the DUA. Multiple castings target multiple armies.</p>
+
+<div class="spell-flex"><span>Summon Dragon</span><span>Cost: 7</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any terrain. Immediately send any death elemental or ivory dragon in a summoning pool to the target terrain. Multiple castings target the same or multiple terrains.</p>
+
+<div class="spell-flex"><span>Summon White Dragon</span><span>Cost: 14</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any terrain. Immediately send any white dragon to the target terrain. Multiple castings target the same or multiple terrains.</p>
+
+
+<div id="fire" class="one-grid center"><span class="grid-item fire-item elemental-item"></span></div>
+<h2>Fire</h2>
+
+<div class="spell-flex"><span>Ash Storm</span><span>Cost: 2</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any terrain. Until the beginning of your next turn, subtract one result at the target terrain. Multiple castings increase the effect or target another terrain. During a combination roll, the owner of the acting army chooses how to apply the penalty.</p>
+
+<div class="spell-flex"><span>Spark of Life</span><span>Cost: 3</span><span>List: Basic</span></div>
+<p class="spell-desc">Target one health-worth of units in your DUA. Target units immediately join the casting army. Multiple castings increase the number of health affected.</p>
+
+<div class="spell-flex"><span>Fearful Flames</span><span>Cost: 3</span><span>List: Lava Elf</span></div>
+<p class="spell-desc">Target one health-worth of enemy units. Immediately inflict one point of damage on the target unit. The target unit must generate saves against the damage. If the unit saves against the damage, it must generate another save or immediately flee to the reserve area. Multiple castings increase the number of health affected and the damage inflicted.</p>
+
+<div class="spell-flex"><span>Burning Hands</span><span>Cost: 4</span><span>List: Basic</span></div>
+<p class="spell-desc">Target one of your units not already under the effects of a Burning Hands spell. The target unit’s melee results are doubled. This spell remains in effect until it is used by the unit or until the unit generates non-SAI melee results needed by the army. Multiple castings target multiple units.</p>
+
+<div class="spell-flex"><span>Flaming Armor</span><span>Cost: 4</span><span>List: Lava Elf</span></div>
+<p class="spell-desc">Target one of your units not already under the effects of a Flaming Armor spell. The target unit’s save results are doubled. This spell remains in effect until it is used by the unit or until the unit generates non-SAI save results needed by the army. Multiple castings target multiple units.</p>
+
+<div class="spell-flex"><span>Dancing Lights</span><span>Cost: 6</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any enemy army. Until the beginning of your next turn, halve the target army’s missile and magic results. Multiple castings target multiple armies.</p>
+
+<div class="spell-flex"><span>Summon Dragon</span><span>Cost: 7</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any terrain. Immediately send any fire elemental or ivory dragon in a summoning pool to the target terrain. Multiple castings target the same or multiple terrains.</p>
+
+<div class="spell-flex"><span>Summon White Dragon</span><span>Cost: 14</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any terrain. Immediately send any white dragon to the target terrain. Multiple castings target the same or multiple terrains.</p>
+
+</div>
+</body>
+</html>
