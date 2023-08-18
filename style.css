@@ -1228,9 +1228,86 @@ ol li {
 
 /* Frostwing Backgrounds */
 
+#advocate {
+  background-image: url("img/advocate.png");
+}
+
+#apprentice {
+  background-image: url("img/apprentice.png");
+}
+
+#assailer {
+  background-image: url("img/assailer.png");
+}
+
+#assaulter {
+  background-image: url("img/assaulter.png");
+}
+
 #attacker {
   background-image: url("img/attacker.png");
 }
+
+#bearmaster {
+  background-image: url("img/bearmaster.png");
+}
+
+#cryohydra {
+  background-image: url("img/cryohydra.png");
+}
+
+#defender {
+  background-image: url("img/defender.png");
+}
+
+#destroyer {
+  background-image: url("img/destroyer.png");
+}
+
+#devastator  {
+  background-image: url("img/devastator.png");
+}
+
+#dispatcher  {
+  background-image: url("img/dispatcher.png");
+}
+
+#frostogre {
+  background-image: url("img/frostogre.png");
+}
+
+#houndmaster {
+  background-image: url("img/houndmaster.png");
+}
+
+#magi {
+  background-image: url("img/magi.png");
+}
+
+#magus {
+  background-image: url("img/magus.png");
+}
+
+#remorhaz {
+  background-image: url("img/remorhaz.png");
+}
+
+#vindicator {
+  background-image: url("img/vindicator.png");
+}
+
+#wolfmaster {
+  background-image: url("img/wolfmaster.png");
+}
+
+#wolfpack {
+  background-image: url("img/wolfpack.png");
+}
+
+#yeti {
+  background-image: url("img/yeti.png");
+}
+
 
 
 /* Goblin Backgrounds */
