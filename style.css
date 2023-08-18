@@ -1228,9 +1228,266 @@ ol li {
 
 /* Frostwing Backgrounds */
 
+#advocate {
+  background-image: url("img/advocate.png");
+}
+
+#apprentice {
+  background-image: url("img/apprentice.png");
+}
+
+#assailer {
+  background-image: url("img/assailer.png");
+}
+
+#assaulter {
+  background-image: url("img/assaulter.png");
+}
+
 #attacker {
   background-image: url("img/attacker.png");
 }
+
+#bearmaster {
+  background-image: url("img/bearmaster.png");
+}
+
+#cryohydra {
+  background-image: url("img/cryohydra.png");
+}
+
+#defender {
+  background-image: url("img/defender.png");
+}
+
+#destroyer {
+  background-image: url("img/destroyer.png");
+}
+
+#devastator  {
+  background-image: url("img/devastator.png");
+}
+
+#dispatcher  {
+  background-image: url("img/dispatcher.png");
+}
+
+#frostogre {
+  background-image: url("img/frostogre.png");
+}
+
+#houndmaster {
+  background-image: url("img/houndmaster.png");
+}
+
+#magi {
+  background-image: url("img/magi.png");
+}
+
+#magus {
+  background-image: url("img/magus.png");
+}
+
+#remorhaz {
+  background-image: url("img/remorhaz.png");
+}
+
+#vindicator {
+  background-image: url("img/vindicator.png");
+}
+
+#wolfmaster {
+  background-image: url("img/wolfmaster.png");
+}
+
+#wolfpack {
+  background-image: url("img/wolfpack.png");
+}
+
+#yeti {
+  background-image: url("img/yeti.png");
+}
+
+#frostwing-bullseye {
+  background-image: url("img/frostwing-bullseye.png");
+}
+
+#frostwing-cantrip {
+  background-image: url("img/frostwing-cantrip.png");
+}
+
+#frostwing-cantripm {
+  background-image: url("img/frostwing-cantripm.png");
+}
+
+#frostwing-doublestrikem {
+  background-image: url("img/frostwing-doublestrikem.png");
+}
+
+#frostwing-frostbreathm {
+  background-image: url("img/frostwing-frostbreathm.png");
+}
+
+#frostwing-fly1 {
+  background-image: url("img/frostwing-fly1.png");
+}
+
+#frostwing-fly2 {
+  background-image: url("img/frostwing-fly2.png");
+}
+
+#frostwing-fly3 {
+  background-image: url("img/frostwing-fly3.png");
+}
+
+#frostwing-fly4 {
+  background-image: url("img/frostwing-fly4.png");
+}
+
+#frostwing-howlm {
+  background-image: url("img/frostwing-howlm.png");
+}
+
+#frostwing-magicm {
+  background-image: url("img/frostwing-magicm.png");
+}
+
+#frostwing-maneuver1 {
+  background-image: url("img/frostwing-maneuver1.png");
+}
+
+#frostwing-maneuver2 {
+  background-image: url("img/frostwing-maneuver2.png");
+}
+
+#frostwing-maneuverm {
+  background-image: url("img/frostwing-maneuverm.png");
+}
+
+#frostwing-magic1 {
+  background-image: url("img/frostwing-magic1.png");
+}
+
+#frostwing-magic2 {
+  background-image: url("img/frostwing-magic2.png");
+}
+
+#frostwing-magic3 {
+  background-image: url("img/frostwing-magic3.png");
+}
+
+#frostwing-magic4 {
+  background-image: url("img/frostwing-magic4.png");
+}
+
+#frostwing-magicm {
+  background-image: url("img/frostwing-magicm.png");
+}
+
+#frostwing-melee1 {
+  background-image: url("img/frostwing-melee1.png");
+}
+
+#frostwing-melee2 {
+  background-image: url("img/frostwing-melee2.png");
+}
+
+#frostwing-melee3 {
+  background-image: url("img/frostwing-melee3.png");
+}
+
+#frostwing-melee4 {
+  background-image: url("img/frostwing-melee4.png");
+}
+
+#frostwing-meleem {
+  background-image: url("img/frostwing-meleem.png");
+}
+
+#frostwing-missile1 {
+  background-image: url("img/frostwing-missile1.png");
+}
+
+#frostwing-missile2 {
+  background-image: url("img/frostwing-missile2.png");
+}
+
+#frostwing-missile3 {
+  background-image: url("img/frostwing-missile3.png");
+}
+
+#frostwing-missile4 {
+  background-image: url("img/frostwing-missile4.png");
+}
+
+#frostwing-missilem {
+  background-image: url("img/frostwing-missilem.png");
+}
+
+#frostwing-paw1 {
+  background-image: url("img/frostwing-paw1.png");
+}
+
+#frostwing-paw2 {
+  background-image: url("img/frostwing-paw2.png");
+}
+
+#frostwing-paw3 {
+  background-image: url("img/frostwing-paw3.png");
+}
+
+#frostwing-pawm {
+  background-image: url("img/frostwing-pawm.png");
+}
+
+#frostwing-rend {
+  background-image: url("img/frostwing-rend.png");
+}
+
+#frostwing-rendm {
+  background-image: url("img/frostwing-rendm.png");
+}
+
+#frostwing-save1 {
+  background-image: url("img/frostwing-save1.png");
+}
+
+#frostwing-save2 {
+  background-image: url("img/frostwing-save2.png");
+}
+
+#frostwing-save3 {
+  background-image: url("img/frostwing-save3.png");
+}
+
+#frostwing-save4 {
+  background-image: url("img/frostwing-save4.png");
+}
+
+#frostwing-savem {
+  background-image: url("img/frostwing-savem.png");
+}
+
+#frostwing-smite {
+  background-image: url("img/frostwing-smite.png");
+}
+
+#frostwing-smitem {
+  background-image: url("img/frostwing-smitem.png");
+}
+
+#frostwing-surprisem {
+  background-image: url("img/frostwing-surprisem.png");
+}
+
+#frostwing-swallowm {
+  background-image: url("img/frostwing-swallowm.png");
+}
+
+#frostwing-volley {
+  background-image: url("img/frostwing-volley.png");
+}
+
 
 
 /* Goblin Backgrounds */
