@@ -2029,8 +2029,84 @@ ol li {
 
 /* Swamp Stalker Backgrounds */
 
+#annihilator {
+  background-image: url("img/annihilator.png");
+}
+
+#bogadept {
+  background-image: url("img/bogadept.png");
+}
+
+#bogrunner {
+  background-image: url("img/bogrunner.png");
+}
+
+#crocosaur {
+  background-image: url("img/crocosaur.png");
+}
+
+#deluger {
+  background-image: url("img/deluger.png");
+}
+
+#invader {
+  background-image: url("img/invader.png");
+}
+
+#marshmage {
+  background-image: url("img/marshmage.png");
+}
+
+#marshswimmer {
+  background-image: url("img/marshswimmer.png");
+}
+
+#mudmen {
+  background-image: url("img/mudmen.png");
+}
+
+#ormyrr {
+  background-image: url("img/ormyrr.png");
+}
+
 #raider {
   background-image: url("img/raider.png");
+}
+
+#ravager {
+  background-image: url("img/ravager.png");
+}
+
+#sprayer {
+  background-image: url("img/sprayer.png");
+}
+
+#stormer {
+  background-image: url("img/stormer.png");
+}
+
+#striker {
+  background-image: url("img/striker.png");
+}
+
+#swampbeast {
+  background-image: url("img/swampbeast.png");
+}
+
+#swampgiant {
+  background-image: url("img/swampgiant.png");
+}
+
+#swampwizard {
+  background-image: url("img/swampwizard.png");
+}
+
+#warmonger {
+  background-image: url("img/warmonger.png");
+}
+
+#waverider {
+  background-image: url("img/waverider.png");
 }
 
 
