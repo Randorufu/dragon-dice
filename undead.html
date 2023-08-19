@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="robots" content="noindex">
+  <title>Undead</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="manifest" href="/dragon-dice/manifest.json">
+  <script src="script.js" type="text/javascript"></script>
+  <link rel="icon" href="favicon.png">
+</head>
+<body>
+
+<div id="topbar"><a href="index.html"><h1>Dragon Dice</h1></a><a href="rules.html"><h2>Rules</h2></a></div>
+
+<h2>Undead (in progress)</h2>
+
+<div class="center"><div class="single-grid">
+  <a href="#undead" id="minordeath" class="grid-item undead-item" onclick="toggle_sides('minordeath-container');"><p>Minor Death</p></a>
+  <a href="#undead" id="carrioncrawler" class="grid-item undead-item" onclick="toggle_sides('carrioncrawler-container');"><p>Carrion Crawler</p></a>
+  <a href="#undead" id="skeletalsteed" class="grid-item undead-item" onclick="toggle_sides('skeletalsteed-container');"><p>Skeletal Steed</p></a>
+  <a href="#undead" id="fenhound" class="grid-item undead-item" onclick="toggle_sides('fenhound-container');"><p>Fenhound</p></a>
+  <a href="#undead" id="dracolich" class="grid-item undead-item" onclick="toggle_sides('dracolich-container');"><p>Dracolich</p></a>
+</div></div>
+
+<div class="staging-container">
+  <div id="minordeath-container" class="msides-grid side-container">
+    <a href="#undead" id="minordeath" class="grid-item undead-item side-item" onclick="toggle_desc('minordeath1-desc');"><p>ID</p></a>
+    <a href="#undead" id="undead-magicm" class="grid-item undead-item side-item" onclick="toggle_desc('minordeath2-desc');"><p>Magic</p></a>
+    <a href="#undead" id="undead-flamem" class="grid-item undead-item side-item" onclick="toggle_desc('minordeath3-desc');"><p>Flame</p></a>
+    <a href="#undead" id="undead-savem" class="grid-item undead-item side-item" onclick="toggle_desc('minordeath4-desc');"><p>Saves</p></a>
+    <a href="#undead" id="undead-charmm" class="grid-item undead-item side-item" onclick="toggle_desc('minordeath5-desc');"><p>Charm</p></a>
+    <a href="#undead" id="undead-stonem" class="grid-item undead-item side-item" onclick="toggle_desc('minordeath6-desc');"><p>Stone</p></a>
+    <a href="#undead" id="undead-confusem" class="grid-item undead-item side-item" onclick="toggle_desc('minordeath7-desc');"><p>Confuse</p></a>
+    <a href="#undead" id="undead-meleem" class="grid-item undead-item side-item" onclick="toggle_desc('minordeath8-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-illusionm" class="grid-item undead-item side-item" onclick="toggle_desc('minordeath9-desc');"><p>Illusion</p></a>
+    <a href="#undead" id="undead-savem" class="grid-item undead-item side-item" onclick="toggle_desc('minordeath10-desc');"><p>Saves</p></a>
+  </div>
+  <div id="carrioncrawler-container" class="msides-grid side-container">
+    <a href="#undead" id="carrioncrawler" class="grid-item undead-item side-item" onclick="toggle_desc('carrioncrawler1-desc');"><p>ID</p></a>
+    <a href="#undead" id="undead-webm" class="grid-item undead-item side-item" onclick="toggle_desc('carrioncrawler2-desc');"><p>Web</p></a>
+    <a href="#undead" id="undead-maneuverm" class="grid-item undead-item side-item" onclick="toggle_desc('carrioncrawler3-desc');"><p>Maneuver</p></a>
+    <a href="#undead" id="undead-savem" class="grid-item undead-item side-item" onclick="toggle_desc('carrioncrawler4-desc');"><p>Saves</p></a>
+    <a href="#undead" id="undead-meleem" class="grid-item undead-item side-item" onclick="toggle_desc('carrioncrawler5-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-missilem" class="grid-item undead-item side-item" onclick="toggle_desc('carrioncrawler6-desc');"><p>Missiles</p></a>
+    <a href="#undead" id="undead-maneuverm" class="grid-item undead-item side-item" onclick="toggle_desc('carrioncrawler7-desc');"><p>Maneuver</p></a>
+    <a href="#undead" id="undead-webm" class="grid-item undead-item side-item" onclick="toggle_desc('carrioncrawler8-desc');"><p>Web</p></a>
+    <a href="#undead" id="undead-savem" class="grid-item undead-item side-item" onclick="toggle_desc('carrioncrawler9-desc');"><p>Saves</p></a>
+    <a href="#undead" id="undead-meleem" class="grid-item undead-item side-item" onclick="toggle_desc('carrioncrawler10-desc');"><p>Melee</p></a>
+  </div>
+  <div id="skeletalsteed-container" class="msides-grid side-container">
+    <a href="#undead" id="skeletalsteed" class="grid-item undead-item side-item" onclick="toggle_desc('skeletalsteed1-desc');"><p>ID</p></a>
+    <a href="#undead" id="undead-maneuverm" class="grid-item undead-item side-item" onclick="toggle_desc('skeletalsteed2-desc');"><p>Maneuver</p></a>
+    <a href="#undead" id="undead-meleem" class="grid-item undead-item side-item" onclick="toggle_desc('skeletalsteed3-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-savem" class="grid-item undead-item side-item" onclick="toggle_desc('skeletalsteed4-desc');"><p>Saves</p></a>
+    <a href="#undead" id="undead-flamem" class="grid-item undead-item side-item" onclick="toggle_desc('skeletalsteed5-desc');"><p>Flame</p></a>
+    <a href="#undead" id="undead-flamem" class="grid-item undead-item side-item" onclick="toggle_desc('skeletalsteed6-desc');"><p>Flame</p></a>
+    <a href="#undead" id="undead-meleem" class="grid-item undead-item side-item" onclick="toggle_desc('skeletalsteed7-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-maneuverm" class="grid-item undead-item side-item" onclick="toggle_desc('skeletalsteed8-desc');"><p>Maneuver</p></a>
+    <a href="#undead" id="undead-savem" class="grid-item undead-item side-item" onclick="toggle_desc('skeletalsteed9-desc');"><p>Saves</p></a>
+    <a href="#undead" id="undead-meleem" class="grid-item undead-item side-item" onclick="toggle_desc('skeletalsteed10-desc');"><p>Melee</p></a>
+  </div>
+  <div id="fenhound-container" class="msides-grid side-container">
+    <a href="#undead" id="fenhound" class="grid-item undead-item side-item" onclick="toggle_desc('fenhound1-desc');"><p>ID</p></a>
+    <a href="#undead" id="undead-maneuverm" class="grid-item undead-item side-item" onclick="toggle_desc('fenhound2-desc');"><p>Maneuver</p></a>
+    <a href="#undead" id="undead-illusionm" class="grid-item undead-item side-item" onclick="toggle_desc('fenhound3-desc');"><p>Illusion</p></a>
+    <a href="#undead" id="undead-meleem" class="grid-item undead-item side-item" onclick="toggle_desc('fenhound4-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-magicm" class="grid-item undead-item side-item" onclick="toggle_desc('fenhound5-desc');"><p>Magic</p></a>
+    <a href="#undead" id="undead-illusionm" class="grid-item undead-item side-item" onclick="toggle_desc('fenhound6-desc');"><p>Illusion</p></a>
+    <a href="#undead" id="undead-savem" class="grid-item undead-item side-item" onclick="toggle_desc('fenhound7-desc');"><p>Saves</p></a>
+    <a href="#undead" id="undead-counterm" class="grid-item undead-item side-item" onclick="toggle_desc('fenhound8-desc');"><p>Counter</p></a>
+    <a href="#undead" id="undead-magicm" class="grid-item undead-item side-item" onclick="toggle_desc('fenhound9-desc');"><p>Magic</p></a>
+    <a href="#undead" id="undead-meleem" class="grid-item undead-item side-item" onclick="toggle_desc('fenhound10-desc');"><p>Melee</p></a>
+  </div>
+  <div id="dracolich-container" class="msides-grid side-container">
+    <a href="#undead" id="dracolich" class="grid-item undead-item side-item" onclick="toggle_desc('dracolich1-desc');"><p>ID</p></a>
+    <a href="#undead" id="undead-counterm" class="grid-item undead-item side-item" onclick="toggle_desc('dracolich2-desc');"><p>Counter</p></a>
+    <a href="#undead" id="undead-magicm" class="grid-item undead-item side-item" onclick="toggle_desc('dracolich3-desc');"><p>Magic</p></a>
+    <a href="#undead" id="undead-maneuverm" class="grid-item undead-item side-item" onclick="toggle_desc('dracolich4-desc');"><p>Maneuver</p></a>
+    <a href="#undead" id="undead-cantripm" class="grid-item undead-item side-item" onclick="toggle_desc('dracolich5-desc');"><p>Cantrip</p></a>
+    <a href="#undead" id="undead-magicm" class="grid-item undead-item side-item" onclick="toggle_desc('dracolich6-desc');"><p>Magic</p></a>
+    <a href="#undead" id="undead-volleym" class="grid-item undead-item side-item" onclick="toggle_desc('dracolich7-desc');"><p>Volley</p></a>
+    <a href="#undead" id="undead-cloakm" class="grid-item undead-item side-item" onclick="toggle_desc('dracolich8-desc');"><p>Cloak</p></a>
+    <a href="#undead" id="undead-flym" class="grid-item undead-item side-item" onclick="toggle_desc('dracolich9-desc');"><p>Fly</p></a>
+    <a href="#undead" id="undead-missilem" class="grid-item undead-item side-item" onclick="toggle_desc('dracolich10-desc');"><p>Missiles</p></a>
+  </div>
+  <div class="desc-container">
+    <p id="minordeath1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, missile, or maneuver results.</p>
+    <p id="minordeath2-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="minordeath3-desc" class="sidedesc">Flame: During a melee attack, choose up to 2 health-worth of units in the defending army to be immediately killed and buried with no save possible.</p>
+    <p id="minordeath4-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="minordeath5-desc" class="sidedesc">Charm: During a melee attack, immediately choose up to 4 health-worth of units in an opposing army to add their results to the results of the acting army. The affected unit(s) return to their owner’s control immediately after the defender’s save roll. Their owner may choose charmed units as casualties, but their results are still added to the army containing the unit with Charm.</p>
+    <p id="minordeath6-desc" class="sidedesc">Stone: During a missile action, Stone immediately inflicts 4 points of damage on the defending army; no saves (including those provided by spells) can stop this damage. During a dragon attack or missile avoidance roll, Stone generates 4 missile results.</p>
+    <p id="minordeath7-desc" class="sidedesc">Confuse: During a melee attack or missile action, after the defending army rolls for saves but before they apply any unique or special resolution SAIs, choose up to 4 health-worth of units in the defending army and force them to roll again. Selected units ignore their original roll and apply the new roll instead.</p>
+    <p id="minordeath8-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="minordeath9-desc" class="sidedesc">Illusion: During any action, immediately choose any of your armies. Until the beginning of your next turn, this army cannot be targeted by any missile or enemy magic effect.</p>
+    <p id="minordeath10-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="carrioncrawler1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, missile, or maneuver results.</p>
+    <p id="carrioncrawler2-desc" class="sidedesc">Web: During a melee attack, choose up to 4 health-worth of units in the defending army to be webbed unless each targeted unit immediately rolls a melee result. Target units that fail their avoidance roll cannot be rolled until the beginning of your next turn.</p>
+    <p id="carrioncrawler3-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="carrioncrawler4-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="carrioncrawler5-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="carrioncrawler6-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+    <p id="carrioncrawler7-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="carrioncrawler8-desc" class="sidedesc">Web: During a melee attack, choose up to 4 health-worth of units in the defending army to be webbed unless each targeted unit immediately rolls a melee result. Target units that fail their avoidance roll cannot be rolled until the beginning of your next turn.</p>
+    <p id="carrioncrawler9-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="carrioncrawler10-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="skeletalsteed1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, missile, or maneuver results.</p>
+    <p id="skeletalsteed2-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="skeletalsteed3-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="skeletalsteed4-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="skeletalsteed5-desc" class="sidedesc">Flame: During a melee attack, choose up to 2 health-worth of units in the defending army to be immediately killed and buried with no save possible.</p>
+    <p id="skeletalsteed6-desc" class="sidedesc">Flame: During a melee attack, choose up to 2 health-worth of units in the defending army to be immediately killed and buried with no save possible.</p>
+    <p id="skeletalsteed7-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="skeletalsteed8-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="skeletalsteed9-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="skeletalsteed10-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="fenhound1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, missile, or maneuver results.</p>
+    <p id="fenhound2-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="fenhound3-desc" class="sidedesc">Illusion: During any action, immediately choose any of your armies. Until the beginning of your next turn, this army cannot be targeted by any missile or enemy magic effect.</p>
+    <p id="fenhound4-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="fenhound5-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="fenhound6-desc" class="sidedesc">Illusion: During any action, immediately choose any of your armies. Until the beginning of your next turn, this army cannot be targeted by any missile or enemy magic effect.</p>
+    <p id="fenhound7-desc" class="sidedesc">Saves: Negates 4 points of normal melee or missile damage.</p>
+    <p id="fenhound8-desc" class="sidedesc">Counter: During a melee attack or melee avoidance roll, Counter generates 4 melee results. During a save roll, Counter generates 4 save results. During a save roll in a melee attack, Counter immediately generates both 4 save results and 4 melee results upon the attacking army or unit. Only magical saves protect against this damage. During a dragon attack, Counter generates 4 save and 4 melee results.</p>
+    <p id="fenhound9-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="fenhound10-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="dracolich1-desc" class="sidedesc">ID: Generates 4 points of magic, melee, missile, or maneuver results.</p>
+    <p id="dracolich2-desc" class="sidedesc">Counter: During a melee attack or melee avoidance roll, Counter generates 4 melee results. During a save roll, Counter generates 4 save results. During a save roll in a melee attack, Counter immediately generates both 4 save results and 4 melee results upon the attacking army or unit. Only magical saves protect against this damage. During a dragon attack, Counter generates 4 save and 4 melee results.</p>
+    <p id="dracolich3-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="dracolich4-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="dracolich5-desc" class="sidedesc">Cantrip: During a magic action or magic negation roll, Cantrip generates 4 magic results. During any non-magic action, save roll or non-maneuver avoidance roll, Cantrip can be used to purchase spells that are immediately resolved.</p>
+    <p id="dracolich6-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+    <p id="dracolich7-desc" class="sidedesc">Volley: During a missile action or missile avoidance roll, Volley generates 4 missile results. During a save roll, Volley generates 4 save results. During a save roll in a missile action, Volley generates both 4 save results and 4 immediate missile results upon the attacking army. Only magical saves protect against this damage. During a dragon attack, Volley generates 4 save and 4 missile results.</p>
+    <p id="dracolich8-desc" class="sidedesc">Cloak: During any non-save roll, Cloak generates magic results. During a save roll, add four magical save results to the army containing this unit until the beginning of your next turn. During a roll against an individual targeting effect, Cloak generates magic, maneuver, melee, missile or save results.</p>
+    <p id="dracolich9-desc" class="sidedesc">Fly: During any roll, Fly generates 4 maneuver or 4 save results.</p>
+    <p id="dracolich10-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+  </div>
+</div>
+
+<div class="center">
+<ul class="single-grid">
+  <li><p>Heavy Melee</p></li>
+  <li><p>Light Melee</p></li>
+  <li><p>Skirmisher</p></li>
+  <li><p>Light Magic</p></li>
+  <li><p>Heavy Magic</p></li>
+</ul>
+</div>
+
+<div class="center"><div class="single-grid">
+  <a href="#undead" id="mummy" class="grid-item undead-item" onclick="toggle_sides('mummy-container');"><p>Mummy</p></a>
+  <a href="#undead" id="deathknight" class="grid-item undead-item" onclick="toggle_sides('deathknight-container');"><p>Death Knight</p></a>
+  <a href="#undead" id="ghost" class="grid-item undead-item" onclick="toggle_sides('ghost-container');"><p>Ghost</p></a>
+  <a href="#undead" id="vampire" class="grid-item undead-item" onclick="toggle_sides('vampire-container');"><p>Vampire</p></a>
+  <a href="#undead" id="lich" class="grid-item undead-item" onclick="toggle_sides('lich-container');"><p>Lich</p></a>
+</div></div>
+
+<div class="staging-container">
+  <div id="mummy-container" class="sides-grid side-container">
+    <a href="#undead" id="mummy" class="grid-item undead-item side-item" onclick="toggle_desc('mummy1-desc');"><p>ID</p></a>
+    <a href="#undead" id="undead-missile2" class="grid-item undead-item side-item" onclick="toggle_desc('mummy2-desc');"><p>Missiles</p></a>
+    <a href="#undead" id="undead-melee5" class="grid-item undead-item side-item" onclick="toggle_desc('mummy3-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-melee1" class="grid-item undead-item side-item" onclick="toggle_desc('mummy4-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-save3" class="grid-item undead-item side-item" onclick="toggle_desc('mummy5-desc');"><p>Saves</p></a>
+    <a href="#undead" id="undead-smite" class="grid-item undead-item side-item" onclick="toggle_desc('mummy6-desc');"><p>Smite</p></a>
+  </div>
+  <div id="deathknight-container" class="sides-grid side-container">
+    <a href="#undead" id="deathknight" class="grid-item undead-item side-item" onclick="toggle_desc('deathknight1-desc');"><p>ID</p></a>
+    <a href="#undead" id="undead-melee5" class="grid-item undead-item side-item" onclick="toggle_desc('deathknight2-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-maneuver5" class="grid-item undead-item side-item" onclick="toggle_desc('deathknight3-desc');"><p>Maneuver</p></a>
+    <a href="#undead" id="undead-maneuver1" class="grid-item undead-item side-item" onclick="toggle_desc('deathknight4-desc');"><p>Maneuver</p></a>
+    <a href="#undead" id="undead-melee1" class="grid-item undead-item side-item" onclick="toggle_desc('deathknight5-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-counter" class="grid-item undead-item side-item" onclick="toggle_desc('deathknight6-desc');"><p>Counter</p></a>
+  </div>
+  <div id="ghost-container" class="sides-grid side-container">
+    <a href="#undead" id="ghost" class="grid-item undead-item side-item" onclick="toggle_desc('ghost1-desc');"><p>ID</p></a>
+    <a href="#undead" id="undead-missile5" class="grid-item undead-item side-item" onclick="toggle_desc('ghost2-desc');"><p>Missiles</p></a>
+    <a href="#undead" id="undead-missile3" class="grid-item undead-item side-item" onclick="toggle_desc('ghost3-desc');"><p>Missiles</p></a>
+    <a href="#undead" id="undead-missile1" class="grid-item undead-item side-item" onclick="toggle_desc('ghost4-desc');"><p>Missile</p></a>
+    <a href="#undead" id="undead-melee3" class="grid-item undead-item side-item" onclick="toggle_desc('ghost5-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-bullseye" class="grid-item undead-item side-item" onclick="toggle_desc('ghost6-desc');"><p>Bullseye</p></a>
+  </div>
+  <div id="vampire-container" class="sides-grid side-container">
+    <a href="#undead" id="vampire" class="grid-item undead-item side-item" onclick="toggle_desc('vampire1-desc');"><p>ID</p></a>
+    <a href="#undead" id="undead-melee4" class="grid-item undead-item side-item" onclick="toggle_desc('vampire2-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-fly5" class="grid-item undead-item side-item" onclick="toggle_desc('vampire3-desc');"><p>Fly</p></a>
+    <a href="#undead" id="undead-fly1" class="grid-item undead-item side-item" onclick="toggle_desc('vampire4-desc');"><p>Fly</p></a>
+    <a href="#undead" id="undead-melee2" class="grid-item undead-item side-item" onclick="toggle_desc('vampire5-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-missile4" class="grid-item undead-item side-item" onclick="toggle_desc('vampire6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="lich-container" class="sides-grid side-container">
+    <a href="#undead" id="lich" class="grid-item undead-item side-item" onclick="toggle_desc('lich1-desc');"><p>ID</p></a>
+    <a href="#undead" id="undead-save2" class="grid-item undead-item side-item" onclick="toggle_desc('lich2-desc');"><p>Saves</p></a>
+    <a href="#undead" id="undead-magic5" class="grid-item undead-item side-item" onclick="toggle_desc('lich3-desc');"><p>Magic</p></a>
+    <a href="#undead" id="undead-magic2" class="grid-item undead-item side-item" onclick="toggle_desc('lich4-desc');"><p>Magic</p></a>
+    <a href="#undead" id="undead-melee3" class="grid-item undead-item side-item" onclick="toggle_desc('lich5-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-cantrip" class="grid-item undead-item side-item" onclick="toggle_desc('lich6-desc');"><p>Cantrip</p></a>
+  </div>
+  <div class="desc-container">
+    <p id="mummy1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, missile, or maneuver results.</p>
+    <p id="mummy2-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="mummy3-desc" class="sidedesc">Melee: Generates 5 points of melee results.</p>
+    <p id="mummy4-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="mummy5-desc" class="sidedesc">Saves: Negates 3 points of normal melee or missile damage.</p>
+    <p id="mummy6-desc" class="sidedesc">Smite: During a melee attack, immediately inflicts 4 points of damage on the defending army or unit; no saves (including those provided by spells) can stop this damage. During a dragon attack or melee avoidance roll, Smite generates 4 melee results.</p>
+    <p id="deathknight1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, missile, or maneuver results.</p>
+    <p id="deathknight2-desc" class="sidedesc">Melee: Generates 5 points of melee results.</p>
+    <p id="deathknight3-desc" class="sidedesc">Maneuver: Generates 5 points of maneuver results.</p>
+    <p id="deathknight4-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="deathknight5-desc" class="sidedesc">Melee: Generates 1 points of melee results.</p>
+    <p id="deathknight6-desc" class="sidedesc">Counter: During a melee attack or melee avoidance roll, Counter generates 4 melee results. During a save roll, Counter generates 4 save results. During a save roll in a melee attack, Counter immediately generates both 4 save results and 4 melee results upon the attacking army or unit. Only magical saves protect against this damage. During a dragon attack, Counter generates 4 save and 4 melee results.</p>
+    <p id="ghost1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, missile, or maneuver results.</p>
+    <p id="ghost2-desc" class="sidedesc">Missiles: Generates 5 points of missile results.</p>
+    <p id="ghost3-desc" class="sidedesc">Missiles: Generates 3 points of missile results.</p>
+    <p id="ghost4-desc" class="sidedesc">Missile: Generates 1 point of missile results.</p>
+    <p id="ghost5-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="ghost6-desc" class="sidedesc">Bullseye: During a missile action, Bullseye immediately inflicts 4 points of damage. The damage may individually target one or more units in the defending army as the acting player chooses. Each target unit must immediately generate saves against the damage assigned to it. During a dragon attack or missile avoidance roll, Bullseye generates 4 missile results.</p>
+    <p id="vampire1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, missile, or maneuver results.</p>
+    <p id="vampire2-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="vampire3-desc" class="sidedesc">Fly: During any roll, Fly generates 5 maneuver or 5 save results.</p>
+    <p id="vampire4-desc" class="sidedesc">Fly: During any roll, Fly generates 1 maneuver or 1 save result.</p>
+    <p id="vampire5-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="vampire6-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+    <p id="lich1-desc" class="sidedesc">ID: Generates 3 points of magic, melee, missile, or maneuver results.</p>
+    <p id="lich2-desc" class="sidedesc">Saves: Negates 2 points of normal melee or missile damage.</p>
+    <p id="lich3-desc" class="sidedesc">Magic: Generates 5 points of magic results.</p>
+    <p id="lich4-desc" class="sidedesc">Magic: Generates 2 points of magic results.</p>
+    <p id="lich5-desc" class="sidedesc">Melee: Generates 3 points of melee results.</p>
+    <p id="lich6-desc" class="sidedesc">Cantrip: During a magic action or magic negation roll, Cantrip generates 4 magic results. During any non-magic action, save roll or non-maneuver avoidance roll, Cantrip can be used to purchase spells that are immediately resolved.</p>
+  </div>
+</div>
+
+<div class="center"><div class="single-grid">
+  <a href="#undead" id="wight" class="grid-item undead-item" onclick="toggle_sides('wight-container');"><p>Wight</p></a>
+  <a href="#undead" id="revenant" class="grid-item undead-item" onclick="toggle_sides('revenant-container');"><p>Revenant</p></a>
+  <a href="#undead" id="spectre" class="grid-item undead-item" onclick="toggle_sides('spectre-container');"><p>Spectre</p></a>
+  <a href="#undead" id="ghast" class="grid-item undead-item" onclick="toggle_sides('ghast-container');"><p>Ghast</p></a>
+  <a href="#undead" id="hecuva" class="grid-item undead-item" onclick="toggle_sides('hecuva-container');"><p>Heucuva</p></a>
+</div></div>
+
+<div class="staging-container">
+  <div id="wight-container" class="sides-grid side-container">
+    <a href="#undead" id="wight" class="grid-item undead-item side-item" onclick="toggle_desc('wight1-desc');"><p>ID</p></a>
+    <a href="#undead" id="undead-save2" class="grid-item undead-item side-item" onclick="toggle_desc('wight2-desc');"><p>Saves</p></a>
+    <a href="#undead" id="undead-melee4" class="grid-item undead-item side-item" onclick="toggle_desc('wight3-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-melee2" class="grid-item undead-item side-item" onclick="toggle_desc('wight4-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-maneuver2" class="grid-item undead-item side-item" onclick="toggle_desc('wight5-desc');"><p>Maneuver</p></a>
+    <a href="#undead" id="undead-missile2" class="grid-item undead-item side-item" onclick="toggle_desc('wight6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="revenant-container" class="sides-grid side-container">
+    <a href="#undead" id="revenant" class="grid-item undead-item side-item" onclick="toggle_desc('revenant1-desc');"><p>ID</p></a>
+    <a href="#undead" id="undead-melee4" class="grid-item undead-item side-item" onclick="toggle_desc('revenant2-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-maneuver4" class="grid-item undead-item side-item" onclick="toggle_desc('revenant3-desc');"><p>Maneuver</p></a>
+    <a href="#undead" id="undead-maneuver1" class="grid-item undead-item side-item" onclick="toggle_desc('revenant4-desc');"><p>Maneuver</p></a>
+    <a href="#undead" id="undead-melee1" class="grid-item undead-item side-item" onclick="toggle_desc('revenant5-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-missile2" class="grid-item undead-item side-item" onclick="toggle_desc('revenant6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="spectre-container" class="sides-grid side-container">
+    <a href="#undead" id="spectre" class="grid-item undead-item side-item" onclick="toggle_desc('spectre1-desc');"><p>ID</p></a>
+    <a href="#undead" id="undead-melee2" class="grid-item undead-item side-item" onclick="toggle_desc('spectre2-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-missile2" class="grid-item undead-item side-item" onclick="toggle_desc('spectre3-desc');"><p>Missiles</p></a>
+    <a href="#undead" id="undead-missile2" class="grid-item undead-item side-item" onclick="toggle_desc('spectre4-desc');"><p>Missiles</p></a>
+    <a href="#undead" id="undead-maneuver2" class="grid-item undead-item side-item" onclick="toggle_desc('spectre5-desc');"><p>Maneuver</p></a>
+    <a href="#undead" id="undead-missile4" class="grid-item undead-item side-item" onclick="toggle_desc('spectre6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="ghast-container" class="sides-grid side-container">
+    <a href="#undead" id="ghast" class="grid-item undead-item side-item" onclick="toggle_desc('ghast1-desc');"><p>ID</p></a>
+    <a href="#undead" id="undead-melee4" class="grid-item undead-item side-item" onclick="toggle_desc('ghast2-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-maneuver3" class="grid-item undead-item side-item" onclick="toggle_desc('ghast3-desc');"><p>Maneuver</p></a>
+    <a href="#undead" id="undead-maneuver2" class="grid-item undead-item side-item" onclick="toggle_desc('ghast4-desc');"><p>Maneuver</p></a>
+    <a href="#undead" id="undead-melee1" class="grid-item undead-item side-item" onclick="toggle_desc('ghast5-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-save2" class="grid-item undead-item side-item" onclick="toggle_desc('ghast6-desc');"><p>Saves</p></a>
+  </div>
+  <div id="hecuva-container" class="sides-grid side-container">
+    <a href="#undead" id="hecuva" class="grid-item undead-item side-item" onclick="toggle_desc('hecuva1-desc');"><p>ID</p></a>
+    <a href="#undead" id="undead-melee2" class="grid-item undead-item side-item" onclick="toggle_desc('hecuva2-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-magic2" class="grid-item undead-item side-item" onclick="toggle_desc('hecuva3-desc');"><p>Magic</p></a>
+    <a href="#undead" id="undead-magic2" class="grid-item undead-item side-item" onclick="toggle_desc('hecuva4-desc');"><p>Magic</p></a>
+    <a href="#undead" id="undead-maneuver2" class="grid-item undead-item side-item" onclick="toggle_desc('hecuva5-desc');"><p>Maneuver</p></a>
+    <a href="#undead" id="undead-magic4" class="grid-item undead-item side-item" onclick="toggle_desc('hecuva6-desc');"><p>Magic</p></a>
+  </div>
+  <div class="desc-container">
+    <p id="wight1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, missile, or maneuver results.</p>
+    <p id="wight2-desc" class="sidedesc">Saves: Negates 2 points of normal melee or missile damage.</p>
+    <p id="wight3-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="wight4-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="wight5-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="wight6-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="revenant1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, missile, or maneuver results.</p>
+    <p id="revenant2-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="revenant3-desc" class="sidedesc">Maneuver: Generates 4 points of maneuver results.</p>
+    <p id="revenant4-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="revenant5-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="revenant6-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="spectre1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, missile, or maneuver results.</p>
+    <p id="spectre2-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="spectre3-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="spectre4-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="spectre5-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="spectre6-desc" class="sidedesc">Missiles: Generates 4 points of missile results.</p>
+    <p id="ghast1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, missile, or maneuver results.</p>
+    <p id="ghast2-desc" class="sidedesc">Melee: Generates 4 points of melee results.</p>
+    <p id="ghast3-desc" class="sidedesc">Maneuver: Generates 3 points of maneuver results.</p>
+    <p id="ghast4-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="ghast5-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="ghast6-desc" class="sidedesc">Saves: Negates 2 points of normal melee or missile damage.</p>
+    <p id="hecuva1-desc" class="sidedesc">ID: Generates 2 points of magic, melee, missile, or maneuver results.</p>
+    <p id="hecuva2-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="hecuva3-desc" class="sidedesc">Magic: Generates 2 points of magic results.</p>
+    <p id="hecuva4-desc" class="sidedesc">Magic: Generates 2 points of magic results.</p>
+    <p id="hecuva5-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="hecuva6-desc" class="sidedesc">Magic: Generates 4 points of magic results.</p>
+  </div>
+</div>
+
+<div class="center"><div class="single-grid">
+  <a href="#undead" id="zombie" class="grid-item undead-item" onclick="toggle_sides('zombie-container');"><p>Zombie</p></a>
+  <a href="#undead" id="skeleton" class="grid-item undead-item" onclick="toggle_sides('skeleton-container');"><p>Skeleton</p></a>
+  <a href="#undead" id="wraith" class="grid-item undead-item" onclick="toggle_sides('wraith-container');"><p>Wraith</p></a>
+  <a href="#undead" id="ghoul" class="grid-item undead-item" onclick="toggle_sides('ghoul-container');"><p>Ghoul</p></a>
+  <a href="#undead" id="apparition" class="grid-item undead-item" onclick="toggle_sides('apparition-container');"><p>Apparition</p></a>
+</div></div>
+
+<div class="staging-container">
+  <div id="zombie-container" class="sides-grid side-container">
+    <a href="#undead" id="zombie" class="grid-item undead-item side-item" onclick="toggle_desc('zombie1-desc');"><p>ID</p></a>
+    <a href="#undead" id="undead-save1" class="grid-item undead-item side-item" onclick="toggle_desc('zombie2-desc');"><p>Save</p></a>
+    <a href="#undead" id="undead-missile1" class="grid-item undead-item side-item" onclick="toggle_desc('zombie3-desc');"><p>Missile</p></a>
+    <a href="#undead" id="undead-melee1" class="grid-item undead-item side-item" onclick="toggle_desc('zombie4-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-melee1" class="grid-item undead-item side-item" onclick="toggle_desc('zombie5-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-melee2" class="grid-item undead-item side-item" onclick="toggle_desc('zombie6-desc');"><p>Melee</p></a>
+  </div>
+  <div id="skeleton-container" class="sides-grid side-container">
+    <a href="#undead" id="skeleton" class="grid-item undead-item side-item" onclick="toggle_desc('skeleton1-desc');"><p>ID</p></a>
+    <a href="#undead" id="undead-melee2" class="grid-item undead-item side-item" onclick="toggle_desc('skeleton2-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-maneuver1" class="grid-item undead-item side-item" onclick="toggle_desc('skeleton3-desc');"><p>Maneuver</p></a>
+    <a href="#undead" id="undead-maneuver1" class="grid-item undead-item side-item" onclick="toggle_desc('skeleton4-desc');"><p>Maneuver</p></a>
+    <a href="#undead" id="undead-melee1" class="grid-item undead-item side-item" onclick="toggle_desc('skeleton5-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-missile1" class="grid-item undead-item side-item" onclick="toggle_desc('skeleton6-desc');"><p>Missile</p></a>
+  </div>
+  <div id="wraith-container" class="sides-grid side-container">
+    <a href="#undead" id="wraith" class="grid-item undead-item side-item" onclick="toggle_desc('wraith1-desc');"><p>ID</p></a>
+    <a href="#undead" id="undead-missile1" class="grid-item undead-item side-item" onclick="toggle_desc('wraith2-desc');"><p>Missile</p></a>
+    <a href="#undead" id="undead-melee1" class="grid-item undead-item side-item" onclick="toggle_desc('wraith3-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-maneuver1" class="grid-item undead-item side-item" onclick="toggle_desc('wraith4-desc');"><p>Maneuver</p></a>
+    <a href="#undead" id="undead-save1" class="grid-item undead-item side-item" onclick="toggle_desc('wraith5-desc');"><p>Save</p></a>
+    <a href="#undead" id="undead-missile2" class="grid-item undead-item side-item" onclick="toggle_desc('wraith6-desc');"><p>Missiles</p></a>
+  </div>
+  <div id="ghoul-container" class="sides-grid side-container">
+    <a href="#undead" id="ghoul" class="grid-item undead-item side-item" onclick="toggle_desc('ghoul1-desc');"><p>ID</p></a>
+    <a href="#undead" id="undead-maneuver1" class="grid-item undead-item side-item" onclick="toggle_desc('ghoul2-desc');"><p>Maneuver</p></a>
+    <a href="#undead" id="undead-melee1" class="grid-item undead-item side-item" onclick="toggle_desc('ghoul3-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-melee1" class="grid-item undead-item side-item" onclick="toggle_desc('ghoul4-desc');"><p>Melee</p></a>
+    <a href="#undead" id="undead-maneuver2" class="grid-item undead-item side-item" onclick="toggle_desc('ghoul5-desc');"><p>Maneuver</p></a>
+    <a href="#undead" id="undead-missile1" class="grid-item undead-item side-item" onclick="toggle_desc('ghoul6-desc');"><p>Missile</p></a>
+  </div>
+  <div id="apparition-container" class="sides-grid side-container">
+    <a href="#undead" id="apparition" class="grid-item undead-item side-item" onclick="toggle_desc('apparition1-desc');"><p>ID</p></a>
+    <a href="#undead" id="undead-magic1" class="grid-item undead-item side-item" onclick="toggle_desc('apparition2-desc');"><p>Magic</p></a>
+    <a href="#undead" id="undead-save1" class="grid-item undead-item side-item" onclick="toggle_desc('apparition3-desc');"><p>Save</p></a>
+    <a href="#undead" id="undead-maneuver1" class="grid-item undead-item side-item" onclick="toggle_desc('apparition4-desc');"><p>Maneuver</p></a>
+    <a href="#undead" id="undead-magic1" class="grid-item undead-item side-item" onclick="toggle_desc('apparition5-desc');"><p>Magic</p></a>
+    <a href="#undead" id="undead-magic2" class="grid-item undead-item side-item" onclick="toggle_desc('apparition6-desc');"><p>Magic</p></a>
+  </div>
+  <div class="desc-container">
+    <p id="zombie1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, missile, or maneuver results.</p>
+    <p id="zombie2-desc" class="sidedesc">Save: Negates 1 point of normal melee or missile damage.</p>
+    <p id="zombie3-desc" class="sidedesc">Missile: Generates 1 point of missile results.</p>
+    <p id="zombie4-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="zombie5-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="zombie6-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="skeleton1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, missile, or maneuver results.</p>
+    <p id="skeleton2-desc" class="sidedesc">Melee: Generates 2 points of melee results.</p>
+    <p id="skeleton3-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="skeleton4-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="skeleton5-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="skeleton6-desc" class="sidedesc">Missile: Generates 1 point of missile results.</p>
+    <p id="wraith1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, missile, or maneuver results.</p>
+    <p id="wraith2-desc" class="sidedesc">Missile: Generates 1 point of missile results.</p>
+    <p id="wraith3-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="wraith4-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="wraith5-desc" class="sidedesc">Save: Negates 1 point of normal melee or missile damage.</p>
+    <p id="wraith6-desc" class="sidedesc">Missiles: Generates 2 points of missile results.</p>
+    <p id="ghoul1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, missile, or maneuver results.</p>
+    <p id="ghoul2-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="ghoul3-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="ghoul4-desc" class="sidedesc">Melee: Generates 1 point of melee results.</p>
+    <p id="ghoul5-desc" class="sidedesc">Maneuver: Generates 2 points of maneuver results.</p>
+    <p id="ghoul6-desc" class="sidedesc">Missile: Generates 1 point of missile results.</p>
+    <p id="apparition1-desc" class="sidedesc">ID: Generates 1 point of magic, melee, missile, or maneuver results.</p>
+    <p id="apparition2-desc" class="sidedesc">Magic: Generates 1 point of magic results.</p>
+    <p id="apparition3-desc" class="sidedesc">Save: Negates 1 point of normal melee or missile damage.</p>
+    <p id="apparition4-desc" class="sidedesc">Maneuver: Generates 1 point of maneuver results.</p>
+    <p id="apparition5-desc" class="sidedesc">Magic: Generates 1 point of magic results.</p>
+    <p id="apparition6-desc" class="sidedesc">Magic: Generates 2 points of magic results.</p>
+  </div>
+</div>
+
+<div class="ability">
+  <h3>Racial Ability</h3>
+  <p>Stepped Damage: Undead, when killed by any means, may instead be traded in for an Undead unit of lesser health from the DUA.</p>
+  <p>Resist Burial: When sent to the BUA, an Undead unit may resist burial and return to the DUA by rolling a non-ID save result.</p>
+  <p>Double Magic: Undead may, when rolling for magic, use all dead units in the game to double their ID icons</p>
+</div>
+
+<h2>Spells</h2>
+
+<div id="spell-container">
+
+<div id="death" class="one-grid center"><span class="grid-item death-item elemental-item"></span></div>
+<h2>Death</h2>
+
+<div class="spell-flex"><span>Ashes to Ashes</span><span>Cost: 2</span><span>List: Basic</span></div>
+<p class="spell-desc">Target one health-worth of units in any enemy’s DUA. Target units are immediately buried. Multiple castings increase the number of health affected or target another DUA.</p>
+
+<div class="spell-flex"><span>Evil Eye</span><span>Cost: 2</span><span>List: Undead</span></div>
+<p class="spell-desc">Target any enemy army. Until the end of your next turn, subtract one save result from the target army. Multiple castings increase the effect or target another army.</p>
+
+<div class="spell-flex"><span>Palsy</span><span>Cost: 3</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any enemy army. Until the beginning of your next turn, subtract one result from the target army. Multiple castings increase the effect or target another army. During a combination roll, the owner of the acting army chooses how to apply the penalty.</p>
+
+<div class="spell-flex"><span>Reanimate Dead</span><span>Cost: 3</span><span>List: Basic</span></div>
+<p class="spell-desc">Target one health-worth of units in your DUA. Target units immediately join the casting army. Multiple castings increase the number of health affected.</p>
+
+<div class="spell-flex"><span>Fade</span><span>Cost: 3</span><span>List: Undead</span></div>
+<p class="spell-desc">Target one of your Undead units. Until the end of your next turn, the target unit cannot roll during a melee or missile action or during a dragon attack, cannot be the target of a missile, melee, or dragon effect or be taken as a casualty for this damage, and cannot be promoted. Multiple castings target multiple units.</p>
+
+<div class="spell-flex"><span>Deadlands</span><span>Cost: 4</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any terrain. Until the terrain face is changed, the target terrain gains the death (black) element. Multiple castings target multiple terrains.</p>
+
+<div class="spell-flex"><span>Finger of Death</span><span>Cost: 4</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any enemy unit. Immediately inflict one point of damage to the target unit with no save possible. Multiple castings increase the effect or target another unit.</p>
+
+<div class="spell-flex"><span>Restless Dead</span><span>Cost: 4</span><span>List: Undead</span></div>
+<p class="spell-desc">Target any army. Until the beginning of your next turn, add four maneuver results to the target army. Multiple castings increase the effect or target another army.</p>
+
+<div class="spell-flex"><span>Open Grave</span><span>Cost: 6</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any army. Until the beginning of your next turn, for any army-targeting effect that causes damage to the target army, any units taken as casualties immediately go to the reserve area rather than the DUA. Multiple castings target multiple armies.</p>
+
+<div class="spell-flex"><span>Exhume</span><span>Cost: 6</span><span>List: Undead</span></div>
+<p class="spell-desc">Target any enemy DUA. Choose up to three health-worth of dead units that must immediately roll a save or be buried. A number of Undead units from your DUA, up to the total number of health buried, may join the casting army. Multiple castings increase the number of health affected or target another DUA.</p>
+
+<div class="spell-flex"><span>Summon Dragon</span><span>Cost: 7</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any terrain. Immediately send any death elemental or ivory dragon in a summoning pool to the target terrain. Multiple castings target the same or multiple terrains.</p>
+
+<div class="spell-flex"><span>Haunt</span><span>Cost: 8</span><span>List: Undead</span></div>
+<p class="spell-desc">Target your DUA. All dead units form into a magically constructed army that immediately takes a melee action against any enemy army. Bury any of your units killed during this melee action and return the rest to your DUA. This spell can be cast only once per magic action.</p>
+
+<div class="spell-flex"><span>Night Moves</span><span>Cost: 9</span><span>List: Undead</span></div>
+<p class="spell-desc">Target any of your armies containing an Undead unit at a terrain. The army immediately attempts to maneuver the terrain. Opponents at the terrain may counter-maneuver as usual. This spell can be cast only once per magic action.</p>
+
+<div class="spell-flex"><span>Summon White Dragon</span><span>Cost: 14</span><span>List: Basic</span></div>
+<p class="spell-desc">Target any terrain. Immediately send any white dragon to the target terrain. Multiple castings target the same or multiple terrains.</p>
+
+</div>
+</body>
+</html>

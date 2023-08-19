@@ -1760,13 +1760,6 @@ ol li {
 }
 
 
-/* Undead Backgrounds */
-
-#skeleton {
-  background-image: url("img/skeleton.png");
-}
-
-
 /* Scalder Backgrounds */
 
 #scalder-melee1 {
@@ -2114,6 +2107,33 @@ ol li {
 
 #pineling {
   background-image: url("img/pineling.png");
+}
+
+
+/* Undead Backgrounds */
+
+#deathknight {
+  background-image: url("img/deathknight.png");
+}
+
+#ghost {
+  background-image: url("img/ghost.png");
+}
+
+#lich {
+  background-image: url("img/lich.png");
+}
+
+#mummy {
+  background-image: url("img/mummy.png");
+}
+
+#skeleton {
+  background-image: url("img/skeleton.png");
+}
+
+#vampire {
+  background-image: url("img/vampire.png");
 }
 
 
