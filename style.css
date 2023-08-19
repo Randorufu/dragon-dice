@@ -2112,29 +2112,222 @@ ol li {
 
 /* Undead Backgrounds */
 
+#apparition {
+  background-image: url("img/apparition.png");
+}
+
+#carrioncrawler {
+  background-image: url("img/carrioncrawler.png");
+}
+
 #deathknight {
   background-image: url("img/deathknight.png");
+}
+
+#dracolich {
+  background-image: url("img/dracolich.png");
+}
+
+#fenhound {
+  background-image: url("img/fenhound.png");
+}
+
+#ghast {
+  background-image: url("img/ghast.png");
 }
 
 #ghost {
   background-image: url("img/ghost.png");
 }
 
+#ghoul {
+  background-image: url("img/ghoul.png");
+}
+
+#hecuva {
+  background-image: url("img/hecuva.png");
+}
+
 #lich {
   background-image: url("img/lich.png");
+}
+
+#minordeath {
+  background-image: url("img/minordeath.png");
 }
 
 #mummy {
   background-image: url("img/mummy.png");
 }
 
+#revenant {
+  background-image: url("img/revenant.png");
+}
+
+#skeletalsteed {
+  background-image: url("img/skeletalsteed.png");
+}
+
 #skeleton {
   background-image: url("img/skeleton.png");
+}
+
+#spectre {
+  background-image: url("img/spectre.png");
 }
 
 #vampire {
   background-image: url("img/vampire.png");
 }
+
+#wight {
+  background-image: url("img/wight.png");
+}
+
+#wraith {
+  background-image: url("img/wraith.png");
+}
+
+#zombie {
+  background-image: url("img/zombie.png");
+}
+
+#undead-cantrip {
+  background-image: url("img/undead-cantrip.png");
+}
+
+#undead-cantripm {
+  background-image: url("img/undead-cantripm.png");
+}
+
+#undead-convert {
+  background-image: url("img/undead-convert.png");
+}
+
+#undead-dispelmagicm {
+  background-image: url("img/undead-dispelmagicm.png");
+}
+
+#undead-flym {
+  background-image: url("img/undead-flym.png");
+}
+
+#undead-hoofm {
+  background-image: url("img/undead-hoofm.png");
+}
+
+#undead-maneuver1 {
+  background-image: url("img/undead-maneuver1.png");
+}
+
+#undead-maneuver2 {
+  background-image: url("img/undead-maneuver2.png");
+}
+
+#undead-maneuver3 {
+  background-image: url("img/undead-maneuver3.png");
+}
+
+#undead-maneuver4 {
+  background-image: url("img/undead-maneuver4.png");
+}
+
+#undead-maneuverm {
+  background-image: url("img/undead-maneuverm.png");
+}
+
+#undead-magic1 {
+  background-image: url("img/undead-magic1.png");
+}
+
+#undead-magic2 {
+  background-image: url("img/undead-magic2.png");
+}
+
+#undead-magic3 {
+  background-image: url("img/undead-magic3.png");
+}
+
+#undead-magicm {
+  background-image: url("img/undead-magicm.png");
+}
+
+#undead-melee1 {
+  background-image: url("img/undead-melee1.png");
+}
+
+#undead-melee2 {
+  background-image: url("img/undead-melee2.png");
+}
+
+#undead-melee3 {
+  background-image: url("img/undead-melee3.png");
+}
+
+#undead-melee4 {
+  background-image: url("img/undead-melee4.png");
+}
+
+#undead-meleem {
+  background-image: url("img/undead-meleem.png");
+}
+
+#undead-pawm {
+  background-image: url("img/undead-pawm.png");
+}
+
+#undead-plaguem {
+  background-image: url("img/undead-plaguem.png");
+}
+
+#undead-rendm {
+  background-image: url("img/undead-rendm.png");
+}
+
+#undead-save1 {
+  background-image: url("img/undead-save1.png");
+}
+
+#undead-save2 {
+  background-image: url("img/undead-save2.png");
+}
+
+#undead-save3 {
+  background-image: url("img/undead-save3.png");
+}
+
+#undead-savem {
+  background-image: url("img/undead-savem.png");
+}
+
+#undead-scare {
+  background-image: url("img/undead-scare.png");
+}
+
+#undead-slaym {
+  background-image: url("img/undead-slaym.png");
+}
+
+#undead-smitem {
+  background-image: url("img/undead-smitem.png");
+}
+
+#undead-stunm {
+  background-image: url("img/undead-stunm.png");
+}
+
+#undead-tramplem {
+  background-image: url("img/undead-tramplem.png");
+}
+
+#undead-vanish {
+  background-image: url("img/undead-vanish.png");
+}
+
+#undead-wither {
+  background-image: url("img/undead-wither.png");
+}
+
 
 
 
