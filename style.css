@@ -303,6 +303,7 @@ ol li {
   margin-right: 1em;
 }
 
+
 @media screen and (max-width: 1600px) {
 
     #spell-container, .rules-container, .sidedesc {
@@ -2620,4 +2621,15 @@ ol li {
 
 #terrain-vortex {
   background-image: url("img/terrain-vortex.png");
+}
+
+#DIS {
+  width: 5em;
+  margin-top:5em;
+  display: inline;
+}
+
+#DIS-desc {
+  font-family: serif;
+  font-size: .9em;
 }
