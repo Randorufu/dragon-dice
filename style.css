@@ -2282,8 +2282,28 @@ ol li {
 
 /* Treefolk Backgrounds */
 
+#eldardryad {
+  background-image: url("img/eldardryad.png");
+}
+
+#ladynereid {
+  background-image: url("img/ladynereid.png");
+}
+
+#noblewillow {
+  background-image: url("img/noblewillow.png");
+}
+
+#oaklord {
+  background-image: url("img/oaklord.png");
+}
+
 #pineling {
   background-image: url("img/pineling.png");
+}
+
+#pineprince {
+  background-image: url("img/pineprince.png");
 }
 
 
