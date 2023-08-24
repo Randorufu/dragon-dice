@@ -2282,16 +2282,44 @@ ol li {
 
 /* Treefolk Backgrounds */
 
+#darktree {
+  background-image: url("img/darktree.png");
+}
+
+#dryad {
+  background-image: url("img/dryad.png");
+}
+
 #eldardryad {
   background-image: url("img/eldardryad.png");
+}
+
+#hamadryad {
+  background-image: url("img/hamadryad.png");
 }
 
 #ladynereid {
   background-image: url("img/ladynereid.png");
 }
 
+#naiad {
+  background-image: url("img/naiad.png");
+}
+
 #noblewillow {
   background-image: url("img/noblewillow.png");
+}
+
+#nymph {
+  background-image: url("img/nymph.png");
+}
+
+#oak {
+  background-image: url("img/oak.png");
+}
+
+#oakling {
+  background-image: url("img/oakling.png");
 }
 
 #oaklord {
@@ -2302,8 +2330,40 @@ ol li {
   background-image: url("img/pineling.png");
 }
 
+#pine {
+  background-image: url("img/pine.png");
+}
+
+#pineling {
+  background-image: url("img/pineling.png");
+}
+
 #pineprince {
   background-image: url("img/pineprince.png");
+}
+
+#redwood {
+  background-image: url("img/redwood.png");
+}
+
+#satyr {
+  background-image: url("img/satyr.png");
+}
+
+#stranglevine {
+  background-image: url("img/stranglevine.png");
+}
+
+#unicorn {
+  background-image: url("img/unicorn.png");
+}
+
+#willow {
+  background-image: url("img/willow.png");
+}
+
+#willowing {
+  background-image: url("img/willowing.png");
 }
 
 
