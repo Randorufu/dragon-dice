@@ -2394,6 +2394,10 @@ ol li {
   background-image: url("img/treefolk-doublestrikem.png");
 }
 
+#treefolk-hoofm {
+  background-image: url("img/treefolk-hoofm.png");
+}
+
 #treefolk-maneuver1 {
   background-image: url("img/treefolk-maneuver1.png");
 }
@@ -2406,12 +2410,40 @@ ol li {
   background-image: url("img/treefolk-maneuverm.png");
 }
 
+#treefolk-maneuvern1 {
+  background-image: url("img/treefolk-maneuvern1.png");
+}
+
+#treefolk-maneuvern2 {
+  background-image: url("img/treefolk-maneuvern2.png");
+}
+
+#treefolk-maneuvern3 {
+  background-image: url("img/treefolk-maneuvern3.png");
+}
+
+#treefolk-maneuvern4 {
+  background-image: url("img/treefolk-maneuvern4.png");
+}
+
 #treefolk-magicm {
   background-image: url("img/treefolk-magicm.png");
 }
 
 #treefolk-magic1 {
   background-image: url("img/treefolk-magic1.png");
+}
+
+#treefolk-magic2 {
+  background-image: url("img/treefolk-magic2.png");
+}
+
+#treefolk-magic3 {
+  background-image: url("img/treefolk-magic3.png");
+}
+
+#treefolk-magic4 {
+  background-image: url("img/treefolk-magic4.png");
 }
 
 #treefolk-meleem {
@@ -2442,6 +2474,18 @@ ol li {
   background-image: url("img/treefolk-missile1.png");
 }
 
+#treefolk-missile2 {
+  background-image: url("img/treefolk-missile2.png");
+}
+
+#treefolk-missile3 {
+  background-image: url("img/treefolk-missile3.png");
+}
+
+#treefolk-missile4 {
+  background-image: url("img/treefolk-missile4.png");
+}
+
 #treefolk-rendm {
   background-image: url("img/treefolk-rendm.png");
 }
@@ -2452,6 +2496,18 @@ ol li {
 
 #treefolk-save1 {
   background-image: url("img/treefolk-save1.png");
+}
+
+#treefolk-save2 {
+  background-image: url("img/treefolk-save2.png");
+}
+
+#treefolk-save3 {
+  background-image: url("img/treefolk-save3.png");
+}
+
+#treefolk-save4 {
+  background-image: url("img/treefolk-save4.png");
 }
 
 #treefolk-savem {
