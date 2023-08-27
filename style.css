@@ -2366,6 +2366,18 @@ ol li {
   background-image: url("img/willowing.png");
 }
 
+#treefolk-cantrip {
+  background-image: url("img/treefolk-cantrip.png");
+}
+
+#treefolk-chokem {
+  background-image: url("img/treefolk-chokem.png");
+}
+
+#treefolk-confusem {
+  background-image: url("img/treefolk-confusem.png");
+}
+
 #treefolk-counter {
   background-image: url("img/treefolk-counter.png");
 }
@@ -2374,8 +2386,32 @@ ol li {
   background-image: url("img/treefolk-counterm.png");
 }
 
+#treefolk-dispelmagicm {
+  background-image: url("img/treefolk-dispelmagicm.png");
+}
+
 #treefolk-doublestrikem {
   background-image: url("img/treefolk-doublestrikem.png");
+}
+
+#treefolk-maneuver1 {
+  background-image: url("img/treefolk-maneuver1.png");
+}
+
+#treefolk-maneuver2 {
+  background-image: url("img/treefolk-maneuver2.png");
+}
+
+#treefolk-maneuverm {
+  background-image: url("img/treefolk-maneuverm.png");
+}
+
+#treefolk-magicm {
+  background-image: url("img/treefolk-magicm.png");
+}
+
+#treefolk-magic1 {
+  background-image: url("img/treefolk-magic1.png");
 }
 
 #treefolk-meleem {
@@ -2396,6 +2432,70 @@ ol li {
 
 #treefolk-melee4 {
   background-image: url("img/treefolk-melee4.png");
+}
+
+#treefolk-missilem {
+  background-image: url("img/treefolk-missilem.png");
+}
+
+#treefolk-missile1 {
+  background-image: url("img/treefolk-missile1.png");
+}
+
+#treefolk-rendm {
+  background-image: url("img/treefolk-rendm.png");
+}
+
+#treefolk-sleepm {
+  background-image: url("img/treefolk-sleepm.png");
+}
+
+#treefolk-save1 {
+  background-image: url("img/treefolk-save1.png");
+}
+
+#treefolk-savem {
+  background-image: url("img/treefolk-savem.png");
+}
+
+#treefolk-smite {
+  background-image: url("img/treefolk-smite.png");
+}
+
+#treefolk-smotherm {
+  background-image: url("img/treefolk-smotherm.png");
+}
+
+#treefolk-surprisem {
+  background-image: url("img/treefolk-surprisem.png");
+}
+
+#treefolk-teleportm {
+  background-image: url("img/treefolk-teleportm.png");
+}
+
+#treefolk-tramplem {
+  background-image: url("img/treefolk-tramplem.png");
+}
+
+#treefolk-trampleu {
+  background-image: url("img/treefolk-trampleu.png");
+}
+
+#treefolk-volley {
+  background-image: url("img/treefolk-volley.png");
+}
+
+#treefolk-volleym {
+  background-image: url("img/treefolk-volleym.png");
+}
+
+#treefolk-wildgrowth {
+  background-image: url("img/treefolk-wildgrowth.png");
+}
+
+#treefolk-wildgrowthm {
+  background-image: url("img/treefolk-wildgrowthm.png");
 }
 
 
