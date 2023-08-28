@@ -1222,8 +1222,84 @@ ol li {
 
 /* Firewalker Backgrounds */
 
+#adventurer {
+  background-image: url("img/adventurer.png");
+}
+
+#ashbringer {
+  background-image: url("img/ashbringer.png");
+}
+
+#daybringer {
+  background-image: url("img/daybringer.png");
+}
+
+#expeditioner {
+  background-image: url("img/expeditioner.png");
+}
+
+#explorer {
+  background-image: url("img/explorer.png");
+}
+
 #firemaster {
   background-image: url("img/firemaster.png");
+}
+
+#fireshadow {
+  background-image: url("img/fireshadow.png");
+}
+
+#firestarter {
+  background-image: url("img/firestarter.png");
+}
+
+#firestormer {
+  background-image: url("img/firestormer.png");
+}
+
+#guardian {
+  background-image: url("img/guardian.png");
+}
+
+#genie {
+  background-image: url("img/genie.png");
+}
+
+#gorgon {
+  background-image: url("img/gorgon.png");
+}
+
+#nightsbane {
+  background-image: url("img/nightsbane.png");
+}
+
+#phoenix {
+  background-image: url("img/phoenix.png");
+}
+
+#salamander {
+  background-image: url("img/salamander.png");
+}
+
+#sentinel {
+  background-image: url("img/sentinel.png");
+}
+
+#shadowchaser {
+  background-image: url("img/shadowchaser.png");
+}
+
+#sunburst {
+  background-image: url("img/sunburst.png");
+}
+
+#sunflare {
+  background-image: url("img/sunflare.png");
+}
+
+#watcher {
+  background-image: url("img/watcher.png");
 }
 
 
