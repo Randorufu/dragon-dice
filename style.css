@@ -940,8 +940,84 @@ ol li {
 
 /* Dwarf Backgrounds */
 
+#androsphinx {
+  background-image: url("img/androsphinx.png");
+}
+
+#behemoth {
+  background-image: url("img/behemoth.png");
+}
+
+#crackshot {
+  background-image: url("img/crackshot.png");
+}
+
+#crossbowman {
+  background-image: url("img/crossbowman.png");
+}
+
+#footman {
+  background-image: url("img/footman.png");
+}
+
+#gargoyle {
+  background-image: url("img/gargoyle.png");
+}
+
+#lizardrider {
+  background-image: url("img/lizardrider.png");
+}
+
+#mammothrider {
+  background-image: url("img/mammothrider.png");
+}
+
+#marksman {
+  background-image: url("img/marksman.png");
+}
+
+#patroller {
+  background-image: url("img/patroller.png");
+}
+
+#ponyrider {
+  background-image: url("img/ponyrider.png");
+}
+
+#roc {
+  background-image: url("img/roc.png");
+}
+
+#sentry {
+  background-image: url("img/sentry.png");
+}
+
+#sergeant {
+  background-image: url("img/sergeant.png");
+}
+
+#skirmisher {
+  background-image: url("img/skirmisher.png");
+}
+
+#thaumaturgist {
+  background-image: url("img/thaumaturgist.png");
+}
+
 #theurgist {
   background-image: url("img/theurgist.png");
+}
+
+#umberhulk {
+  background-image: url("img/umberhulk.png");
+}
+
+#warlord {
+  background-image: url("img/warlord.png");
+}
+
+#wizard {
+  background-image: url("img/wizard.png");
 }
 
 
