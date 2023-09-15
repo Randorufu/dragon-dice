@@ -1974,8 +1974,84 @@ ol li {
 
 /* Goblin Backgrounds */
 
+#ambusher  {
+  background-image: url("img/ambusher.png");
+}
+
+#cannibal  {
+  background-image: url("img/cannibal.png");
+}
+
+#cutthroat   {
+  background-image: url("img/cutthroat.png");
+}
+
+#deadeye {
+  background-image: url("img/deadeye.png");
+}
+
+#deathmage {
+  background-image: url("img/deathmage.png");
+}
+
+#deathnaga {
+  background-image: url("img/deathnaga.png");
+}
+
+#filcher {
+  background-image: url("img/filcher.png");
+}
+
+#harpies {
+  background-image: url("img/harpies.png");
+}
+
+#hedgewizard {
+  background-image: url("img/hedgewizard.png");
+}
+
+#leopardrider {
+  background-image: url("img/leopardrider.png");
+}
+
+#marauder {
+  background-image: url("img/marauder.png");
+}
+
+#mugger {
+  background-image: url("img/mugger.png");
+}
+
+#pelter  {
+  background-image: url("img/pelter.png");
+}
+
+#shambler  {
+  background-image: url("img/shambler.png");
+}
+
+#slingman   {
+  background-image: url("img/slingman.png");
+}
+
 #thug {
   background-image: url("img/thug.png");
+}
+
+#trickster {
+  background-image: url("img/trickster.png");
+}
+
+#troll {
+  background-image: url("img/troll.png");
+}
+
+#wardogrider {
+  background-image: url("img/wardogrider.png");
+}
+
+#wolfrider {
+  background-image: url("img/wolfrider.png");
 }
 
 
